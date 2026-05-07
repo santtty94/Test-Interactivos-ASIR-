@@ -1,0 +1,298 @@
+[
+  {
+    "id": "MPO-001",
+    "question": "Una empresa quiere migrar sus servidores desde una infraestructura on-premise a la nube. ¿Cuál es la principal ventaja de este cambio?",
+    "options": [
+      "Garantizar la capacidad de cómputo sobredimensionada de forma permanente.",
+      "Mantener el control del hardware y su mantenimiento.",
+      "Incrementar los costes fijos asociados a la infraestructura tecnológica.",
+      "Ajustar los recursos de cómputo según la demanda del negocio."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "MPO-002",
+    "question": "¿Cuál de las siguientes opciones NO es una característica propia de la computación en la nube?",
+    "options": [
+      "Autoservicio bajo demanda para gestionar recursos",
+      "Acceso a los servicios a través de internet",
+      "Solo se facturan los recursos utilizados",
+      "Aprovisionamiento definido de antemano"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "MPO-003",
+    "question": "¿Cuál es la principal diferencia entre los modelos SaaS, PaaS e IaaS en computación en la nube?",
+    "options": [
+      "El grado de responsabilidad que asume el proveedor en el mantenimiento del hardware físico",
+      "El nivel de control y gestión que tiene el usuario sobre la infraestructura y el software",
+      "El tipo de licenciamiento del sistema operativo utilizado",
+      "El rendimiento de las aplicaciones desplegadas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-004",
+    "question": "¿Cuál de los siguientes ejemplos NO está correctamente asociado a su modelo de servicio en la nube?",
+    "options": [
+      "Amazon AWS como ejemplo de IaaS",
+      "Google Drive como ejemplo de SaaS",
+      "Microsoft Azure como ejemplo de IaaS",
+      "WordPress instalado como ejemplo de SaaS"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "MPO-005",
+    "question": "En un modelo IaaS (Infrastructure as a Service), ¿qué componentes son responsabilidad del usuario?",
+    "options": [
+      "Aplicaciones, datos, sistema operativo y middleware",
+      "Aplicaciones y datos",
+      "Servidores físicos y red",
+      "Virtualización y almacenamiento"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-006",
+    "question": "¿Cuál es la principal diferencia entre una nube pública, una nube privada y una nube híbrida?",
+    "options": [
+      "El tipo de sistema operativo que utilizan",
+      "Quién es el propietario y cómo se comparten los recursos",
+      "El número de usuarios que pueden acceder",
+      "El lenguaje de programación de las aplicaciones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-007",
+    "question": "¿En qué situación tiene más sentido utilizar una estrategia multicloud?",
+    "options": [
+      "Cuando una empresa quiere consolidar la infraestructura y reducir el número de servidores físicos.",
+      "Cuando se utilizan servicios de un único proveedor para simplificar la gestión",
+      "Cuando se combinan servicios de varios proveedores para evitar dependencia de uno solo",
+      "Cuando se requiere una alta disponibilidad dentro de una misma región utilizando múltiples cuentas o proyectos de un único proveedor cloud"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-008",
+    "question": "¿Cuál de las siguientes opciones es correcta?",
+    "options": [
+      "Una región está formada por varias Availability Zones independientes entre sí",
+      "Una Availability Zone contiene varias regiones dentro de ella",
+      "Una región está en un único centro de datos físico",
+      "Las regiones y las Availability Zones son exactamente lo mismo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-009",
+    "question": "Una empresa que maneja datos personales quiere desplegar su aplicación en AWS. ¿Qué criterio puede ser determinante a la hora de elegir una región?",
+    "options": [
+      "El tipo de hardware utilizado en los centros de datos",
+      "La legislación y normativas de protección de datos aplicables en esa región",
+      "El número de cuentas de usuario creadas en AWS",
+      "La interfaz de la consola de AWS en ese país"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-010",
+    "question": "¿Por qué es importante elegir correctamente la región en la nube donde se despliega una aplicación?",
+    "options": [
+      "Porque mejora la latencia al estar cerca de los usuarios, ayuda a cumplir normativas legales y puede optimizar disponibilidad y costes",
+      "Porque garantiza automáticamente la seguridad total de los datos y elimina la necesidad de copias de seguridad",
+      "Porque permite usar cualquier región sin impacto en rendimiento, costes o cumplimiento legal",
+      "Ninguna de las anteriores"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-011",
+    "question": "¿Cuál de las siguientes asociaciones entre un servicio de AWS y su función es correcta?",
+    "options": [
+      "EC2: almacenamiento de objetos para guardar archivos",
+      "S3: servicio de bases de datos relacionales gestionadas",
+      "VPC: red privada donde se despliegan los recursos en la nube",
+      "IAM: servicio para crear máquinas virtuales"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-012",
+    "question": "¿Qué es el Free Tier de AWS y por qué es importante conocerlo?",
+    "options": [
+      "Un conjunto de servicios gratuitos disponibles para los usuarios sin límites.",
+      "Un periodo de prueba con límites de uso gratuitos que ayudan a aprender y evitar costes inesperados",
+      "Un servicio que bloquea automáticamente cualquier gasto en la cuenta inesperado",
+      "Una herramienta exclusiva para empresas grandes que a partir de un determinado gasto pueden optar a ventajas exclusivas."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-013",
+    "question": "¿Cuál es el objetivo principal de la Calculadora de precios de AWS?",
+    "options": [
+      "Monitorizar el consumo real y generar facturas mensuales",
+      "Crear y desplegar recursos directamente en AWS",
+      "Estimar el coste de distintos servicios antes de desplegarlos y comparar configuraciones",
+      "Aplicar automáticamente descuentos por uso prolongado"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-014",
+    "question": "¿Cuál de las siguientes limitaciones de la Calculadora de precios de AWS es correcta?",
+    "options": [
+      "No figuran todos los servicios en la calculadora, lo que genera problemas en los presupuestos creados por la calculadora.",
+      "No permite estimar más de un servicio a la vez",
+      "La estimación puede no ser exacta, por lo que a veces es mejor empezar con un uso real y revisar la factura",
+      "Solo puede usarse con cuentas de pago"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-015",
+    "question": "Al realizar una estimación en la AWS Pricing Calculator, ¿qué combinación de factores suele tener un impacto más alto en el coste final?",
+    "options": [
+      "Tipo de servicio, tamaño del recurso, horas de uso y región seleccionada",
+      "Número de usuarios IAM, políticas de permisos y grupos asignados",
+      "Zona de disponibilidad elegida, nombre del recurso y etiquetas aplicadas",
+      "Ninguna de las anteriores"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-016",
+    "question": "¿Qué es Amazon EC2 dentro de los servicios de AWS?",
+    "options": [
+      "Un servicio para crear y gestionar máquinas virtuales bajo demanda",
+      "Un sistema de almacenamiento de archivos distribuido",
+      "Un servicio de bases de datos gestionadas",
+      "Un servicio de computación serverless, es decir, donde no es necesario levantar servidores."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-017",
+    "question": "¿Cuál es la función principal de Amazon S3?",
+    "options": [
+      "Ejecutar aplicaciones sin necesidad de servidores",
+      "Crear redes privadas virtuales en la nube",
+      "Proporcionar almacenamiento de objetos escalable",
+      "Gestionar usuarios y permisos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-018",
+    "question": "¿Qué es un usuario de IAM en AWS?",
+    "options": [
+      "Un recurso que define permisos sobre otros servicios",
+      "Una persona o aplicación que puede autenticarse en una cuenta de AWS",
+      "Un conjunto de permisos reutilizables",
+      "Un mecanismo para conectar cuentas entre regiones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-019",
+    "question": "¿Qué es una política de IAM y en qué formato están escritas normalmente?",
+    "options": [
+      "Un conjunto de reglas de red escritas en YAML",
+      "Un usuario especial con permisos administrativos",
+      "Un documento que define permisos sobre recursos y que está escrito en formato JSON",
+      "Un rol que se asigna automáticamente a los servicios de AWS"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-020",
+    "question": "En la cuenta de AWS que se presenta en el dibujo ¿Qué acciones podrá realizar el usuario user-2?",
+    "options": [
+      "Iniciar y detener instancias EC2",
+      "Ver información de las instancias EC2, pero no modificarlas",
+      "Acceder a buckets de Amazon S3",
+      "Administrar usuarios y grupos de IAM"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-021",
+    "question": "Un usuario pertenece simultáneamente a los grupos EC2-Admin y S3-Support. Según las políticas mostradas en el laboratorio, ¿qué acciones podrá realizar este usuario?",
+    "options": [
+      "Solo podrá ver información de EC2 y S3, sin realizar cambios",
+      "Podrá iniciar y detener instancias EC2 y leer objetos en Amazon S3",
+      "Podrá administrar completamente EC2, S3 e IAM",
+      "Ninguna de las anteriores"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-022",
+    "question": "Dada una dirección IPv4 como 192.0.2.0, ¿cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Cada número decimal de la dirección IPv4 se representa usando 4 bits",
+      "Cada uno de los cuatro bloques de la dirección IPv4 se representa con 8 bits",
+      "La dirección IPv4 completa se representa usando 16 bits",
+      "El valor decimal máximo que puede tomar uno de los bloques es 512"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-023",
+    "question": "¿Por qué fue necesario introducir el protocolo IPv6 frente a IPv4?",
+    "options": [
+      "Porque IPv6 utiliza un formato de direcciones más legible que IPv4.",
+      "Porque IPv4 no permite el uso de direcciones en formato hexadecimal.",
+      "Porque el número de direcciones disponibles en IPv4 es insuficiente.",
+      "Porque IPv6 sustituye completamente a los protocolos de enrutamiento."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-024",
+    "question": "¿Qué rango de direcciones IP representa la red 192.168.1.0/24?",
+    "options": [
+      "Desde 192.168.1.0 hasta 192.168.1.255",
+      "Desde 192.168.1.1 hasta 192.168.1.24",
+      "Desde 192.168.0.0 hasta 192.168.255.255",
+      "Desde 192.168.1.0 hasta 192.168.1.24"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-025",
+    "question": "¿Cuál de las siguientes opciones describe correctamente una función de una puerta de enlace a Internet (Internet Gateway) en una VPC?",
+    "options": [
+      "Permitir la comunicación privada entre subredes dentro de la misma VPC sin acceso a Internet.",
+      "Proporcionar acceso a Internet únicamente para instancias que no tienen direcciones IP públicas.",
+      "Actuar como destino en las tablas de enrutamiento para el tráfico que debe salir a Internet.",
+      "Ninguna de las anteriores."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-026",
+    "question": "¿Qué significa permitir tráfico desde 0.0.0.0/0 en una regla de un grupo de seguridad de AWS?",
+    "options": [
+      "Que solo se permite tráfico desde la red interna de la VPC",
+      "Que se permite tráfico desde cualquier dirección IP",
+      "Que únicamente se permite tráfico desde direcciones privadas",
+      "Que se restringe el acceso a una única subred concreta"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-027",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta sobre los Security Groups y las Network ACL (NACL) en AWS?",
+    "options": [
+      "Las Network ACL se aplican a nivel de instancia y los Security Groups a nivel de subred.",
+      "Los Security Groups se aplican a nivel de instancia y las Network ACL a nivel de subred.",
+      "Los Security Groups y las Network ACL se aplican exactamente al mismo nivel."
+    ],
+    "correctAnswer": 1
+  }
+]

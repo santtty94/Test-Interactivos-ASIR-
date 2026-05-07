@@ -1,0 +1,1331 @@
+﻿[
+    {
+        "id":  "LMSGI-001",
+        "question":  "¿Qué indica exactamente \u003c!DOCTYPE html\u003e en HTML5?",
+        "options":  [
+                        "La versión concreta del navegador",
+                        "Que el documento usa XHTML",
+                        "Que el documento sigue el estándar HTML5",
+                        "Que el documento contiene etiquetas semánticas"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  1
+    },
+    {
+        "id":  "LMSGI-002",
+        "question":  "¿Cuál es la función principal del elemento \u003cmain\u003e?",
+        "options":  [
+                        "Contener el menú de navegación",
+                        "Incluir contenido repetido en todas las páginas",
+                        "Agrupar el contenido principal único del documento",
+                        "Sustituir a \u003cbody\u003e"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  2
+    },
+    {
+        "id":  "LMSGI-003",
+        "question":  "¿Cuántos elementos \u003cmain\u003e debe haber por documento HTML válido?",
+        "options":  [
+                        "Ninguno",
+                        "Uno",
+                        "Dos como máximo",
+                        "Ilimitados"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  3
+    },
+    {
+        "id":  "LMSGI-004",
+        "question":  "¿Qué etiqueta NO es semántica en HTML5?",
+        "options":  [
+                        "\u003carticle\u003e",
+                        "\u003csection\u003e",
+                        "\u003caside\u003e",
+                        "\u003cdiv\u003e"
+                    ],
+        "correctAnswer":  3,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  4
+    },
+    {
+        "id":  "LMSGI-005",
+        "question":  "¿Cuándo es correcto usar \u003csection\u003e en lugar de \u003cdiv\u003e?",
+        "options":  [
+                        "Siempre que se quiera agrupar contenido",
+                        "Cuando el contenido tiene sentido semántico y un título",
+                        "Solo dentro de \u003carticle\u003e",
+                        "Para aplicar estilos CSS"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  5
+    },
+    {
+        "id":  "LMSGI-006",
+        "question":  "¿Qué etiqueta es más adecuada para una noticia independiente?",
+        "options":  [
+                        "\u003csection\u003e",
+                        "\u003cdiv\u003e",
+                        "\u003carticle\u003e",
+                        "\u003caside\u003e"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  6
+    },
+    {
+        "id":  "LMSGI-007",
+        "question":  "¿Qué diferencia clave hay entre \u003cstrong\u003e y \u003cb\u003e?",
+        "options":  [
+                        "Ninguna",
+                        "\u003cstrong\u003e aporta importancia semántica",
+                        "\u003cb\u003e es obligatorio en HTML5",
+                        "\u003cstrong\u003e solo cambia el tamaño del texto"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  7
+    },
+    {
+        "id":  "LMSGI-008",
+        "question":  "¿Qué atributo mejora la accesibilidad de una imagen decorativa?",
+        "options":  [
+                        "title=\"\"",
+                        "alt=\"\" vacío",
+                        "src=\"\"",
+                        "role=\"img\""
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  8
+    },
+    {
+        "id":  "LMSGI-009",
+        "question":  "¿Qué ocurre si una imagen no tiene atributo alt?",
+        "options":  [
+                        "El navegador no la muestra",
+                        "No pasa nada",
+                        "Se perjudica la accesibilidad",
+                        "Se carga más lenta"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  9
+    },
+    {
+        "id":  "LMSGI-010",
+        "question":  "¿Qué etiqueta es correcta para un menú de navegación?",
+        "options":  [
+                        "\u003cmenu\u003e",
+                        "\u003cul\u003e",
+                        "\u003cnav\u003e",
+                        "\u003cheader\u003e"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  10
+    },
+    {
+        "id":  "LMSGI-011",
+        "question":  "¿Qué etiqueta se usa para asociar un texto a un campo de formulario?",
+        "options":  [
+                        "\u003cinput\u003e",
+                        "\u003clabel\u003e",
+                        "\u003cfieldset\u003e",
+                        "\u003clegend\u003e"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  11
+    },
+    {
+        "id":  "LMSGI-012",
+        "question":  "¿Cómo se asocia correctamente un \u003clabel\u003e con un \u003cinput\u003e?",
+        "options":  [
+                        "Usando el mismo name",
+                        "Usando for y id",
+                        "Colocándolos en la misma línea",
+                        "Usando class"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  12
+    },
+    {
+        "id":  "LMSGI-013",
+        "question":  "¿Qué atributo hace obligatorio un campo de formulario?",
+        "options":  [
+                        "validate",
+                        "important",
+                        "required",
+                        "mandatory"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  13
+    },
+    {
+        "id":  "LMSGI-014",
+        "question":  "¿Qué tipo de \u003cinput\u003e valida automáticamente un email?",
+        "options":  [
+                        "text",
+                        "mail",
+                        "email",
+                        "validate-email"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  14
+    },
+    {
+        "id":  "LMSGI-015",
+        "question":  "¿Qué elemento agrupa campos relacionados en un formulario?",
+        "options":  [
+                        "\u003cform\u003e",
+                        "\u003cgroup\u003e",
+                        "\u003cfieldset\u003e",
+                        "\u003csection\u003e"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  15
+    },
+    {
+        "id":  "LMSGI-016",
+        "question":  "¿Qué etiqueta proporciona un título a un \u003cfieldset\u003e?",
+        "options":  [
+                        "\u003ctitle\u003e",
+                        "\u003ccaption\u003e",
+                        "\u003clegend\u003e",
+                        "\u003clabel\u003e"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  16
+    },
+    {
+        "id":  "LMSGI-017",
+        "question":  "¿Qué etiqueta es correcta para contenido secundario relacionado?",
+        "options":  [
+                        "\u003caside\u003e",
+                        "\u003cfooter\u003e",
+                        "\u003cheader\u003e",
+                        "\u003cnav\u003e"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  17
+    },
+    {
+        "id":  "LMSGI-018",
+        "question":  "¿Dónde debe colocarse el \u003cfooter\u003e de un artículo?",
+        "options":  [
+                        "Solo al final del \u003cbody\u003e",
+                        "Nunca dentro de \u003carticle\u003e",
+                        "Dentro o fuera del \u003carticle\u003e según el contexto",
+                        "Solo dentro de \u003cheader\u003e"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  18
+    },
+    {
+        "id":  "LMSGI-019",
+        "question":  "¿Qué atributo indica el idioma del documento HTML?",
+        "options":  [
+                        "charset",
+                        "lang",
+                        "language",
+                        "xml:lang"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  19
+    },
+    {
+        "id":  "LMSGI-020",
+        "question":  "¿Dónde debe colocarse el atributo lang=\"es\"?",
+        "options":  [
+                        "En \u003chead\u003e",
+                        "En \u003cbody\u003e",
+                        "En \u003chtml\u003e",
+                        "En \u003cmeta\u003e"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  20
+    },
+    {
+        "id":  "LMSGI-021",
+        "question":  "¿Qué etiqueta representa contenido autocontenido como un diagrama o imagen con pie?",
+        "options":  [
+                        "\u003cimg\u003e",
+                        "\u003cfigure\u003e",
+                        "\u003caside\u003e",
+                        "\u003csection\u003e"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  21
+    },
+    {
+        "id":  "LMSGI-022",
+        "question":  "¿Qué etiqueta define el texto descriptivo de una \u003cfigure\u003e?",
+        "options":  [
+                        "\u003ccaption\u003e",
+                        "\u003cdescription\u003e",
+                        "\u003cfigcaption\u003e",
+                        "\u003clegend\u003e"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  22
+    },
+    {
+        "id":  "LMSGI-023",
+        "question":  "¿Qué atributo mejora la accesibilidad indicando la finalidad de un enlace?",
+        "options":  [
+                        "href",
+                        "target",
+                        "aria-label",
+                        "rel"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  23
+    },
+    {
+        "id":  "LMSGI-024",
+        "question":  "¿Qué valor de target abre un enlace en una nueva pestaña?",
+        "options":  [
+                        "_self",
+                        "_new",
+                        "_blank",
+                        "_tab"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  24
+    },
+    {
+        "id":  "LMSGI-025",
+        "question":  "¿Qué atributo se recomienda añadir junto a target=\"_blank\" por seguridad?",
+        "options":  [
+                        "rel=\"nofollow\"",
+                        "rel=\"noopener noreferrer\"",
+                        "rel=\"external\"",
+                        "rel=\"secure\""
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  25
+    },
+    {
+        "id":  "LMSGI-026",
+        "question":  "¿Qué etiqueta se usa para contenido de fecha/hora legible por máquinas?",
+        "options":  [
+                        "\u003cdate\u003e",
+                        "\u003ctime\u003e",
+                        "\u003cdatetime\u003e",
+                        "\u003cmeta\u003e"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  26
+    },
+    {
+        "id":  "LMSGI-027",
+        "question":  "¿Qué atributo de \u003ctime\u003e almacena el valor en formato máquina?",
+        "options":  [
+                        "machine",
+                        "value",
+                        "datetime",
+                        "data-time"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  27
+    },
+    {
+        "id":  "LMSGI-028",
+        "question":  "¿Qué práctica es INCORRECTA según buenas prácticas HTML?",
+        "options":  [
+                        "Usar \u003cdiv\u003e para todo",
+                        "Usar etiquetas semánticas",
+                        "Usar alt en imágenes",
+                        "Definir el idioma del documento"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  28
+    },
+    {
+        "id":  "LMSGI-029",
+        "question":  "¿Qué diferencia clave hay entre \u003csection\u003e y \u003carticle\u003e?",
+        "options":  [
+                        "Ninguna",
+                        "\u003carticle\u003e puede ser independiente",
+                        "\u003csection\u003e es solo visual",
+                        "\u003carticle\u003e sustituye a \u003cdiv\u003e"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  29
+    },
+    {
+        "id":  "LMSGI-030",
+        "question":  "¿Qué objetivo principal tiene el HTML semántico?",
+        "options":  [
+                        "Mejorar el diseño visual",
+                        "Reducir el código",
+                        "Mejorar accesibilidad, SEO y comprensión",
+                        "Sustituir CSS"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_HTML",
+        "originalNumber":  30
+    },
+    {
+        "id":  "LMSGI-031",
+        "question":  "¿Qué significan las siglas CSS?",
+        "options":  [
+                        "Computer Style Sheets",
+                        "Cascading Style Sheets",
+                        "Creative Style System",
+                        "Color Style Sheets"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  1
+    },
+    {
+        "id":  "LMSGI-032",
+        "question":  "¿Cuál es la función principal de CSS?",
+        "options":  [
+                        "Estructurar el contenido",
+                        "Programar interactividad",
+                        "Definir el diseño y estilo visual",
+                        "Gestionar bases de datos"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  2
+    },
+    {
+        "id":  "LMSGI-033",
+        "question":  "¿Qué propiedad cambia el color del texto?",
+        "options":  [
+                        "text-color",
+                        "font-color",
+                        "color",
+                        "foreground"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  3
+    },
+    {
+        "id":  "LMSGI-034",
+        "question":  "¿Qué propiedad cambia el tamaño del texto?",
+        "options":  [
+                        "text-size",
+                        "font-style",
+                        "font-size",
+                        "size"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  4
+    },
+    {
+        "id":  "LMSGI-035",
+        "question":  "¿Qué unidad es relativa al tamaño de la fuente del elemento raíz?",
+        "options":  [
+                        "em",
+                        "px",
+                        "%",
+                        "rem"
+                    ],
+        "correctAnswer":  3,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  5
+    },
+    {
+        "id":  "LMSGI-036",
+        "question":  "¿Qué unidad es relativa al tamaño de la fuente del elemento padre?",
+        "options":  [
+                        "px",
+                        "rem",
+                        "em",
+                        "vh"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  6
+    },
+    {
+        "id":  "LMSGI-037",
+        "question":  "¿Qué selector selecciona todos los elementos \u003cp\u003e?",
+        "options":  [
+                        ".p",
+                        "#p",
+                        "p",
+                        "*p"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  7
+    },
+    {
+        "id":  "LMSGI-038",
+        "question":  "¿Qué selector selecciona un elemento con id=\"menu\"?",
+        "options":  [
+                        ".menu",
+                        "menu",
+                        "#menu",
+                        "*menu"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  8
+    },
+    {
+        "id":  "LMSGI-039",
+        "question":  "¿Qué selector selecciona elementos con class=\"activo\"?",
+        "options":  [
+                        "#activo",
+                        ".activo",
+                        "activo",
+                        "*activo"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  9
+    },
+    {
+        "id":  "LMSGI-040",
+        "question":  "¿Qué propiedad controla el espacio interior de un elemento?",
+        "options":  [
+                        "margin",
+                        "border",
+                        "padding",
+                        "spacing"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  10
+    },
+    {
+        "id":  "LMSGI-041",
+        "question":  "¿Qué propiedad controla el espacio exterior de un elemento?",
+        "options":  [
+                        "padding",
+                        "border",
+                        "margin",
+                        "gap"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  11
+    },
+    {
+        "id":  "LMSGI-042",
+        "question":  "¿Qué pseudoclase selecciona el primer hijo?",
+        "options":  [
+                        ":first",
+                        "::first-child",
+                        ":first-child",
+                        ":first-of-type"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  12
+    },
+    {
+        "id":  "LMSGI-043",
+        "question":  "¿Qué pseudoclase selecciona un enlace cuando el ratón pasa por encima?",
+        "options":  [
+                        ":active",
+                        ":focus",
+                        ":hover",
+                        ":visited"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  13
+    },
+    {
+        "id":  "LMSGI-044",
+        "question":  "¿Qué propiedad define el color de fondo de un elemento?",
+        "options":  [
+                        "background-color",
+                        "color",
+                        "bg-color",
+                        "background"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  14
+    },
+    {
+        "id":  "LMSGI-045",
+        "question":  "¿Qué propiedad define una imagen de fondo?",
+        "options":  [
+                        "background-img",
+                        "background-image",
+                        "background-src",
+                        "image-background"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  15
+    },
+    {
+        "id":  "LMSGI-046",
+        "question":  "¿Qué valor evita que la imagen de fondo se repita?",
+        "options":  [
+                        "repeat: none",
+                        "background-repeat: 0",
+                        "background-repeat: no-repeat",
+                        "background-image: single"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  16
+    },
+    {
+        "id":  "LMSGI-047",
+        "question":  "¿Qué propiedad controla la posición de la imagen de fondo?",
+        "options":  [
+                        "background-align",
+                        "background-position",
+                        "background-place",
+                        "background-origin"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  17
+    },
+    {
+        "id":  "LMSGI-048",
+        "question":  "¿Qué valor centra una imagen de fondo horizontal y verticalmente?",
+        "options":  [
+                        "center",
+                        "50%",
+                        "center center",
+                        "middle middle"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  18
+    },
+    {
+        "id":  "LMSGI-049",
+        "question":  "¿Qué propiedad controla el tamaño de la imagen de fondo?",
+        "options":  [
+                        "background-scale",
+                        "background-size",
+                        "background-fit",
+                        "background-dimension"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  19
+    },
+    {
+        "id":  "LMSGI-050",
+        "question":  "¿Qué valor de background-size ajusta la imagen para cubrir todo el contenedor?",
+        "options":  [
+                        "contain",
+                        "stretch",
+                        "cover",
+                        "full"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  20
+    },
+    {
+        "id":  "LMSGI-051",
+        "question":  "¿Qué valor de background-size muestra la imagen completa sin recortarla?",
+        "options":  [
+                        "cover",
+                        "contain",
+                        "auto",
+                        "fill"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  21
+    },
+    {
+        "id":  "LMSGI-052",
+        "question":  "¿Qué propiedad fija el fondo al hacer scroll?",
+        "options":  [
+                        "background-scroll",
+                        "background-clip",
+                        "background-attachment",
+                        "background-fixed"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  22
+    },
+    {
+        "id":  "LMSGI-053",
+        "question":  "¿Qué valor de background-attachment fija el fondo a la ventana?",
+        "options":  [
+                        "absolute",
+                        "static",
+                        "fixed",
+                        "sticky"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  23
+    },
+    {
+        "id":  "LMSGI-054",
+        "question":  "¿Qué propiedad define hasta dónde se extiende el fondo?",
+        "options":  [
+                        "background-origin",
+                        "background-limit",
+                        "background-clip",
+                        "background-area"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  24
+    },
+    {
+        "id":  "LMSGI-055",
+        "question":  "¿Qué valor de background-clip limita el fondo al área del contenido?",
+        "options":  [
+                        "border-box",
+                        "padding-box",
+                        "content-box",
+                        "text-box"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  25
+    },
+    {
+        "id":  "LMSGI-056",
+        "question":  "¿Qué propiedad define desde dónde se empieza a dibujar el fondo?",
+        "options":  [
+                        "background-clip",
+                        "background-origin",
+                        "background-start",
+                        "background-position"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  26
+    },
+    {
+        "id":  "LMSGI-057",
+        "question":  "¿Qué formato de color permite definir transparencia?",
+        "options":  [
+                        "rgb()",
+                        "hex",
+                        "hsl()",
+                        "rgba()"
+                    ],
+        "correctAnswer":  3,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  27
+    },
+    {
+        "id":  "LMSGI-058",
+        "question":  "¿Qué propiedad define una sombra externa?",
+        "options":  [
+                        "text-shadow",
+                        "box-shadow",
+                        "shadow-box",
+                        "element-shadow"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  28
+    },
+    {
+        "id":  "LMSGI-059",
+        "question":  "¿Qué propiedad define sombra en texto?",
+        "options":  [
+                        "font-shadow",
+                        "box-shadow",
+                        "text-shadow",
+                        "text-effect"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  29
+    },
+    {
+        "id":  "LMSGI-060",
+        "question":  "¿Qué propiedad define un degradado lineal?",
+        "options":  [
+                        "linear-gradient()",
+                        "gradient-linear()",
+                        "background-linear()",
+                        "color-gradient()"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  30
+    },
+    {
+        "id":  "LMSGI-061",
+        "question":  "¿Dónde se usan normalmente los gradientes?",
+        "options":  [
+                        "En color",
+                        "En background o background-image",
+                        "En border",
+                        "En shadow"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  31
+    },
+    {
+        "id":  "LMSGI-062",
+        "question":  "¿Qué dirección crea un gradiente de arriba a abajo?",
+        "options":  [
+                        "to top",
+                        "to bottom",
+                        "to right",
+                        "to left"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  32
+    },
+    {
+        "id":  "LMSGI-063",
+        "question":  "¿Qué gradiente crea un efecto circular?",
+        "options":  [
+                        "linear-gradient()",
+                        "ellipse-gradient()",
+                        "radial-gradient()",
+                        "circle-gradient()"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST1_CSS",
+        "originalNumber":  33
+    },
+    {
+        "id":  "LMSGI-064",
+        "question":  "¿Qué propiedad activa un contenedor Grid en CSS?",
+        "options":  [
+                        "display: block",
+                        "display: inline",
+                        "display: grid",
+                        "display: table"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  1
+    },
+    {
+        "id":  "LMSGI-065",
+        "question":  "¿Cuál es la unidad fraccionaria en Grid?",
+        "options":  [
+                        "px",
+                        "%",
+                        "fr",
+                        "em"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  2
+    },
+    {
+        "id":  "LMSGI-066",
+        "question":  "¿Qué propiedad activa Flexbox?",
+        "options":  [
+                        "flex: 1",
+                        "display: flex",
+                        "display: block",
+                        "flex-direction"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  3
+    },
+    {
+        "id":  "LMSGI-067",
+        "question":  "¿Qué define la dirección en Flexbox?",
+        "options":  [
+                        "flex-grow",
+                        "flex-dir",
+                        "display-dir",
+                        "flex-direction"
+                    ],
+        "correctAnswer":  3,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  4
+    },
+    {
+        "id":  "LMSGI-068",
+        "question":  "¿Qué significa XML?",
+        "options":  [
+                        "Extended Markup List",
+                        "Extra Modern Language",
+                        "eXtensible Markup Language",
+                        "X-Mark Logic"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  5
+    },
+    {
+        "id":  "LMSGI-069",
+        "question":  "Requisito básico de XML válido",
+        "options":  [
+                        "Etiquetas sin cerrar",
+                        "Un único elemento raíz",
+                        "Usar solo minúsculas",
+                        "No usar atributos"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  6
+    },
+    {
+        "id":  "LMSGI-070",
+        "question":  "¿Para qué sirve un DTD?",
+        "options":  [
+                        "Validad XML",
+                        "Formatear XML",
+                        "Comprimir",
+                        "Convertir a JSON"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  7
+    },
+    {
+        "id":  "LMSGI-071",
+        "question":  "¿Archivo para transformar XML?",
+        "options":  [
+                        "HTML",
+                        "CSS",
+                        "XSL",
+                        "JSON"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  8
+    },
+    {
+        "id":  "LMSGI-072",
+        "question":  "Significado de XSLT",
+        "options":  [
+                        "XML Standard Language Transforms",
+                        "Extensible Stylesheet Language  Transformations",
+                        "Extensible Language Transforms",
+                        "Extensible Language Transformations"
+                    ],
+        "correctAnswer":  3,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  9
+    },
+    {
+        "id":  "LMSGI-073",
+        "question":  "Clase de contenedor en Bootstrap 5",
+        "options":  [
+                        "box",
+                        "wrap",
+                        "container",
+                        "layout"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  10
+    },
+    {
+        "id":  "LMSGI-074",
+        "question":  "Clase fila en Bootstrap 5",
+        "options":  [
+                        "col",
+                        "row",
+                        "line",
+                        "grid"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  11
+    },
+    {
+        "id":  "LMSGI-075",
+        "question":  "Prefijo para columnas en Bootstrap 5",
+        "options":  [
+                        "row-",
+                        "col-",
+                        "grid-",
+                        "bs-"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  12
+    },
+    {
+        "id":  "LMSGI-076",
+        "question":  "Propiedad columnas en Grid",
+        "options":  [
+                        "grid-template-rows",
+                        "grid-auto-flow",
+                        "grid-template-columns",
+                        "columns"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  13
+    },
+    {
+        "id":  "LMSGI-077",
+        "question":  "justify-content en Flexbox",
+        "options":  [
+                        "alinear horizontal",
+                        "alinear vertical",
+                        "cambiar dirección",
+                        "ocultar"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  14
+    },
+    {
+        "id":  "LMSGI-078",
+        "question":  "Versión latest de Bootstrap",
+        "options":  [
+                        "4.5",
+                        "4.8",
+                        "5.0",
+                        "5.3"
+                    ],
+        "correctAnswer":  3,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  15
+    },
+    {
+        "id":  "LMSGI-079",
+        "question":  "Tipo de lenguaje XML",
+        "options":  [
+                        "Programación",
+                        "Marcado",
+                        "Estilos",
+                        "Consulta"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  16
+    },
+    {
+        "id":  "LMSGI-080",
+        "question":  "Inicio transformación XSLT",
+        "options":  [
+                        "xsl:template",
+                        "xsl:transform",
+                        "xsl:main",
+                        "xsl:sheet"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  17
+    },
+    {
+        "id":  "LMSGI-081",
+        "question":  "Atributo espacio de nombres XML",
+        "options":  [
+                        "ns",
+                        "xmlns",
+                        "namespace",
+                        "xmspace"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  18
+    },
+    {
+        "id":  "LMSGI-082",
+        "question":  "Clase margen inferior BS5",
+        "options":  [
+                        "mb-3",
+                        "pb-3",
+                        "mt-3",
+                        "mg-bottom"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  19
+    },
+    {
+        "id":  "LMSGI-083",
+        "question":  "Propósito de XSL",
+        "options":  [
+                        "Validación",
+                        "Transformar XML",
+                        "Crear BD",
+                        "Comprimir archivos"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  20
+    },
+    {
+        "id":  "LMSGI-084",
+        "question":  "align-items en Flexbox",
+        "options":  [
+                        "ordenar",
+                        "alinear vertical",
+                        "cambiar dirección",
+                        "ocultar"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  21
+    },
+    {
+        "id":  "LMSGI-085",
+        "question":  "Función repeat en Grid",
+        "options":  [
+                        "repeat",
+                        "auto-grid",
+                        "loop",
+                        "grid-repeat"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  22
+    },
+    {
+        "id":  "LMSGI-086",
+        "question":  "Extensión de archivos DTD",
+        "options":  [
+                        "xml",
+                        "xls",
+                        "dtd",
+                        "doc"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  23
+    },
+    {
+        "id":  "LMSGI-087",
+        "question":  "Etiqueta XSLT para indicar el valor de una etiqueta en XML",
+        "options":  [
+                        "xsl:select",
+                        "xsl:value",
+                        "xsl:value-for",
+                        "xsl:svalue-of"
+                    ],
+        "correctAnswer":  3,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  24
+    },
+    {
+        "id":  "LMSGI-088",
+        "question":  "No es ventaja de XML",
+        "options":  [
+                        "Extensible",
+                        "Readable",
+                        "Comprensión excelente",
+                        "Validable"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  25
+    },
+    {
+        "id":  "LMSGI-089",
+        "question":  "Propiedad separación en Grid",
+        "options":  [
+                        "gap",
+                        "padding",
+                        "border-spacing",
+                        "spacing"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  26
+    },
+    {
+        "id":  "LMSGI-090",
+        "question":  "Botón azul en Bootstrap 5",
+        "options":  [
+                        "btn-primary",
+                        "btn-blue",
+                        "btn-default",
+                        "button-main"
+                    ],
+        "correctAnswer":  0,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  27
+    },
+    {
+        "id":  "LMSGI-091",
+        "question":  "Dirección de columna en Flex",
+        "options":  [
+                        "row",
+                        "column",
+                        "reverse",
+                        "vertical"
+                    ],
+        "correctAnswer":  1,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  28
+    },
+    {
+        "id":  "LMSGI-092",
+        "question":  "Estructura válida XML",
+        "options":  [
+                        "Atributos obligatorios",
+                        "Mayúsculas",
+                        "Bien anidado",
+                        "DTD obligatorio"
+                    ],
+        "correctAnswer":  2,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  29
+    },
+    {
+        "id":  "LMSGI-093",
+        "question":  "Unidad NO común en Grid",
+        "options":  [
+                        "fr",
+                        "px",
+                        "%",
+                        "cm"
+                    ],
+        "correctAnswer":  3,
+        "sourceTest":  "TEST2_GLOBAL",
+        "originalNumber":  30
+    },
+    {
+        "id":  "LMSGI-094",
+        "question":  "¿Qué etiqueta indica el idioma principal del documento HTML?",
+        "options":  [
+                        "\u003clang\u003e",
+                        "\u003cmeta lang=\"...\"\u003e",
+                        "\u003chtml lang=\"...\"\u003e",
+                        "\u003cbody lang=\"...\"\u003e"
+                    ],
+        "correctAnswer":  2,
+        "correctLetter":  "c"
+    },
+    {
+        "id":  "LMSGI-095",
+        "question":  "¿Qué etiqueta se usa para enlazar un archivo CSS externo?",
+        "options":  [
+                        "\u003clink\u003e",
+                        "\u003cscript\u003e",
+                        "\u003cmeta\u003e",
+                        "\u003ccite\u003e"
+                    ],
+        "correctAnswer":  0,
+        "correctLetter":  "a"
+    },
+    {
+        "id":  "LMSGI-096",
+        "question":  "¿Qué atributo es obligatorio en la etiqueta \u003cimg\u003e para accesibilidad?",
+        "options":  [
+                        "title",
+                        "alt",
+                        "caption",
+                        "srcset"
+                    ],
+        "correctAnswer":  1,
+        "correctLetter":  "b"
+    },
+    {
+        "id":  "LMSGI-097",
+        "question":  "¿Qué etiqueta representa un contenido independiente que podría distribuirse por separado (por ejemplo, un post)?",
+        "options":  [
+                        "\u003csection\u003e",
+                        "\u003carticle\u003e",
+                        "\u003caside\u003e",
+                        "\u003cdiv\u003e"
+                    ],
+        "correctAnswer":  1,
+        "correctLetter":  "b"
+    },
+    {
+        "id":  "LMSGI-098",
+        "question":  "¿Qué etiqueta se usa para crear un salto de línea?",
+        "options":  [
+                        "\u003chr\u003e",
+                        "\u003cbr\u003e",
+                        "\u003cline\u003e",
+                        "\u003clb\u003e"
+                    ],
+        "correctAnswer":  1,
+        "correctLetter":  "b"
+    },
+    {
+        "id":  "LMSGI-099",
+        "question":  "¿Qué atributo de \u003ca\u003e indica la URL de destino?",
+        "options":  [
+                        "ref",
+                        "src",
+                        "href",
+                        "link"
+                    ],
+        "correctAnswer":  2,
+        "correctLetter":  "c"
+    },
+    {
+        "id":  "LMSGI-100",
+        "question":  "¿Qué etiqueta agrupa opciones dentro de un \u003cselect\u003e en categorías?",
+        "options":  [
+                        "\u003coption-group\u003e",
+                        "\u003cgroup\u003e",
+                        "\u003coptgroup\u003e",
+                        "\u003cfieldset\u003e"
+                    ],
+        "correctAnswer":  2,
+        "correctLetter":  "c"
+    },
+    {
+        "id":  "LMSGI-101",
+        "question":  "En formularios, ¿qué atributo evita que un campo se edite pero sí se envíe?",
+        "options":  [
+                        "disabled",
+                        "readonly",
+                        "hidden",
+                        "locked"
+                    ],
+        "correctAnswer":  1,
+        "correctLetter":  "b"
+    },
+    {
+        "id":  "LMSGI-102",
+        "question":  "¿Qué etiqueta define el encabezado de una tabla?",
+        "options":  [
+                        "\u003cthead\u003e",
+                        "\u003chead\u003e",
+                        "\u003cth\u003e",
+                        "\u003cheader\u003e"
+                    ],
+        "correctAnswer":  0,
+        "correctLetter":  "a"
+    },
+    {
+        "id":  "LMSGI-103",
+        "question":  "¿Qué etiqueta se usa para texto con énfasis semántico (importancia) por defecto en cursiva?",
+        "options":  [
+                        "\u003cb\u003e",
+                        "\u003cstrong\u003e",
+                        "\u003ci\u003e",
+                        "\u003cem\u003e"
+                    ],
+        "correctAnswer":  3,
+        "correctLetter":  "d"
+    }
+]

@@ -1,0 +1,1245 @@
+[
+  {
+    "id": "FUHAR-001",
+    "question": "¿Qué compone la \"Unidad central de proceso\" o procesador (CPU - Control processing Unit)?",
+    "options": [
+      "El conjunto de Unidad de control (CU), la unidad aritmeticológica (ALU) y periféricos.",
+      "El conjunto de Unidad de control (CU), la unidad aritmeticológica (ALU) y registros.",
+      "La UC y los registros.",
+      "El conjunto de Unidad de control (CU), la unidad aritmeticológica (ALU) y memoria principal (RAM)."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-002",
+    "question": "¿Qué componentes permiten al ordenador comunicarse correctamente con los periféricos controlando su velocidad y transmisión de datos?",
+    "options": [
+      "Los controladores.",
+      "El bus del sistema.",
+      "La memoria caché.",
+      "El firmware."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-003",
+    "question": "¿Qué función realiza la Unidad de Control (UC) dentro de la CPU?",
+    "options": [
+      "Ejecuta las operaciones aritméticas y lógicas.",
+      "Controla el flujo de instrucciones y coordina las operaciones del sistema.",
+      "Almacena los resultados de los cálculos.",
+      "Gestiona el almacenamiento de datos a largo plazo."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-004",
+    "question": "El firmware se define como:",
+    "options": [
+      "Un hardware que controla al software.",
+      "Un software integrado en un hardware, almacenado en una memoria especial.",
+      "Un programa que se ejecuta en la memoria RAM.",
+      "Un periférico encargado de la entrada de datos."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-005",
+    "question": "Diferencias entre memoria RAM, ROM, caché y memoria virtual",
+    "options": [
+      "RAM: solo guarda fotos; ROM: ejecuta juegos; Caché: tipo de procesador; Memoria virtual: memoria masiva, discos duros.",
+      "RAM: permanente; ROM: temporal; Caché: almacena archivos grandes; Memoria virtual: igual que RAM física.",
+      "RAM: temporal y volátil; ROM: permanente; Caché: memoria rápida cercana al procesador; Memoria virtual: extensión de RAM en disco duro.",
+      "RAM: igual al disco duro; ROM: memoria de la tarjeta gráfica; Caché: extensión de RAM en disco duro; Memoria virtual: permanente."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-006",
+    "question": "De acuerdo con la Jerarquía de la Memoria (atendiendo a capacidad, velocidad y coste), ¿cuál de los siguientes componentes ocupa el primer puesto (mayor velocidad y coste)?",
+    "options": [
+      "Disco Magnético",
+      "Memoria principal",
+      "Memoria Cache",
+      "Registro internos del procesador"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-007",
+    "question": "Definición del término \"Informática\"",
+    "options": [
+      "Ciencia que estudia el hardware",
+      "Ciencia que estudia el tratamiento racional y automático de la información",
+      "Ciencia que estudia los programas de usuario",
+      "Tecnología de los ordenadores"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-008",
+    "question": "¿Qué caracteriza a las arquitecturas Von Neumann y Harvard?",
+    "options": [
+      "Von Neumann emplea una única memoria tanto para datos como para instrucciones. Harvard utiliza diferentes memorias para los programas y los datos.",
+      "Von Neumann separa físicamente los datos y las instrucciones. Harvard utiliza diferentes memorias para los programas y los datos.",
+      "Harvard emplea una única memoria tanto para datos como para instrucciones. Von Neumann utiliza diferentes memorias para los programas y los datos.",
+      "Está basada en sistemas ópticos de almacenamiento."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-009",
+    "question": "El tipo de bus que transmite la información por el mismo hilo es...",
+    "options": [
+      "Paralelo.",
+      "Continuador.",
+      "Señalizador.",
+      "Serie."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-010",
+    "question": "¿Qué tipos de memoria necesita ser actualizada (refresco) constantemente para no perder la información?",
+    "options": [
+      "SRAM",
+      "ROM",
+      "DRAM",
+      "DDRAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-011",
+    "question": "¿Qué función tiene el registro de instrucción en la CPU?",
+    "options": [
+      "Contiene la instrucción que se está ejecutando.",
+      "Almacena los resultados de la ALU.",
+      "Controla la velocidad del reloj.",
+      "Contiene la dirección de la siguiente instrucción."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-012",
+    "question": "Periféricos de salida-Resolución. ¿Qué indica la resolución de un monitor?",
+    "options": [
+      "La cantidad de colores que puede mostrar.",
+      "El número de puntos o píxeles que puede representar en horizontal por vertical.",
+      "La velocidad con que se actualiza la imagen.",
+      "El brillo máximo que alcanza la pantalla."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-013",
+    "question": "De los siguientes periféricos señala cual pertenece al almacenamiento de información:",
+    "options": [
+      "Lector de banda magnética (ej.: de tarjetas de crédito).",
+      "Disco magnético.",
+      "Detector de barras impresas.",
+      "Ratón."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-014",
+    "question": "¿Cuál es la jerarquía correcta para el uso de la memoria en relación con lo cerca que están de la CPU?",
+    "options": [
+      "Memoria Caché - Memoria Principal – Disco Magnético - Registros Internos del procesador.",
+      "Memoria Principal - Memoria Caché – Disco Magnético - Registros Internos del procesador.",
+      "Registros Internos del procesador - Memoria Caché - Memoria Principal – Disco Magnético.",
+      "Memoria Principal – Registros Internos del procesador – Memoria Caché - Disco Magnético."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-015",
+    "question": "¿Qué determina la velocidad del procesador?",
+    "options": [
+      "La frecuencia del reloj.",
+      "La velocidad en que la ALU ejecuta las instrucciones.",
+      "La capacidad del disco duro.",
+      "El número de registros internos de memoria."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-016",
+    "question": "¿Qué es el SOFTWARE?",
+    "options": [
+      "Elementos tangibles del ordenador.",
+      "Conjunto de programas e instrucciones que controlan el hardware.",
+      "Conectores eléctricos del sistema.",
+      "El procesador del ordenador."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-017",
+    "question": "¿Qué tipo de software actúa como intermediario entre el hardware y los programas del usuario?",
+    "options": [
+      "Firmware.",
+      "Sistema operativo.",
+      "Controlador de dispositivo.",
+      "Son correctas b) y c)."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-018",
+    "question": "¿Que mide el ancho de banda?",
+    "options": [
+      "La velocidad del Bus de control.",
+      "La frecuencia del procesador.",
+      "La capacidad del disco duro.",
+      "La cantidad de información transferida por segundo."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-019",
+    "question": "¿Qué característica define a un dispositivo de acceso directo como un disco duro?",
+    "options": [
+      "Es necesario recorrer todos los datos anteriores para acceder al deseado.",
+      "Permite acceder a una posición concreta de datos sin recorrer los anteriores.",
+      "Solo puede ser leído, no escrito.",
+      "El valor almacenado se borra cuando pierde deja de ser alimentado por energía."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-020",
+    "question": "¿Qué tipo de memoria se utiliza principalmente para almacenar la configuración del BIOS, manteniéndose gracias a una pila?",
+    "options": [
+      "ROM",
+      "EPROM",
+      "CMOS",
+      "DRAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-021",
+    "question": "En un sistema informático, ¿cómo puede transmitirse la información a través de los buses?",
+    "options": [
+      "Solo en serie.",
+      "Solo en paralelo.",
+      "En serie o en paralelo, dependiendo del tipo de bus.",
+      "Ninguna es correcta"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-022",
+    "question": "El DVD-ROM es:",
+    "options": [
+      "Método de almacenamiento de sólo lectura de alta capacidad.",
+      "Método que permite leer los CR-ROM estándar.",
+      "Método que permite grabar, borrar y regrabar los datos alcanzando capacidades de más de 4'7GB.",
+      "Todas son correctas."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-023",
+    "question": "¿Qué tipo de memoria se actualiza dos veces por cada impulso de reloj?",
+    "options": [
+      "DRAM",
+      "SRAM",
+      "DDRAM",
+      "SDRAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-024",
+    "question": "¿Qué tipos de buses hay en la arquitectura Von Neumann?",
+    "options": [
+      "Bus de datos, bus de operaciones y bus de datos.",
+      "Bus de datos y bus de control.",
+      "Bus de datos, bus de control y bus de direcciones.",
+      "Bus de control y bus de operaciones."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-025",
+    "question": "¿Como se mide el tiempo de ciclo de un ordenador?",
+    "options": [
+      "En minutos",
+      "En nanosegundos",
+      "En segundos",
+      "En milisegundos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-026",
+    "question": "¿Cuál NO es una función del controlador de periféricos?",
+    "options": [
+      "Sincronizar la transmisión",
+      "Controlar el periférico",
+      "Ejecutar instrucciones de programa",
+      "Detectar errores"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-027",
+    "question": "¿Qué tipo de software gestiona los recursos hardware para que puedan utilizarlo los programas del usuario?",
+    "options": [
+      "Firmware.",
+      "Sistema operativo.",
+      "Controlador de dispositivo.",
+      "Son correctas b) y c)."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-028",
+    "question": "¿Qué tipo de direccionamiento utiliza los datos directamente incluidos en la instrucción, sin necesidad de acceder a memoria?",
+    "options": [
+      "Directo",
+      "Indirecto",
+      "Inmediato",
+      "Relativo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-029",
+    "question": "El paso del montaje que comprueba la funcionalidad de la configuración es",
+    "options": [
+      "Ordenación de cables",
+      "Cierre de caja",
+      "Procedimiento POST",
+      "Instalar la tarjeta gráfica"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-030",
+    "question": "¿Qué componentes forman la unidad central de proceso (CPU)?",
+    "options": [
+      "Unidad de control, ALU, registros de memoria principal y reloj.",
+      "Unidad de computación, unidad aritmeticológica (ALU), registros internos y pila.",
+      "Unidad de control, unidad aritmeticológica (ALU), registros internos y reloj.",
+      "Unidad de control, unidad de computación, registros internos y reloj."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-031",
+    "question": "El factor de forma estándar para ordenadores de sobre mesa se llama:",
+    "options": [
+      "ATX",
+      "Mini-ATX",
+      "Micro-ATX",
+      "E-ATX"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-032",
+    "question": "Al mezclar módulos de RAM de diferentes marcas, velocidades o latencias",
+    "options": [
+      "El sistema completo funcionará a la velocidad y latencia del módulo más rápido de todos",
+      "Puede causar inestabilidad, pantallazos azules o que el ordenador directamente no arranque",
+      "No pasa nada si son de la misma generación (DDR3, DDR4 o DDR5)",
+      "El sistema completo funcionará a la velocidad y latencia de la media de los módulos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-033",
+    "question": "En la arquitectura de memoria de un sistema moderno, la caché L3 se caracteriza por:",
+    "options": [
+      "Ser exclusiva de la GPU",
+      "La más rápida de todas",
+      "Solo se usa en discos SSD",
+      "Compartida entre núcleos de CPU y más lenta que L1 y L2"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-034",
+    "question": "¿Qué tipos de buses existen en un ordenador?",
+    "options": [
+      "Bus de datos, instrucciones y control",
+      "Bus de datos, direcciones y control",
+      "Bus de datos, direcciones y reloj",
+      "Bus de instrucciones, direcciones y control"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-035",
+    "question": "Preparar la placa base fuera de la caja, incluye las siguientes operaciones:",
+    "options": [
+      "Instalar CPU, pasta térmica, disipador, RAM",
+      "Instalar CPU, ventilador, disipador, RAM",
+      "Instalar CPU, pasta térmica, ventilador, RAM",
+      "Instalar CPU, pasta térmica, disipador, discos duros"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-036",
+    "question": "La memoria caché y los registros internos de la CPU utilizan un tipo de memoria que no necesita refresco, ¿Cuál es?",
+    "options": [
+      "Dynamic RAM (DRAM)",
+      "Synchronous Dynamic RAM (SDRAM)",
+      "Static RAM (SRAM)",
+      "Double Data Rate Synchronous Dynamic RAM (DDR SDRAM)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-037",
+    "question": "El rendimiento de un equipo depende de:",
+    "options": [
+      "Únicamente de la frecuencia del reloj",
+      "Solo la velocidad de lectura de memoria principal",
+      "Del equilibrio entre todos los subsistemas, no de un solo componente",
+      "La velocidad de procesamiento de la unidad aritmético lógica"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-038",
+    "question": "¿Cuáles son los cuatro pilares fundamentales que actúan como subsistemas interconectados de la arquitectura Von Newman?",
+    "options": [
+      "Unidad central de procesamiento (CPU), tarjeta gráfica (GPU), memoria secundaria, subsistema de Entrada/Salida",
+      "Unidad central de procesamiento (CPU), memoria principal, subsistema de Entrada/Salida, Buses",
+      "Unidad central de procesamiento (CPU), tarjeta gráfica (GPU), subsistema de Entrada/Salida, Buses",
+      "Unidad central de procesamiento (CPU), tarjeta gráfica (GPU), memoria principal, Buses"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-039",
+    "question": "¿Qué software nos permite consultar las temperaturas y los voltajes de los diferentes componentes de nuestro equipo?",
+    "options": [
+      "HWiNFO",
+      "Speccy",
+      "CPU-Z",
+      "Chocolatey"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-040",
+    "question": "¿En qué tipo de memoria no volátil se almacena la BIOS/UEFI?",
+    "options": [
+      "DDR",
+      "SRAM",
+      "CMOS",
+      "SDRAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-041",
+    "question": "Al proceso de chequeo inicial para verificar que el hardware crítico (CPU, RAM, tarjeta gráfica, teclado), se le llama",
+    "options": [
+      "Firmware",
+      "POST",
+      "BIOS",
+      "UEFI"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-042",
+    "question": "En la arquitectura Von Neumann, en la memoria principal albergan:",
+    "options": [
+      "Direcciones e instrucciones",
+      "Datos e instrucciones",
+      "Datos y direcciones",
+      "Direcciones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-043",
+    "question": "Preparar la placa y el chasis, incluye la siguiente secuencia de pasos correcta:",
+    "options": [
+      "Instalar primero el I/O shield y presentar la placa, comprobando que cada orificio coincide con los agujeros de la caja, y atornilla sin exceso de par",
+      "Colocar los standoffs, instalar primero el I/O shield y presentar la placa, comprobando que cada orificio coincide con un standoff, y atornilla sin exceso de par",
+      "Montar la fuente de alimentación orientando el ventilador según la entrada de aire de la caja y presentar la placa, comprobando que cada orificio coincide con los agujeros de la caja, y atornillar",
+      "Presentar la placa, comprobando que cada orificio coincide con los agujeros de la caja, y atornillar. Conectar la alimentación de todos los componentes con la fuente de alimentación"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-044",
+    "question": "¿En qué orden suele ser común introducir la memoria RAM en las diferentes ranuras (DIMM 4 ranuras) para activar el DUAL Channel?",
+    "options": [
+      "1 y 2",
+      "3 y 4",
+      "1 y 4",
+      "1 y 3 ó 2 y 4"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-045",
+    "question": "Se le llama Arquitectura de Memoria Unificada a una configuración en la que:",
+    "options": [
+      "Ajusta automáticamente la frecuencia, los voltajes y las latencias para que la memoria funcione a su máximo rendimiento",
+      "La RAM y VRAM se comunican por un canal PCIexpress",
+      "Una memoria que lee 2 veces en un mismo ciclo de reloj.",
+      "Tanto la CPU como la GPU acceden a la misma memoria física con la misma prioridad y velocidad."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-046",
+    "question": "Para el correcto montaje de la fuente de alimentación",
+    "options": [
+      "Hay que atornillarla siguiendo el patrón de las agujas del reloj para los 4 tornillos.",
+      "Colocar el ventilador según la entrada de aire de la caja",
+      "Solo hay que tener en cuenta que los cables de la alimentación lleguen a todos los componentes",
+      "No es necesario mirar ningún manual del fabricante."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-047",
+    "question": "¿Cuál de las siguientes afirmaciones sobre los discos NVMe es correcta?",
+    "options": [
+      "Utilizan la interfaz SATA III pero con menor latencia.",
+      "Se comunican directamente con la CPU mediante el bus PCIe.",
+      "Requieren controladores IDE específicos para funcionar.",
+      "Usan el mismo protocolo que los discos SAS."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-048",
+    "question": "El proceso por el que la CPU decodifica la instrucción para entender qué operación debe realizar se llama:",
+    "options": [
+      "FETCH",
+      "DECODE",
+      "EXECUTE",
+      "STORE"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-049",
+    "question": "El conector de ATX 24 pines de la fuente de alimentación es para",
+    "options": [
+      "CPU",
+      "Ventiladores",
+      "GPU",
+      "Placa base"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-050",
+    "question": "El centro de control de tráfico de la placa base, que gestiona el flujo de datos entre la CPU, la memoria, las ranuras de expansión y los periféricos",
+    "options": [
+      "Factor de forma",
+      "Zócalo",
+      "Placa de circuito impreso",
+      "Chipset"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-051",
+    "question": "¿Cómo se llama al conjunto de programas que actúan como intermediarios entre el hardware y el software de aplicación?",
+    "options": [
+      "Controladores",
+      "Drivers",
+      "Firmware",
+      "Sistema operativo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-052",
+    "question": "Conector de alta velocidad para almacenamiento secundario",
+    "options": [
+      "M.2",
+      "SATA",
+      "DIMM slots",
+      "IDE"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-053",
+    "question": "El tipo de zócalo (socket) que tiene los pines en el propio zócalo y que es el más utilizado en ordenadores de sobre mesa en la actualidad, se llama",
+    "options": [
+      "PGA",
+      "LGA",
+      "BGA",
+      "ZIF"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-054",
+    "question": "La placa base (motherboard) tiene entre sus funciones:",
+    "options": [
+      "Sirve de soporte físico",
+      "Distribuir la energía",
+      "Distribuir los datos",
+      "Todas las respuestas son correctas"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-055",
+    "question": "¿Qué software propietario se puede probar gratuitamente por un período limitado antes de comprarlo?",
+    "options": [
+      "Shareware",
+      "Freeware",
+      "Ransomware",
+      "FOSS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-056",
+    "question": "La arquitectura que tiene un conjunto de instrucciones muy pequeño y simple y que se utiliza mayoritariamente en smartphones y tablets es:",
+    "options": [
+      "Von Neumann",
+      "Harvard",
+      "CISC",
+      "RISC"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-057",
+    "question": "La jerarquía de memoria de mayor a menor velocidad de lectura se ordenaría en:",
+    "options": [
+      "Discos duros, registros internos de memoria, caché, RAM.",
+      "Registros internos de memoria, caché, RAM, discos duros.",
+      "Discos duros, RAM, registros internos de memoria, caché.",
+      "Discos duros, RAM, caché, registros internos de memoria."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-058",
+    "question": "¿Cuál de las siguientes opciones describe correctamente la diferencia entre BIOS y UEFI?",
+    "options": [
+      "UEFI reemplaza la BIOS, permite interfaz gráfica y arranque en GPT que mejora MBR y su limitación de 2,2 TB.",
+      "UEFI solo funciona con procesadores ARM.",
+      "La BIOS solo admite discos de más de 2,2 TB.",
+      "BIOS es más rápida y moderna que UEFI."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-059",
+    "question": "¿Cuál de estos es uno de los cuatro pilares fundamentales de la arquitectura Von Neumann?",
+    "options": [
+      "Unidad de Alimentación Eléctrica",
+      "Tarjeta Gráfica Dedicada (GPU)",
+      "Unidad Central de Procesamiento (CPU)",
+      "Sistema de Refrigeración Líquida"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-060",
+    "question": "¿En qué década fue propuesta la arquitectura Von Neumann por John von Neumann?",
+    "options": [
+      "Década de 1930",
+      "Década de 1940",
+      "Década de 1950",
+      "Década de 1960"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-061",
+    "question": "¿Cuál es la función de la Unidad de Control (UC)?",
+    "options": [
+      "Transmitir imágenes al monitor",
+      "Realizar operaciones matemáticas y lógicas",
+      "Almacenar datos de forma permanente",
+      "Interpretar instrucciones y coordinar los componentes del sistema"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-062",
+    "question": "¿Qué camino físico permite la comunicación de la información entre la CPU, la memoria y los periféricos?",
+    "options": [
+      "Buses de datos",
+      "Cables de alimentación",
+      "Zócalos",
+      "Chipset"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-063",
+    "question": "¿Qué son los controladores (drivers)?",
+    "options": [
+      "Usuarios que administran la red",
+      "Cables que conectan el monitor a la torre",
+      "Piezas físicas que aceleran el procesador",
+      "Programas que permiten al SO comunicarse con un hardware específico"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-064",
+    "question": "¿Qué tipo de software se utiliza para tareas específicas como escribir textos o editar fotos?",
+    "options": [
+      "Firmware",
+      "Software de Sistema",
+      "Software de Aplicación",
+      "BIOS"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-065",
+    "question": "¿Qué componente se describe como el sistema nervioso central y esqueleto del ordenador?",
+    "options": [
+      "El microprocesador",
+      "La placa base",
+      "La fuente de alimentación",
+      "La memoria RAM"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-066",
+    "question": "¿Cuál es el factor de forma estándar para torres de sobremesa?",
+    "options": [
+      "Mini-ITX",
+      "Micro-ATX",
+      "ATX",
+      "BTX"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-067",
+    "question": "¿Qué es el zócalo o socket en una placa base?",
+    "options": [
+      "El conector de la fuente de alimentación",
+      "El puerto para conectar el disco duro",
+      "La ranura para la memoria RAM",
+      "El lugar donde se instala la CPU"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-068",
+    "question": "¿Cuál es la función del chipset en la placa base?",
+    "options": [
+      "Gestionar el flujo de datos entre los componentes",
+      "Almacenar los archivos del usuario",
+      "Procesar los gráficos del sistema",
+      "Transformar la corriente alterna en continua"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-069",
+    "question": "¿Qué componente permite que la BIOS/UEFI mantenga la configuración de fecha y hora?",
+    "options": [
+      "El condensador principal",
+      "La pila CMOS",
+      "El regulador de voltaje",
+      "El transistor de arranque"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-070",
+    "question": "¿Qué interfaz se utiliza comúnmente para conectar unidades de almacenamiento como HDD y SSD de 2.5 pulgadas?",
+    "options": [
+      "USB 3.0",
+      "PCIe",
+      "SATA",
+      "VGA"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-071",
+    "question": "¿Qué es el POST (Power-On Self-Test)?",
+    "options": [
+      "Un test de velocidad de la conexión a internet",
+      "Una herramienta para desfragmentar el disco",
+      "Un programa para actualizar los drivers",
+      "Un proceso de autodiagnóstico al arrancar el equipo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-072",
+    "question": "¿Cuál es el sucesor moderno de la BIOS que ofrece una interfaz gráfica y soporte para discos grandes?",
+    "options": [
+      "CMOS",
+      "UEFI",
+      "SATA",
+      "RAID"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-073",
+    "question": "¿Qué función cumple el VRM (Voltage Regulator Module) en la placa base?",
+    "options": [
+      "Convertir la energía de la fuente al voltaje exacto que necesita la CPU",
+      "Controlar el volumen de los altavoces",
+      "Gestionar la velocidad de los ventiladores de la caja",
+      "Almacenar temporalmente los datos de las aplicaciones"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-074",
+    "question": "¿Qué permite hacer el Secure Boot en sistemas UEFI?",
+    "options": [
+      "Cifrar los archivos personales del usuario",
+      "Evitar que se conecten periféricos USB desconocidos",
+      "Asegurar que solo se cargue software de confianza al arrancar",
+      "Aumentar la velocidad del procesador mediante overclocking"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-075",
+    "question": "¿Cómo se denomina el ciclo constante de tres pasos que realiza la CPU?",
+    "options": [
+      "Ciclo de energía (on-off-standby)",
+      "Ciclo de almacenamiento (save-load-delete)",
+      "Ciclo de red (send-receive-wait)",
+      "Ciclo de instrucción (fetch-decode-execute)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-076",
+    "question": "¿En qué unidad de medida se expresa la velocidad a la que la CPU repite su ciclo de trabajo?",
+    "options": [
+      "Vatios (W)",
+      "Bits por segundo (bps)",
+      "Hercios (Hz)",
+      "Gigabytes (GB)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-077",
+    "question": "¿Qué postula la Ley de Moore?",
+    "options": [
+      "Que el precio de los procesadores baja a la mitad cada año",
+      "Que el número de transistores en un chip se duplica aproximadamente cada dos años",
+      "Que la velocidad de la RAM siempre supera a la de la CPU",
+      "Que los ordenadores serán obsoletos en una década"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-078",
+    "question": "¿Qué función cumple la memoria caché dentro de la CPU?",
+    "options": [
+      "Guardar los archivos del sistema operativo permanentemente",
+      "Almacenar datos que el procesador necesita con frecuencia para evitar ir a la RAM",
+      "Gestionar la conexión a internet de alta velocidad",
+      "Controlar la temperatura de los ventiladores"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-079",
+    "question": "¿Cuál es el nivel de memoria caché más rápido y cercano al núcleo de la CPU?",
+    "options": [
+      "Caché L1",
+      "Caché L2",
+      "Caché L3",
+      "Caché L4"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-080",
+    "question": "¿Qué es el Overclocking?",
+    "options": [
+      "Instalar más memoria RAM de la necesaria",
+      "Reducir el consumo de energía para que el PC sea silencioso",
+      "Cambiar la pasta térmica del procesador cada seis meses",
+      "Aumentar la velocidad de reloj del componente por encima de las especificaciones del fabricante"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-081",
+    "question": "¿Qué es el benchmarking?",
+    "options": [
+      "El diseño de la arquitectura interna de los transistores",
+      "La limpieza física de los ventiladores del procesador",
+      "El proceso de medir el rendimiento del hardware de forma objetiva mediante pruebas estandarizadas",
+      "La comparación de precios entre diferentes tiendas de informática"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-082",
+    "question": "¿Qué herramienta se menciona como útil para monitorizar información técnica del procesador en tiempo real?",
+    "options": [
+      "Google Chrome",
+      "HWiNFO",
+      "Microsoft Word",
+      "VLC Player"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-083",
+    "question": "¿En qué paso del ciclo de instrucción la CPU interpreta la instrucción para saber qué operación realizar?",
+    "options": [
+      "Decodificar (Decode)",
+      "Recoger (Fetch)",
+      "Ejecutar (Execute)",
+      "Almacenar (Store)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-084",
+    "question": "¿Qué superficie de trabajo se debe evitar para prevenir la acumulación de carga estática?",
+    "options": [
+      "Esterillas antiestáticas",
+      "Mesas rígidas de madera",
+      "Alfombras y superficies sintéticas",
+      "Mesas de metal conectadas a tierra"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-085",
+    "question": "¿Qué componente se recomienda instalar en la placa base antes de introducirla en la caja?",
+    "options": [
+      "La CPU, la RAM y el disipador",
+      "La tarjeta gráfica",
+      "La fuente de alimentación",
+      "Los discos duros mecánicos"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-086",
+    "question": "¿Cómo se llaman los postes metálicos que separan la placa base del chasis para evitar cortocircuitos?",
+    "options": [
+      "Brackets",
+      "Jumpers",
+      "Screws (tornillos)",
+      "Standoffs (separadores)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-087",
+    "question": "¿Qué técnica se recomienda para aplicar la pasta térmica sobre el procesador?",
+    "options": [
+      "Extender una capa gruesa por toda la placa base",
+      "Aplicar una pequeña cantidad (3 granos de arroz - guisante) en el centro",
+      "No usar nada si el disipador es nuevo",
+      "Cubrir solo los bordes del procesador"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-088",
+    "question": "¿Qué indica la pequeña flecha o triángulo en una esquina de la CPU?",
+    "options": [
+      "La velocidad máxima del procesador",
+      "La dirección del flujo de aire",
+      "La orientación correcta para su colocación en el zócalo",
+      "El voltaje de funcionamiento"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-089",
+    "question": "¿Qué componente permite añadir nuevas capacidades o mejorar drásticamente las ya existentes en una placa base?",
+    "options": [
+      "Fuente de alimentación",
+      "Memoria caché L1",
+      "Tarjeta de expansión",
+      "Carcasa del PC"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-090",
+    "question": "¿Cuál es la ranura de expansión más utilizada actualmente para conectar tarjetas gráficas y de red?",
+    "options": [
+      "PCI Express (PCIe)",
+      "ISA",
+      "AGP",
+      "VGA"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-091",
+    "question": "¿Qué tecnología permite que un puerto USB-C transmita datos de hasta 40 Gbps, vídeo y energía en un solo cable?",
+    "options": [
+      "SATA 3",
+      "Wi-Fi 6",
+      "Bluetooth 5.0",
+      "Thunderbolt"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-092",
+    "question": "¿Cuál es la diferencia principal entre un bus y un protocolo según el documento?",
+    "options": [
+      "No hay diferencia, son sinónimos",
+      "El bus es inalámbrico y el protocolo es por cable",
+      "El bus es software y el protocolo es hardware",
+      "El bus es el camino físico y el protocolo es el lenguaje que viaja por él"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-093",
+    "question": "¿Qué protocolo de comunicación moderno permite a los SSD aprovechar la velocidad del bus PCIe?",
+    "options": [
+      "IDE",
+      "NVMe",
+      "SCSI",
+      "Ethernet"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-094",
+    "question": "¿Qué interfaces son las más comunes para la salida de vídeo digital en la actualidad?",
+    "options": [
+      "HDMI y DisplayPort",
+      "VGA y RCA",
+      "S-Video y Euroconector",
+      "Serial y Paralelo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-095",
+    "question": "¿Qué ventaja ofrece el puerto DisplayPort sobre otros conectores de vídeo?",
+    "options": [
+      "Es un conector analógico más resistente",
+      "Es el único que transmite audio",
+      "Permite conectar varios monitores en cadena (daisy chain)",
+      "Solo funciona con tarjetas de sonido"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-096",
+    "question": "¿Qué tipo de dispositivo de almacenamiento es mecánico y utiliza platos giratorios?",
+    "options": [
+      "Tarjeta SD",
+      "SSD (Solid-State Drive)",
+      "Memoria RAM",
+      "HDD (Hard Disk Drive)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-097",
+    "question": "¿Qué significa la sigla NAS?",
+    "options": [
+      "New Advanced Serial",
+      "National Archive System",
+      "Node Access Storage",
+      "Network Attached Storage"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-098",
+    "question": "¿Qué nivel de RAID realiza un 'espejo' (mirroring) de los datos en tiempo real?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID JBOD"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-099",
+    "question": "¿Qué ocurre en un RAID 5 si fallan dos discos simultáneamente?",
+    "options": [
+      "Los datos se mueven automáticamente a la nube",
+      "El sistema sigue funcionando en modo lento",
+      "Se pierde la información (solo tolera el fallo de un disco)",
+      "La paridad permite reconstruirlos sin problemas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-100",
+    "question": "¿Qué es un Mainframe?",
+    "options": [
+      "Un ordenador de alto rendimiento para procesar miles de millones de transacciones",
+      "Un tipo de ordenador portátil para directivos",
+      "Una carcasa reforzada para ordenadores de sobremesa",
+      "Un software de edición de vídeo profesional"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-101",
+    "question": "¿Qué significan las siglas CPD?",
+    "options": [
+      "Central de Procesadores Distribuidos",
+      "Control de Programación Digital",
+      "Centro de Proceso de Datos",
+      "Conexión de Periféricos Directos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-102",
+    "question": "¿Cuál es la función de un rack en un CPD?",
+    "options": [
+      "Enfriar directamente el procesador con agua",
+      "Alojar servidores y equipos de red de forma organizada",
+      "Generar electricidad en caso de apagón",
+      "Almacenar las copias de seguridad en cinta"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-103",
+    "question": "¿Qué componente es esencial para garantizar la energía ininterrumpida ante un fallo eléctrico corto?",
+    "options": [
+      "Tarjeta de red",
+      "Disco duro SSD",
+      "SAI / UPS",
+      "Monitor LED"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-104",
+    "question": "¿Qué técnica lógica permite segmentar redes para mejorar la seguridad?",
+    "options": [
+      "VLAN",
+      "RAID 5",
+      "Overclocking",
+      "P2V"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-105",
+    "question": "¿Qué diferencia a una imagen de respaldo de una simple copia de archivos?",
+    "options": [
+      "No permite restaurar el sistema operativo",
+      "Solo guarda documentos de texto y fotos",
+      "Es más lenta de copiar pero ocupa menos espacio",
+      "Es una fotografía exacta de todo el disco, incluyendo SO y aplicaciones"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-106",
+    "question": "¿Qué significan las siglas P2V en el contexto de migración de sistemas?",
+    "options": [
+      "Power-to-Volume",
+      "Physical-to-Virtual",
+      "Point-to-Verify",
+      "Process-to-Variable"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-107",
+    "question": "¿Qué técnica de mantenimiento utiliza datos como temperaturas y S.M.A.R.T. para anticipar fallos?",
+    "options": [
+      "Mantenimiento manual",
+      "Mantenimiento reactivo",
+      "Mantenimiento predictivo",
+      "Mantenimiento de software"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-108",
+    "question": "¿Qué efecto negativo tiene el polvo acumulado dentro de un ordenador?",
+    "options": [
+      "Actúa como un aislante térmico y aumenta la temperatura",
+      "Mejora la conducción eléctrica de los circuitos",
+      "Aumenta la velocidad de los ventiladores",
+      "No tiene ningún efecto relevante si el PC funciona"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-109",
+    "question": "¿Qué indican los valores S.M.A.R.T. de un disco?",
+    "options": [
+      "Información sobre la salud y posibles fallos del disco",
+      "La velocidad de descarga de archivos de internet",
+      "El nombre del usuario que creó las carpetas",
+      "La cantidad de colores que puede mostrar el monitor"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-110",
+    "question": "¿Qué concepto define el uso de recursos informáticos como servidores o almacenamiento a través de Internet?",
+    "options": [
+      "Hardware local",
+      "On-premise",
+      "Cloud Computing (Computación en la nube)",
+      "Mainframe individual"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-111",
+    "question": "¿De qué se encarga el proveedor en un modelo IaaS?",
+    "options": [
+      "De instalar los parches del sistema operativo del cliente",
+      "Del hardware, la red física y el almacenamiento",
+      "De gestionar los datos y permisos de los usuarios finales",
+      "De programar el código de la aplicación del cliente"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-112",
+    "question": "¿Qué modelo de nube permite a los desarrolladores centrarse en el código sin gestionar el sistema operativo?",
+    "options": [
+      "PaaS (Platform as a Service)",
+      "IaaS",
+      "Hardware as a Service",
+      "SaaS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-113",
+    "question": "¿Qué ventaja ofrece el pago por uso en la nube?",
+    "options": [
+      "Permite que el PC del usuario sea más rápido",
+      "Hace que el hardware dure para siempre",
+      "Evita tener que usar sistemas operativos",
+      "Permite escalar recursos según la demanda sin inversión inicial en hardware"
+    ],
+    "correctAnswer": 3
+  }
+]

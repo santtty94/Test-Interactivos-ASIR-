@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "IPE-001",
+    "question": "La siniestralidad laboral es un elemento muy importante a tener en cuenta de cara a proteger la salud de la población. ¿Sabrías decir cuántos accidentes de trabajo hay, aproximadamente, al año?",
+    "options": [
+      "Más de un millón",
+      "Medio millón",
+      "Doscientos cincuenta mil",
+      "Trescientos Mil"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-002",
+    "question": "Marcos Urrutia, que es diseñador gráfico, ha tenido un corte en la muñeca derivado de realizar trabajos de carpintería. ¿Tendría la consideración de accidente o enfermedad profesional?",
+    "options": [
+      "Sería un accidente laboral",
+      "Sería una enfermedad profesional",
+      "Se trataría de una enfermedad profesional o de un accidente laboral dependiendo de si se ha producido de forma repentina o de si se ha generado de forma prolongada en el tiempo",
+      "No sería ni enfermedad profesional ni accidente laboral."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-003",
+    "question": "Cuál es la norma de mayor rango que recoge la protección de los trabajadores como algo fundamental",
+    "options": [
+      "La Constitución",
+      "El Estatuto de los Trabajadores",
+      "La Ley de Prevención de Riesgos Laborales.",
+      "La Biblia"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-004",
+    "question": "¿Cuál de las siguientes NO tendría la condición de accidente de trabajo?",
+    "options": [
+      "Loli, se rompe el codo como consecuencia de una caída a distinto nivel cuando subía las escaleras de la oficina.",
+      "Gloria, tiene un accidente de coche cuando iba a casa desde el trabajo.",
+      "Mar, le detectan una enfermedad derivada de la exposición a sustancias químicas en su trabajo",
+      "León, profesor de profesión. Un alumno le hace un mataleón."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-005",
+    "question": "En quién recae la responsabilidad de velar por la protección de la salud de los trabajadores y evitar accidentes",
+    "options": [
+      "Exclusivamente en el empresario",
+      "Tanto en el empresario como en los trabajadores",
+      "Exclusivamente a los trabajadores",
+      "Exclusivamente a los representantes de los trabajadores"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-006",
+    "question": "¿Cuál de las siguientes NO tiene la condición de enfermedad laboral?",
+    "options": [
+      "C Tangana, es carpintero. Desarrolla una alergia incurable al pino.",
+      "Mercedes, desarrolla síndrome del túnel carpiano como consecuencia de coser 12 horas al día en un taller de ropa.",
+      "Luck, desarrolla lumbalgia crónica tras 15 años trabajando como jornalero recogiendo cebollas.",
+      "Javi, enfermero, se lesiona el hombro entrenando cuando va a mover un paciente."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-007",
+    "question": "Cuál de los siguientes NO es un derecho de los trabajadores en materia preventiva",
+    "options": [
+      "Recibir formación en materia preventiva",
+      "Formular propuestas al empresario",
+      "Vigilancia de su salud",
+      "Usar adecuadamente los equipos de trabajo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-008",
+    "question": "A qué hay que dar prioridad a la hora de diseñar la prevención de riesgos laborales en una empresa",
+    "options": [
+      "Eliminar los riesgos de raíz",
+      "Comprar equipos de protección adecuados",
+      "Instruir a los trabajadores adecuadamente",
+      "Contratar un seguro médico que sea barato y a la vez bueno"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-009",
+    "question": "¿Qué significan las siglas OIT?",
+    "options": [
+      "Organización independiente de trabajadores",
+      "Organización para el tránsito internacional de trabajadores",
+      "Organización Internacional del Trabajo",
+      "Organización del trabajo obrero internacional"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-010",
+    "question": "¿De qué Organismo internacional forma parte la OIT?",
+    "options": [
+      "Unión Europea",
+      "Unión de Pequeños Agricultores",
+      "Organización de las Naciones Unidas",
+      "Organización del Tratado del Atlántico Norte (OTAN)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-011",
+    "question": "Cuál de los siguientes organismos tiene capacidad punitiva, es decir, puede poner sanciones",
+    "options": [
+      "La Inspección de Trabajo",
+      "La Organización Mundial de la Salud",
+      "La Fundación Europea para la Mejora de las Condiciones de Vida y de Trabajo",
+      "La Agencia Europea para la Seguridad y Salud en el Trabajo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-012",
+    "question": "¿Cuál de las siguientes medidas preventivas no pertenece al ámbito de la seguridad en el trabajo?",
+    "options": [
+      "Control de exposición.",
+      "Protecciones en maquinaria.",
+      "Señalización",
+      "Formación en seguridad."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-013",
+    "question": "Un inspector de trabajo observa que el 90 por ciento de las bajas laborales son derivadas de insatisfacción laboral, desmotivación, depresiones y acoso laboral. ¿Qué técnica de prevención debería aplicarse?",
+    "options": [
+      "Seguridad en el trabajo",
+      "Higiene industrial",
+      "Ergonomía",
+      "Psicosociología"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-014",
+    "question": "Las medidas de protección se clasificarían de la siguiente forma:",
+    "options": [
+      "Individuales y colectivas.",
+      "Generales y concretas.",
+      "Abstractas y generales.",
+      "Singulares y plurales."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-015",
+    "question": "En una empresa se almacenan bienes utilizando vehículos de carga. ¿Qué medida no sería idónea para evitar atropellos a trabajadores?",
+    "options": [
+      "Instalación de semáforos.",
+      "Delimitar las zonas de tráfico.",
+      "Controlar la velocidad de los vehículos.",
+      "Equipos individuales de protección."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-016",
+    "question": "Los riesgos derivados de las condiciones ambientales o medioambientales de la empresa se clasifican en:",
+    "options": [
+      "Físicos, biológicos y químicos.",
+      "Mecánicos, ambientales y psicológicos.",
+      "Generales, particulares y concretos.",
+      "Abstractos y concretos."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-017",
+    "question": "La evaluación de riesgos se centra en:",
+    "options": [
+      "Verificar si el riesgo se puede producir, al menos una vez cada mes",
+      "Comprobar la gravedad y la probabilidad de que ocurra un riesgo.",
+      "Tener en cuenta la evolución de la técnica",
+      "Evitar los riesgos en su origen"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-018",
+    "question": "¿Qué técnica de prevención se debería utilizar para ayudar a una persona que tiene problemas de hombro derivados del uso continuado del ratón?",
+    "options": [
+      "Seguridad en el trabajo",
+      "Higiene industrial",
+      "Ergonomía",
+      "Psicosociología"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-019",
+    "question": "Según la Agencia Europea para la Seguridad y Salud en el trabajo, ¿qué porcentaje de trabajadores se enfrentan a factores relacionados con el trabajo que puede afectar a su salud mental?",
+    "options": [
+      "20 por ciento",
+      "45 por ciento",
+      "15 por ciento",
+      "10 por ciento"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-020",
+    "question": "Cómo se denomina a la manifestación de agotamiento emocional, despersonalización y baja realización personal en el trabajo",
+    "options": [
+      "Estrés laboral",
+      "Mobbing",
+      "Carga mental excesiva",
+      "Bournout"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-021",
+    "question": "En materia de prevención de riesgos laborales, siempre se debe priorizar",
+    "options": [
+      "Las medidas individuales de protección frente a las colectivas",
+      "Las medidas de protección colectivas frente a las individuales",
+      "Las medidas de protección frente a la evitación de los riesgos",
+      "Las medidas de protección basadas en EPIs"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-022",
+    "question": "¿Cuál de los siguientes NO es un objetivo de los simulacros que deben efectuarse en todo plan de evacuación?",
+    "options": [
+      "Evaluar la efectividad del plan.",
+      "Formar y concienciar al personal",
+      "Identificar y corregir deficiencias",
+      "Aplicar las medidas disciplinarias correspondientes a aquellos trabajadores que no efectúen el simulacro de forma satisfactoria."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-023",
+    "question": "¿Cuál de los siguientes NO es un medio de protección frente a emergencias?",
+    "options": [
+      "Equipos de detección",
+      "Alarma contra incendios",
+      "Extintores",
+      "Simulacros"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-024",
+    "question": "La persona encargada de dirigir y supervisar la actuación que debe llevarse a cabo en una emergencia se denomina",
+    "options": [
+      "Jefe de servicio",
+      "Jefe de intervención",
+      "Jefe de planta",
+      "Jefazo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-025",
+    "question": "Las señales que advierten de algún peligro tendrán una forma y color",
+    "options": [
+      "Triangular de color amarillo",
+      "Redonda con borde rojo",
+      "Redonda de color azul",
+      "Cuadrada de color verde"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-026",
+    "question": "La actualización de las señales de advertencia conforme a la nomenclatura actual es una actuación que debería llevarse a cabo",
+    "options": [
+      "Antes de emergencia",
+      "Durante la emergencia",
+      "Después de la emergencia",
+      "Todas las respuestas son correctas"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-027",
+    "question": "El mantenimiento de las instalaciones presentes en una empresa es una actuación que se debe llevar a cabo",
+    "options": [
+      "Antes de la emergencia",
+      "Durante la emergencia",
+      "Después de la emergencia",
+      "En cualquier momento, incluso durante la propia emergencia"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-028",
+    "question": "¿Cuál es el primer paso en la regla PAS?",
+    "options": [
+      "Socorrer a la víctima.",
+      "Avisar a los servicios de emergencia.",
+      "Proteger al accidentado.",
+      "Realizar una evaluación médica."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-029",
+    "question": "¿Qué significa la A en la regla PAS?",
+    "options": [
+      "Asistir a la víctima.",
+      "Alertar a los servicios de emergencia especializados.",
+      "Analizar la situación.",
+      "Ayudar a los testigos."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-030",
+    "question": "¿Qué es el triaje?",
+    "options": [
+      "Un método para transportar heridos.",
+      "Un método para prevenir accidentes.",
+      "Un método para categorizar heridos en situaciones donde el número es desconocido.",
+      "Un método para identificar enfermedades."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-031",
+    "question": "¿Qué se debe hacer con una persona inconsciente que respira?",
+    "options": [
+      "No hacer nada.",
+      "Colocarla en posición lateral de seguridad.",
+      "Administrar RCP.",
+      "Moverla a un lugar seguro."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-032",
+    "question": "¿Cuántas compresiones por minuto se deben realizar en la RCP?",
+    "options": [
+      "60-80.",
+      "80-100.",
+      "100-120.",
+      "120-140."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-033",
+    "question": "¿Qué tipo de quemadura afecta solo la capa superficial de la piel?",
+    "options": [
+      "Tercer grado.",
+      "Segundo grado.",
+      "Primer grado.",
+      "Cuarto grado."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-034",
+    "question": "¿Qué maniobra se usa en un atragantamiento?",
+    "options": [
+      "Maniobra de Heimlich.",
+      "Maniobra de Valsalva.",
+      "Maniobra de Epley.",
+      "Maniobra de Miller."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-035",
+    "question": "¿Cuál es la postura ante hemorragia nasal?",
+    "options": [
+      "Acostado boca abajo.",
+      "Sentado cabeza hacia adelante.",
+      "De pie.",
+      "Acostado boca arriba."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-036",
+    "question": "Adulto inconsciente y no respira. ¿Qué haces?",
+    "options": [
+      "Dar agua.",
+      "Llamar al 112, abrir las vías aéreas y RCP.",
+      "Esperar especialistas.",
+      "Intentar despertarle."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-037",
+    "question": "Prioridad en múltiples víctimas:",
+    "options": [
+      "Quien grita más.",
+      "Heridas visibles.",
+      "Quien lo pida.",
+      "Peligro inmediato de muerte."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-038",
+    "question": "Como actuarías en una herida con sangrado abundante:",
+    "options": [
+      "Limpiar con jabón.",
+      "Antiséptico.",
+      "Presión directa.",
+      "Esperar a que baje."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-039",
+    "question": "Una persona tragó un objeto y tose fuerte. ¿Qué hacemos?",
+    "options": [
+      "Dejar toser.",
+      "Golpes espalda.",
+      "Heimlich.",
+      "Dar agua."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-040",
+    "question": "¿En qué caso se debe usar PLS?",
+    "options": [
+      "Inconsciente que respira.",
+      "Inconsciente que no respira.",
+      "Fracturas.",
+      "Quemaduras."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-041",
+    "question": "Cuál es la secuencia correcta RCP adulto:",
+    "options": [
+      "2 ventilaciones / 15 compresiones.",
+      "30 compresiones / 2 ventilaciones.",
+      "15 compresiones / 2 ventilaciones.",
+      "2 ventilaciones y 30 compresiones."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-042",
+    "question": "Qué actuación forma parte de la Evaluación primaria:",
+    "options": [
+      "Verificar fracturas craneales",
+      "Comprobar si la persona presenta sangrado",
+      "Comprobar la consciencia, respiración y pulso.",
+      "Comprobar si la persona tiene dolor."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-043",
+    "question": "Cuál es el número de emergencias en España:",
+    "options": [
+      "911.",
+      "112.",
+      "999.",
+      "000."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-044",
+    "question": "¿Cuál es la norma básica que regula las relaciones laborales en España?",
+    "options": [
+      "Código Civil",
+      "Ley General Tributaria",
+      "Estatuto de los Trabajadores",
+      "Estatuto Básico del Empleado Público"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-045",
+    "question": "El Derecho del Trabajo regula:",
+    "options": [
+      "Solo las relaciones entre empresas",
+      "Las relaciones entre empresarios y trabajadores",
+      "Las relaciones entre consumidores y empresas",
+      "Solo las relaciones con la Administración"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-046",
+    "question": "Para que exista relación laboral deben darse ciertos elementos. ¿Cuál de los siguientes es uno de ellos?",
+    "options": [
+      "Competencia empresarial",
+      "Independencia",
+      "Voluntariedad",
+      "Autonomía"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-047",
+    "question": "Un trabajador presta sus servicios libremente sin imposición. ¿Qué elemento de la relación laboral se cumple?",
+    "options": [
+      "Dependencia",
+      "Voluntariedad",
+      "Remuneración",
+      "Ajenidad"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-048",
+    "question": "Cuando el trabajador está sometido a la organización del empresario se habla de:",
+    "options": [
+      "Remuneración",
+      "Jerarquía normativa",
+      "Ajenidad",
+      "Dependencia"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-049",
+    "question": "Cuando los beneficios y riesgos del negocio pertenecen al empresario hablamos de:",
+    "options": [
+      "Ajenidad",
+      "Dependencia",
+      "Personalidad",
+      "Subordinación jurídica"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-050",
+    "question": "¿Cuál de las siguientes situaciones no se considera relación laboral?",
+    "options": [
+      "Empleado administrativo en una empresa",
+      "Trabajo voluntario en una ONG sin salario",
+      "Dependiente en una tienda",
+      "Trabajador contratado en una empresa"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-051",
+    "question": "¿Cuál de los siguientes colectivos tiene una relación laboral excluida?",
+    "options": [
+      "Personal del hogar",
+      "Alta dirección",
+      "Funcionarios públicos",
+      "Deportistas profesionales"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-052",
+    "question": "¿Cuál de los siguientes casos se considera relación laboral especial?",
+    "options": [
+      "Funcionarios",
+      "Deportistas profesionales",
+      "Trabajo por amistad",
+      "Trabajo familiar hasta segundo grado"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-053",
+    "question": "Los trabajos realizados por amistad o buena vecindad se consideran:",
+    "options": [
+      "Relación laboral común",
+      "Relación laboral especial",
+      "Relación laboral excluida",
+      "Relación funcionarial"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-054",
+    "question": "Un administrador de una sociedad mercantil normalmente tiene una relación:",
+    "options": [
+      "Laboral común",
+      "Laboral especial",
+      "Excluida del ámbito laboral",
+      "Funcionarial"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-055",
+    "question": "Dentro de la jerarquía normativa laboral, ¿qué norma tiene mayor rango?",
+    "options": [
+      "Constitución",
+      "Reglamento",
+      "Contrato de trabajo",
+      "Convenio colectivo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-056",
+    "question": "¿Cuál de las siguientes normas tiene rango de ley?",
+    "options": [
+      "Circular administrativa",
+      "Real Decreto-ley",
+      "Orden ministerial",
+      "Instrucción"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-057",
+    "question": "El Estatuto de los Trabajadores es un ejemplo de:",
+    "options": [
+      "Norma con rango de ley",
+      "Reglamento",
+      "Tratado internacional",
+      "Uso y costumbre"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-058",
+    "question": "Los convenios colectivos forman parte de:",
+    "options": [
+      "Jurisprudencia",
+      "Autonomía colectiva",
+      "Reglamentos",
+      "Derecho internacional"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-059",
+    "question": "Los usos y costumbres laborales se aplican cuando:",
+    "options": [
+      "Lo decide el empresario",
+      "La ley no regula una situación",
+      "El trabajador lo solicita",
+      "Lo establece el contrato"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-060",
+    "question": "La jurisprudencia laboral está formada por:",
+    "options": [
+      "Convenios colectivos",
+      "Reglamentos",
+      "Sentencias del Tribunal Supremo",
+      "Órdenes ministeriales"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-061",
+    "question": "Las normas de la Unión Europea forman parte de:",
+    "options": [
+      "Fuentes externas del derecho laboral",
+      "Autonomía colectiva",
+      "Usos y costumbres",
+      "Fuentes internas"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-062",
+    "question": "¿Cuál de los siguientes no es un principio de aplicación de las normas laborales?",
+    "options": [
+      "Norma mínima",
+      "Norma más favorable",
+      "Principio de productividad",
+      "In dubio pro operario"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-063",
+    "question": "El principio de norma mínima significa que:",
+    "options": [
+      "Solo se puede mejorar lo establecido en normas superiores",
+      "Se aplican siempre las normas más antiguas",
+      "La empresa decide qué norma aplicar",
+      "Las normas pueden empeorar la ley"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-064",
+    "question": "El principio de norma más favorable se aplica cuando:",
+    "options": [
+      "La empresa quiere modificar el contrato",
+      "Hay dos normas aplicables al mismo caso",
+      "El trabajador cambia de empresa",
+      "Hay dudas en una norma"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-065",
+    "question": "El principio in dubio pro operario significa que:",
+    "options": [
+      "Se interpreta la norma a favor del trabajador cuando hay duda",
+      "Decide el empresario",
+      "Se aplica siempre el convenio colectivo",
+      "Se aplica la norma más antigua"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-066",
+    "question": "El principio de irrenunciabilidad de derechos implica que:",
+    "options": [
+      "El trabajador puede renunciar al salario mínimo",
+      "El trabajador no puede renunciar a derechos reconocidos por la ley",
+      "La empresa puede eliminar derechos si el trabajador acepta",
+      "El trabajador puede renunciar a vacaciones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-067",
+    "question": "Una empresa ofrece 35 días de vacaciones aunque el convenio establece 30. ¿Qué principio se aplica?",
+    "options": [
+      "Jerarquía normativa",
+      "Norma mínima",
+      "Condición más beneficiosa",
+      "Usos y costumbres"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-068",
+    "question": "Si un trabajador tiene dos convenios aplicables y uno establece mejores condiciones salariales:",
+    "options": [
+      "Se aplica el más favorable al trabajador",
+      "Se aplica el más antiguo",
+      "Decide la empresa",
+      "Se aplica el de menor rango"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-069",
+    "question": "Si una norma puede interpretarse de dos formas y una beneficia más al trabajador:",
+    "options": [
+      "Se aplica la más restrictiva",
+      "Decide el empresario",
+      "Se aplica la interpretación más favorable al trabajador",
+      "Se aplica el convenio colectivo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-070",
+    "question": "Un trabajador firma un documento renunciando a sus vacaciones anuales. Según el derecho laboral:",
+    "options": [
+      "Es válido si lo firma voluntariamente",
+      "No es válido por el principio de irrenunciabilidad",
+      "Es válido si lo permite la empresa",
+      "Es válido si lo autoriza el convenio"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-071",
+    "question": "Un hijo trabaja ocasionalmente en el negocio familiar conviviendo con los padres. Se considera:",
+    "options": [
+      "Relación laboral excluida",
+      "Relación laboral común",
+      "Relación laboral especial",
+      "Relación funcionarial"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-072",
+    "question": "Una persona vende productos para una empresa pero asume el riesgo económico de la operación. Se considera:",
+    "options": [
+      "Relación laboral común",
+      "Relación laboral especial",
+      "Relación laboral excluida",
+      "Relación funcionarial"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-073",
+    "question": "¿Quiénes pueden firmar un contrato de trabajo según el Estatuto de los Trabajadores?",
+    "options": [
+      "Mayores de 16 años con permiso paterno",
+      "Únicamente las personas que tengan 18 años",
+      "Únicamente las personas que estén emancipadas",
+      "Extranjeros residentes, únicamente"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-074",
+    "question": "Leopoldo ha conseguido la nacionalidad española, por lo que decide dejar su puesto de trabajo actual en una empresa que lo tenía contratado sin papeles y con condiciones mucho peores a las que indica el contrato de trabajo. Su jefe actual le avisa que, de no renovar el actual contrato, tendrá que dar aviso a las autoridades de la situación ilegal de la mujer de Leopoldo. Este decide firmar el contrato. ¿Sería dicho contrato válido?",
+    "options": [
+      "No, ya que le faltaría una causa válida.",
+      "No, ya que carece de objeto.",
+      "No, ya que carece de consentimiento.",
+      "Sí, ya que Leopoldo venía prestando servicios en la empresa referida."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-075",
+    "question": "¿Qué tipo de contrato puede celebrarse verbalmente?",
+    "options": [
+      "Contrato a tiempo parcial.",
+      "Contrato indefinido ordinario a jornada completa.",
+      "Contrato formativo.",
+      "Ninguno."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-076",
+    "question": "Clara es hija de un bibliotecario. Ha conseguido un trabajo temporal para cubrir una baja de maternidad, por una duración de 16 semanas. Su jefe no ha formalizado con ella el contrato por escrito. ¿Qué naturaleza tendría dicho contrato?",
+    "options": [
+      "Se considera nulo.",
+      "Se presume indefinido.",
+      "Pierde validez legal.",
+      "Ninguna de las anteriores."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-077",
+    "question": "¿Qué información debe incluir un contrato de trabajo?",
+    "options": [
+      "Duración",
+      "Retribuciones",
+      "Convenio colectivo de aplicación",
+      "Indemnización en caso de despido"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-078",
+    "question": "Un contrato de trabajo, genera:",
+    "options": [
+      "Derechos únicamente para el empleador.",
+      "Obligaciones para el trabajador.",
+      "Obligaciones mutuas.",
+      "Ninguna de las anteriores."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-079",
+    "question": "¿Cuál de los siguientes NO es un elemento necesario para que un contrato se considere válido?",
+    "options": [
+      "Consentimiento",
+      "Objeto",
+      "Causa",
+      "Objeción"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-080",
+    "question": "¿Cuál de las siguientes NO es una características del objeto de los contratos?",
+    "options": [
+      "Debe ser lícito",
+      "Deben ser posibles",
+      "Deben ser determinados",
+      "Deben ser indeterminados"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-081",
+    "question": "Leopolda ha firmado un contrato en la empresa de un amigo para cotizar lo suficiente para cobrar el paro. Sin embargo no tiene intención de ir a trabajar. ¿Estaríamos ante un contrato válido?",
+    "options": [
+      "No, ya que le faltaría una causa válida.",
+      "No, ya que carecería de objeto.",
+      "No, ya que carecería de consentimiento",
+      "No, ya que no es por escrito."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-082",
+    "question": "A Lucía le han contratado para vender bolsitas de marihuana a la gente que pase a la tienda en la que está de dependienta. ¿Estaríamos ante un contrato válido?",
+    "options": [
+      "Sí, siempre que ella estuviera de acuerdo",
+      "No, porque carece de un objeto válido",
+      "Sí, ya que se dan los tres elementos: consentimiento, causa y voluntariedad.",
+      "Ninguna de las anteriores"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-083",
+    "question": "¿Qué define esencialmente a un contrato de trabajo?",
+    "options": [
+      "La prestación de servicios voluntarios a cambio de salario",
+      "La realización de un trabajo ocasional",
+      "La colaboración entre empresas",
+      "La cesión de trabajadores"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-084",
+    "question": "¿Cuál NO es un elemento esencial del contrato de trabajo?",
+    "options": [
+      "Consentimiento",
+      "Objeto",
+      "Causa",
+      "Forma escrita"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-085",
+    "question": "El consentimiento en el contrato de trabajo debe ser:",
+    "options": [
+      "Presunto y tácito",
+      "Libre y sin vicios",
+      "Verbal obligatoriamente",
+      "Revocable unilateralmente"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-086",
+    "question": "La causa del contrato de trabajo consiste en:",
+    "options": [
+      "La prestación laboral",
+      "La finalidad económica de la empresa",
+      "El intercambio de trabajo por salario",
+      "La duración del contrato"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-087",
+    "question": "¿Quién puede actuar como empresario en un contrato de trabajo?",
+    "options": [
+      "Solo personas físicas",
+      "Solo empresas mercantiles",
+      "Personas físicas, jurídicas o comunidades de bienes",
+      "Solo autónomos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-088",
+    "question": "Un contrato verbal es válido cuando:",
+    "options": [
+      "Nunca es válido",
+      "Siempre que dure menos de un año",
+      "Siempre que dure menos de 6 meses",
+      "En contratos indefinidos"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-089",
+    "question": "¿Cuál es contenido mínimo obligatorio de un contrato?",
+    "options": [
+      "Salario y vacaciones",
+      "Duración y jornada",
+      "Datos de las partes y tipo de contrato",
+      "Todas las anteriores"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-090",
+    "question": "¿Qué modalidad contractual es indefinida?",
+    "options": [
+      "Contrato por circunstancias de la producción",
+      "Contrato de sustitución",
+      "Contrato fijo discontinuo",
+      "Contrato de relevo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-091",
+    "question": "El contrato fijo discontinuo se utiliza principalmente para:",
+    "options": [
+      "Trabajos permanentes continuos",
+      "Trabajos estacionales o intermitentes",
+      "Trabajos de sustitución",
+      "Trabajos formativos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-092",
+    "question": "El contrato fijo discontinuo debe formalizarse:",
+    "options": [
+      "De forma verbal",
+      "De forma escrita",
+      "Solo si dura más de un año",
+      "Ante la autoridad laboral"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-093",
+    "question": "¿Qué contrato se utiliza para incrementos ocasionales e imprevisibles de actividad?",
+    "options": [
+      "Contrato de relevo",
+      "Contrato de sustitución",
+      "Contrato por circunstancias de la producción",
+      "Contrato formativo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-094",
+    "question": "La duración máxima del contrato por circunstancias imprevisibles es:",
+    "options": [
+      "3 meses",
+      "6 meses ampliables por convenio",
+      "Hasta 2 años",
+      "90 días al año"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-095",
+    "question": "¿Qué indemnización corresponde al finalizar un contrato temporal por producción?",
+    "options": [
+      "No tiene indemnización",
+      "8 días por año",
+      "12 días por año trabajado",
+      "20 días por año trabajado"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-096",
+    "question": "El contrato por circunstancias previsibles puede celebrarse como máximo:",
+    "options": [
+      "60 días al año",
+      "90 días al año",
+      "120 días continuados",
+      "6 meses"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-097",
+    "question": "¿Cuál es una característica del contrato por sustitución?",
+    "options": [
+      "Genera indemnización al finalizar",
+      "Siempre es a tiempo parcial",
+      "Puede iniciar 15 días antes del comienzo de la sustitución",
+      "Solo puede durar 6 meses"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-098",
+    "question": "En el contrato de sustitución es obligatorio indicar:",
+    "options": [
+      "El salario del sustituido",
+      "El trabajador sustituido y la causa",
+      "La duración exacta del contrato",
+      "El convenio colectivo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-099",
+    "question": "El contrato de relevo se celebra para:",
+    "options": [
+      "Sustituir bajas médicas",
+      "Cubrir jubilación parcial",
+      "Incrementos de producción",
+      "Formación profesional"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-100",
+    "question": "El trabajador relevista debe ser:",
+    "options": [
+      "Trabajador indefinido de la empresa",
+      "Autónomo colaborador",
+      "Trabajador sin experiencia pero con título habilitante",
+      "Trabajador en situación de desempleo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-101",
+    "question": "En el contrato de relevo ordinario, la duración mínima es:",
+    "options": [
+      "6 meses",
+      "1 año",
+      "Hasta jubilación total",
+      "Sin duración mínima"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-102",
+    "question": "¿Qué caracteriza al contrato de formación en alternancia?",
+    "options": [
+      "Compatibiliza trabajo y formación reglada",
+      "Solo puede durar 6 meses",
+      "Exige titulación previa",
+      "Es siempre a tiempo parcial"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-103",
+    "question": "La duración del contrato de formación en alternancia es:",
+    "options": [
+      "Entre 6 meses y 1 año",
+      "Sin límite",
+      "Máximo 1 año",
+      "Entre 3 meses y 2 años"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-104",
+    "question": "La retribución del contrato de formación en alternancia el primer año será como mínimo:",
+    "options": [
+      "50% del salario",
+      "60% del salario fijado en convenio",
+      "75% del salario mínimo",
+      "El SMI íntegro"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-105",
+    "question": "¿Qué requisito NO es necesario para el contrato de formación en alternancia?",
+    "options": [
+      "Plan formativo individual",
+      "Formalización escrita",
+      "Titulación previa",
+      "Alternancia real trabajo-formación"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-106",
+    "question": "El contrato para la obtención de la práctica profesional requiere:",
+    "options": [
+      "Estar desempleado",
+      "Poseer una titulación reciente",
+      "No haber trabajado nunca",
+      "Ser menor de 25 años"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-107",
+    "question": "La duración del contrato de práctica profesional es:",
+    "options": [
+      "Entre 6 meses y 1 año",
+      "Entre 3 meses y 2 años",
+      "Siempre 1 año",
+      "Sin límite"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-108",
+    "question": "La retribución del contrato de práctica profesional:",
+    "options": [
+      "Puede ser inferior al SMI",
+      "Es la fijada en convenio y nunca inferior al contrato en alternancia",
+      "Es siempre el SMI",
+      "Es libremente pactada"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-109",
+    "question": "Un contrato a tiempo parcial se caracteriza por:",
+    "options": [
+      "Jornada inferior a la de un trabajador comparable a tiempo completo",
+      "Prohibición de horas complementarias",
+      "Ser siempre indefinido",
+      "No poder ser escrito"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-110",
+    "question": "Las horas complementarias pactadas solo pueden realizarse en:",
+    "options": [
+      "No pueden realizarse en ningún caso.",
+      "Contratos a tiempo parcial indefinidos",
+      "Todos los contratos",
+      "Solo contratos formativos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-111",
+    "question": "Las Empresas de Trabajo Temporal (ETT):",
+    "options": [
+      "Ceden trabajadores sin contrato",
+      "No aplican convenios colectivos",
+      "Sustituyen a la empresa usuaria",
+      "Contratan y ceden trabajadores a empresas usuarias"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-112",
+    "question": "La movilidad funcional es",
+    "options": [
+      "Un cambio en tus funciones que se manifiesta en que debes llevar a cabo las de un grupo superior, exclusivamente.",
+      "Un cambio en tus funciones que se manifiesta en que debes llevar a cabo las de un grupo inferior, exclusivamente.",
+      "Un cambio en tus funciones que se manifiesta en que debes llevar a cabo las de un grupo equivalente, exclusivamente.",
+      "Un cambio en tus funciones que se manifiesta en que debes llevar a cabo las de un grupo superior, equivalente o inferior."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-113",
+    "question": "Lucas ha sido objeto de una movilidad funcional. Le han ordenado que lleve a cabo tareas de una categoría inferior a la que él desempeña. ¿Durante cuánto tiempo podrán mantenerle en esas funciones?",
+    "options": [
+      "El tiempo indispensable.",
+      "El tiempo suficiente.",
+      "El tiempo que sea necesario a juicio del empresario.",
+      "El tiempo que permanezca la necesidad."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-114",
+    "question": "Luis ha estado desempeñando funciones de una categoría superior a la suya y le ha cogido gusto al puesto. ¿Podría quedarse haciendo esas funciones?",
+    "options": [
+      "Sí, siempre que haya permanecido en ese puesto 8 meses en un plazo de 24 meses.",
+      "Sí, siempre que permanezca en ese puesto 6 meses en un plazo de 24 meses.",
+      "Sí, siempre que permanezca en ese puesto al menos seis meses, en un plazo de 48 meses.",
+      "Sí, 20 días por año trabajado con un máximo de 12 mensualidades."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-115",
+    "question": "Leopoldo ha sido llamado por el jefe. Le han concedido un traslado a la provincia de Jaén. Vive en Zaragoza y no tiene ninguna intención de aceptar el cambio. ¿Podría irse de la empresa?",
+    "options": [
+      "Sí, con una indemnización de 20 días por cada año trabajado con un máximo de 20 mensualidades.",
+      "Sí, con una indemnización de 20 días por cada año trabajado con un máximo de 9 mensualidades.",
+      "Sí, con una indemnización de 33 días por cada año trabajado con un máximo de 20 mensualidades.",
+      "Sí, con una indemnización de 20 días por cada año trabajado con un máximo de 12 mensualidades."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-116",
+    "question": "¿Podría Leopoldo irse directamente del trabajo cuando le den la noticia?",
+    "options": [
+      "Sí, siempre que avise con 20 días de antelación al jefe.",
+      "Sí, siempre que avise con 15 días de antelación al jefe.",
+      "No, ya que debe acudir primero al juzgado para que su contrato sea resuelto por el juez.",
+      "No, primero tiene que pegarle una paliza al jefe."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-117",
+    "question": "Si Leopoldo decidiera impugnar la decisión por la que se le quiere trasladar, ¿en qué plazo debería hacerlo?",
+    "options": [
+      "20 días",
+      "15 días",
+      "10 días",
+      "5 días"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-118",
+    "question": "En la empresa de Luis está habiendo muchos cambios. ¿Cuál de los siguientes NO le daría derecho a poner fin a su contrato de trabajo?",
+    "options": [
+      "Jornada de trabajo",
+      "Régimen de trabajo a turnos",
+      "Horario",
+      "Sistema de rendimiento"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-119",
+    "question": "Si Luis decidiera irse de la empresa fruto de las modificaciones sustanciales del contrato de trabajo referidas en la pregunta anterior, ¿tendría derecho a alguna indemnización?",
+    "options": [
+      "Sí, 20 días por año trabajado con un máximo de 9 mensualidades.",
+      "Sí, 33 días por año trabajado con un máximo de 24 mensualidades.",
+      "Sí, 15 días por año trabajado con un máximo de 20 mensualidades.",
+      "No le corresponde ninguna indemnización."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-120",
+    "question": "Luis ha descubierto que su jefe le ha modificado las condiciones sustanciales de su contrato de trabajo para afectar a su dignidad. ¿Qué indemnización le correspondería en tal caso?",
+    "options": [
+      "Ninguna.",
+      "50.000 euros.",
+      "270 días de sueldo, en todo caso.",
+      "33 días por año trabajado con un máximo de 24 mensualidades o 720 días"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-121",
+    "question": "¿La suspensión del contrato de trabajo implica la extinción del contrato?",
+    "options": [
+      "Sí",
+      "No",
+      "A veces",
+      "En ocasiones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-122",
+    "question": "Señala la respuesta INCORRECTA en relación a la excedencia forzosa por ejercicio de cargo público.",
+    "options": [
+      "Su duración puede ser, como máximo, de cuatro años.",
+      "La antigüedad computa.",
+      "Se conserva el mismo puesto de trabajo.",
+      "El trabajador debe reincorporarse en el plazo de un mes desde que finaliza la causa por la que debe permanecer en excedencia forzosa."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-123",
+    "question": "Lupecio se ha ido a Australia y solicita una excedencia voluntaria. A los 7 meses vuelve y después quiere otra excedencia voluntaria. ¿Podría disfrutar de una excedencia voluntaria de nuevo?",
+    "options": [
+      "Sí, cuando transcurran 3 años desde el final de la anterior excedencia.",
+      "Sí, cuando transcurran 2 años desde el final de la anterior excedencia.",
+      "Sí, siempre que sea amor verdadero.",
+      "Sí, siempre que transcurran cuatro años desde el final de la anterior excedencia."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-124",
+    "question": "Leandro ha tenido un hijo. ¿Cuál será el plazo máximo de la excedencia que puede coger?",
+    "options": [
+      "1 año",
+      "2 años",
+      "3 años",
+      "4 años"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-125",
+    "question": "Señala la respuesta INCORRECTA respecto a la excedencia por cuidado de hijo.",
+    "options": [
+      "Puede solicitarla tanto el padre como la madre",
+      "Durante el primer año se reserva el puesto de trabajo",
+      "Computa la antigüedad",
+      "Hasta que no transcurren cuatro años no se puede disfrutar de otra excedencia por cuidado de hijos."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-126",
+    "question": "Liberto tiene una ferretería desde los 15 años. Ahora, con 95 años, ha decidido jubilarse. Sus tres trabajadores se preguntan si les correspondería algún tipo de abono por parte del jefe.",
+    "options": [
+      "Sí, un mes de salario.",
+      "Sí 22 días por año trabajado.",
+      "Sí, 35 días por año trabajado.",
+      "Sí, 100 días por año trabajado."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-127",
+    "question": "Liborio lleva varios meses sin cobrar. ¿Tendría derecho a que se pusiera fin a su contrato de trabajo?",
+    "options": [
+      "Sí, siempre que haya dejado de cobrar durante tres meses aunque no sean consecutivos.",
+      "No, ya que únicamente se permite poner fin al contrato de trabajo en caso de retrasos.",
+      "Sí, siempre que haya dejado de cobrar durante un mes.",
+      "Sí, siempre que haya dejado de cobrar durante dos meses consecutivos."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-128",
+    "question": "Laura tiene miedo de quedarse sin ahorros, ya que el jefe ha comenzado a retrasarse en los pagos del salario. En caso de superar el límite de retrasos, ¿podría Laura poner fin a su contrato de trabajo percibiendo además una indemnización?",
+    "options": [
+      "Sí, siempre que lo comunique al jefe con 15 días de antelación.",
+      "Sí, de 33 días de salario por cada año trabajado con un máximo de 24 mensualidades.",
+      "Sí, de 20 años de salario.",
+      "Sí, siempre y cuando se conforme con una indemnización de 12 días por cada año trabajado con un máximo de una anualidad de salario."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-129",
+    "question": "Tras una discusión con su jefe, Marcos es despedido. Una vez tramitado todo el procedimiento, se acuerda por el juez la improcedencia del despido. ¿Cuál sería el siguiente paso?",
+    "options": [
+      "El empresario deberá decidir en un plazo de cinco días, si lo readmite o si le indemniza.",
+      "El empresario deberá readmitir al trabajador en todo caso.",
+      "El empresario deberá indemnizar al trabajador en todo caso.",
+      "El trabajador decidirá, en un plazo de cinco días, si es readmitido o indemnizado."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-130",
+    "question": "Lola dice que está embarazada y al día siguiente recibe una carta de despido por transgresión de la buena fe y pérdida de confianza. ¿Cómo debería calificar el juez ese despido?",
+    "options": [
+      "Procedente, con cero euros de indemnización.",
+      "Improcedente, acordando la readmisión de la trabajadora.",
+      "Improcedente, acordando indemnizar a la trabajadora a razón de 33 días por año trabajado, con un máximo de 24 mensualidades.",
+      "Nulo, debiendo ser readmitida la trabajadora, con el abono de los salarios de tramitación."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-131",
+    "question": "Construcciones Matías lleva varios trimestres con pérdidas económicas y decide despedir a Laureano de forma objetiva. ¿Qué trámite debe llevar a cabo el jefe?",
+    "options": [
+      "Entregarle una carta de despido donde se recojan esas causas y poner a su disposición una indemnización de 20 días por cada año trabajado con un máximo de 12 mensualidades.",
+      "Dar 15 días de sueldo como compensación por el despido sufrido.",
+      "Dar 20 días de sueldo por compensación por el despido sufrido.",
+      "Dar 33 días de sueldo como compensación por los daños morales sufridos."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-132",
+    "question": "Ana es trabajadora por cuenta ajena y ha sufrido un accidente en casa. ¿Qué tipo de contingencia cubre su baja laboral?",
+    "options": [
+      "Contingencia profesional",
+      "Contingencia común",
+      "Cotización adicional",
+      "Subsidio asistencial"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-133",
+    "question": "¿Qué entidad gestiona la recaudación de cuotas de la Seguridad Social en España?",
+    "options": [
+      "INSS",
+      "SEPE",
+      "IMSERSO",
+      "Tesorería General de la Seguridad Social"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-134",
+    "question": "¿Cuál es el porcentaje de la base reguladora que recibe una persona en Incapacidad Permanente Absoluta?",
+    "options": [
+      "0.55",
+      "0.75",
+      "1",
+      "0.5"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-135",
+    "question": "¿Qué principio asegura que todos los ciudadanos tengan acceso al sistema de Seguridad Social?",
+    "options": [
+      "Contributividad",
+      "Equidad",
+      "Universalidad",
+      "Intergeneracionalidad"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-136",
+    "question": "Marta reduce su jornada laboral al 50% para cuidar a su hija con cáncer. ¿Qué prestación puede solicitar?",
+    "options": [
+      "Prestación por maternidad",
+      "Prestación por cuidado de menores con enfermedad grave",
+      "Reducción de jornada por cuidado de familiar dentro del segundo grado",
+      "Subsidio por nacimiento"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-137",
+    "question": "Si un trabajador sufre un accidente en su puesto de trabajo, ¿qué tipo de contingencia es?",
+    "options": [
+      "Contingencia común",
+      "Contingencia profesional",
+      "Contingencia familiar",
+      "Contingencia económica"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-138",
+    "question": "¿Cuál es el organismo encargado de las prestaciones no contributivas para mayores y dependientes?",
+    "options": [
+      "INSS",
+      "SEPE",
+      "IMSERSO",
+      "Mutuas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-139",
+    "question": "¿Qué régimen cubre a los pescadores y trabajadores marítimos?",
+    "options": [
+      "Régimen General",
+      "RETA",
+      "Régimen Especial del Mar",
+      "Régimen de Funcionarios"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-140",
+    "question": "¿En ausencia de regulación del convenio colectivo qué porcentaje de la base reguladora se cobra por Incapacidad Temporal por accidente laboral?",
+    "options": [
+      "0.6",
+      "0.5",
+      "0.75",
+      "1"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-141",
+    "question": "Un trabajador sufre un accidente laboral. ¿Desde cuándo tiene derecho a percibir la prestación?",
+    "options": [
+      "Sí, desde el mismo día del accidente de trabajo",
+      "Sí, desde el día siguiente al accidente de trabajo",
+      "Sí, desde que acuda al centro hospitalario",
+      "Sí, a partir del tercer día de haber sufrido el accidente"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-142",
+    "question": "¿Cuál de los siguientes colectivos está incluido en el RETA?",
+    "options": [
+      "Funcionarios",
+      "Trabajadores por cuenta ajena",
+      "Autónomos",
+      "Personal militar"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-143",
+    "question": "¿Cuál será la edad de jubilación en el año 2027?",
+    "options": [
+      "60 años",
+      "65 años",
+      "66 años",
+      "67 años"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-144",
+    "question": "¿Qué tipo de prestación es la ayuda que se otorga a una persona con una discapacidad de nacimiento?",
+    "options": [
+      "Contributiva",
+      "No contributiva",
+      "Profesional",
+      "Especial"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-145",
+    "question": "¿Quién gestiona las prestaciones por desempleo en España?",
+    "options": [
+      "INSS",
+      "SEPE",
+      "IMSERSO",
+      "Tesorería General de la Seguridad Social"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-146",
+    "question": "¿Hasta cuándo se puede disfrutar de la pensión de viudedad?",
+    "options": [
+      "Hasta que se tengan nietos",
+      "Hasta que se vuelva a casar",
+      "Hasta cumplir 65 años",
+      "Hasta que se jubile"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-147",
+    "question": "¿Hasta qué edad puede disfrutar una persona de la pensión por orfandad?",
+    "options": [
+      "19 años",
+      "20 años",
+      "Hasta que lo necesite",
+      "25 años, siempre que no esté cursando estudios"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-148",
+    "question": "¿Qué prestación otorga un 100% de la base reguladora más complemento por asistencia de otra persona?",
+    "options": [
+      "Incapacidad Permanente Total",
+      "Gran Invalidez",
+      "Invalidez Parcial",
+      "Incapacidad Permanente Absoluta"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-149",
+    "question": "Un autónomo que realiza una actividad profesional y colabora con un familiar sin contrato se incluye en:",
+    "options": [
+      "Régimen General",
+      "RETA",
+      "Régimen Especial del Mar",
+      "MUFACE"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-150",
+    "question": "¿Qué prestación recibe una persona que no puede realizar ninguna profesión debido a una enfermedad permanente?",
+    "options": [
+      "Incapacidad Temporal",
+      "Incapacidad Permanente Total",
+      "Incapacidad Permanente Absoluta",
+      "Subsidio por enfermedad grave"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-151",
+    "question": "¿Cuál es el requisito mínimo de cotización para acceder a la jubilación ordinaria con 65 años en 2025?",
+    "options": [
+      "30 años",
+      "38 años y 6 meses",
+      "40 años",
+      "25 años"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-152",
+    "question": "Una trabajadora deja de trabajar por riesgo durante la lactancia. ¿Qué duración tiene la prestación?",
+    "options": [
+      "Hasta que el hijo tenga 9 meses",
+      "Hasta que el hijo tenga 12 meses",
+      "Hasta que el hijo tenga 15 años",
+      "Hasta que el hijo tenga 18 meses"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-153",
+    "question": "¿Cuál es la cuantía de la prestación por nacimiento y cuidado del menor?",
+    "options": [
+      "75% de la base reguladora",
+      "100% de la base reguladora",
+      "50% de la base reguladora",
+      "Variable según el caso"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-154",
+    "question": "¿Cuánto debe haber cotizado una madre de 34 años para acceder a la prestación por nacimiento y cuidado del menor?",
+    "options": [
+      "360 días a lo largo de la vida laboral",
+      "180 días a lo largo de toda su vida laboral",
+      "90 días en los últimos 7 años",
+      "No es necesaria cotización previa"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "IPE-155",
+    "question": "Un trabajador en incapacidad temporal por enfermedad común, ¿cuánto percibe el día 19 de su baja?",
+    "options": [
+      "60% de la base reguladora (empresa)",
+      "55% de la base reguladora (INSS o mutua)",
+      "75% de la base reguladora (INSS o mutua)",
+      "60% de la base reguladora (INSS o mutua)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "IPE-156",
+    "question": "¿Cuál es el porcentaje de pensión por incapacidad permanente total?",
+    "options": [
+      "1",
+      "0.55",
+      "0.75",
+      "0.33"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-157",
+    "question": "¿Qué prestación está dirigida a compensar las interrupciones laborales por cuidado de hijos?",
+    "options": [
+      "Prestación por maternidad",
+      "Complemento para la reducción de la brecha de género",
+      "Prestación por lactancia",
+      "Ayuda familiar"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-158",
+    "question": "¿Qué colectivo tiene acceso al régimen de mutualidades como MUFACE o ISFAS?",
+    "options": [
+      "Autónomos",
+      "Trabajadores agrarios",
+      "Funcionarios",
+      "Empleados del hogar"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "IPE-159",
+    "question": "¿Cuál es la principal fuente de financiación del sistema de Seguridad Social?",
+    "options": [
+      "Subvenciones del Estado",
+      "Cotizaciones sociales",
+      "Aportaciones sindicales",
+      "Donaciones privadas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "IPE-160",
+    "question": "Cuánto cobrará un trabajador de prestación por desempleo a partir de día 180",
+    "options": [
+      "0.5",
+      "0.8",
+      "0.6",
+      "0.75"
+    ],
+    "correctAnswer": 3
+  }
+]

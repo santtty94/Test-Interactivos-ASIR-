@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test · Tests interactivos ASIR</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="javascript:history.back()" class="back-link">← Volver</a>
+            <h1 class="logo">Tests interactivos <span>ASIR</span></h1>
+            <p class="subtitle" id="testSubtitle">Cargando...</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Estado de carga / error -->
+        <div id="loadingState" class="loading-state">
+            <span class="loading-cursor">█</span>
+            <span class="loading-text"> Cargando preguntas...</span>
+        </div>
+
+        <!-- Test en curso -->
+        <section id="testSection" hidden>
+
+            <div class="test-toolbar">
+                <span class="test-count">Total: <strong id="totalCount">—</strong> preguntas</span>
+                <div class="progress-wrapper">
+                    <div class="progress-track">
+                        <div class="progress-fill" id="progressBar"></div>
+                    </div>
+                    <span class="progress-label" id="progressText">0 / 0</span>
+                </div>
+            </div>
+
+            <div id="questionsContainer"></div>
+
+            <div class="finish-wrapper">
+                <button class="btn-finish" id="btnFinish">[ Finalizar test ]</button>
+            </div>
+
+        </section>
+
+        <!-- Resultados -->
+        <section id="resultsSection" class="results-section" hidden>
+
+            <h2 class="section-title">Resultado del test</h2>
+
+            <div class="results-grid">
+                <div class="result-item">
+                    <span class="result-label">Módulo</span>
+                    <span class="result-value" id="res-module">—</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Tipo</span>
+                    <span class="result-value" id="res-type">—</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Total preguntas</span>
+                    <span class="result-value" id="res-total">—</span>
+                </div>
+                <div class="result-item result-aciertos">
+                    <span class="result-label">Aciertos</span>
+                    <span class="result-value" id="res-aciertos">—</span>
+                </div>
+                <div class="result-item result-fallos">
+                    <span class="result-label">Fallos</span>
+                    <span class="result-value" id="res-fallos">—</span>
+                </div>
+                <div class="result-item result-blancos">
+                    <span class="result-label">En blanco</span>
+                    <span class="result-value" id="res-blancos">—</span>
+                </div>
+                <div class="result-item result-nota">
+                    <span class="result-label">Nota final</span>
+                    <span class="result-value result-nota-value" id="res-nota">—</span>
+                </div>
+            </div>
+
+            <!-- Listado de preguntas falladas -->
+            <div id="wrongSection" hidden>
+                <h3 class="section-title">Preguntas falladas</h3>
+                <div id="wrongList" class="wrong-list"></div>
+            </div>
+
+            <!-- Botón PDF (fase 4) -->
+            <div class="pdf-wrapper">
+                <button class="btn-pdf" id="btnPDF" disabled>
+                    Descargar reporte PDF
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Tests interactivos ASIR · Plataforma de práctica</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="../js/pdf-report.js"></script>
+    <script src="../js/test-engine.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo · Tests interactivos ASIR</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="../index.html" class="back-link">← Volver al inicio</a>
+            <h1 class="logo">Tests interactivos <span>ASIR</span></h1>
+            <p class="subtitle" id="moduleSubtitle">Selecciona el tipo de test que quieres realizar</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="modules-section">
+            <h2 class="section-title">
+                Módulo: <span id="moduleName" class="module-highlight">—</span>
+            </h2>
+
+            <div class="cards-grid cards-grid--two">
+                <a href="test.html" class="module-card test-card" id="globalTestCard" data-test-type="global">
+                    <div class="card-icon icon-global">TG</div>
+                    <h3 class="card-title">Test global</h3>
+                    <p class="card-description">
+                        Todas las preguntas del módulo. Autocorrección al finalizar.
+                        Los fallos no penalizan.
+                    </p>
+                    <ul class="card-features">
+                        <li>Banco de preguntas completo</li>
+                        <li>Sin penalización por fallos</li>
+                        <li>Nota sobre 10</li>
+                    </ul>
+                </a>
+
+                <a href="test.html" class="module-card test-card" id="randomTestCard" data-test-type="random">
+                    <div class="card-icon icon-random">SR</div>
+                    <h3 class="card-title">Simulacro aleatorio</h3>
+                    <p class="card-description">
+                        30 preguntas aleatorias del banco. Cada intento es distinto.
+                        Cada fallo resta 0,33 puntos.
+                    </p>
+                    <ul class="card-features">
+                        <li>30 preguntas aleatorias</li>
+                        <li>Penalización por fallo (-0,33)</li>
+                        <li>Modo examen real</li>
+                    </ul>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Tests interactivos ASIR · Plataforma de práctica</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,552 @@
+[
+  {
+    "id": "BBDD-001",
+    "question": "Una base de datos es:",
+    "options": [
+      "Un programa",
+      "Un conjunto de tablas sin relación",
+      "Un conjunto organizado de datos relacionados",
+      "Un sistema operativo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-002",
+    "question": "¿Qué problema resolvieron los SGBD frente a los ficheros planos?",
+    "options": [
+      "El coste",
+      "La duplicidad e inconsistencia de datos",
+      "El uso de SQL",
+      "La velocidad de Internet"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-003",
+    "question": "¿Qué es un SGBD?",
+    "options": [
+      "Un lenguaje",
+      "Un modelo de datos",
+      "Un software para gestionar bases de datos",
+      "Una tabla"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-004",
+    "question": "El modelo relacional fue propuesto por:",
+    "options": [
+      "Bill Gates",
+      "Edgar F. Codd",
+      "Tim Berners-Lee",
+      "Oracle"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-005",
+    "question": "El modelo relacional organiza la información en:",
+    "options": [
+      "Árboles",
+      "Grafos",
+      "Tablas",
+      "Documentos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-006",
+    "question": "SQL se utiliza principalmente para:",
+    "options": [
+      "Diseñar interfaces",
+      "Gestionar y consultar bases de datos",
+      "Crear diagramas",
+      "Programar servidores"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-007",
+    "question": "La arquitectura ANSI/SPARC se compone de:",
+    "options": [
+      "2 niveles",
+      "3 niveles",
+      "4 niveles",
+      "5 niveles"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-008",
+    "question": "El nivel externo de ANSI/SPARC representa:",
+    "options": [
+      "El almacenamiento físico",
+      "El modelo lógico global",
+      "Las vistas de usuario",
+      "Los índices"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-009",
+    "question": "El modelo Entidad-Relación se usa para:",
+    "options": [
+      "Crear tablas físicas",
+      "Representar conceptualmente la realidad",
+      "Ejecutar consultas",
+      "Optimizar índices"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-010",
+    "question": "Una entidad representa:",
+    "options": [
+      "Un atributo",
+      "Una relación",
+      "Un objeto del mundo real",
+      "Una clave"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-011",
+    "question": "En un diagrama E-R, las entidades se representan con:",
+    "options": [
+      "Óvalos",
+      "Rombos",
+      "Rectángulos",
+      "Flechas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-012",
+    "question": "La clave primaria sirve para:",
+    "options": [
+      "Relacionar tablas",
+      "Identificar registros de forma única",
+      "Evitar claves foráneas",
+      "Crear vistas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-013",
+    "question": "Una relación 1:N se implementa:",
+    "options": [
+      "Con una tabla intermedia",
+      "Con una FK en el lado N",
+      "Con una FK en el lado 1",
+      "Con una PK compuesta"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-014",
+    "question": "Una relación N:M se transforma en:",
+    "options": [
+      "Una FK",
+      "Una vista",
+      "Una tabla intermedia",
+      "Un índice"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-015",
+    "question": "La tabla intermedia de una N:M contiene:",
+    "options": [
+      "Una PK simple",
+      "Solo atributos",
+      "Las PK de ambas entidades como FK",
+      "Datos duplicados"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-016",
+    "question": "Un atributo multivaluado:",
+    "options": [
+      "Cumple 1FN",
+      "Viola 1FN",
+      "Viola 2FN",
+      "Viola 3FN"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-017",
+    "question": "La integridad referencial garantiza que:",
+    "options": [
+      "No haya duplicados",
+      "Las FK apunten a valores existentes",
+      "Los datos estén ordenados",
+      "No existan NULL"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-018",
+    "question": "El diseño lógico consiste en:",
+    "options": [
+      "Crear el modelo E-R",
+      "Convertir el modelo E-R en tablas",
+      "Insertar datos",
+      "Optimizar consultas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-019",
+    "question": "Normalizar una base de datos sirve para:",
+    "options": [
+      "Aumentar redundancia",
+      "Evitar anomalías",
+      "Reducir claves",
+      "Eliminar relaciones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-020",
+    "question": "La 1ª Forma Normal (1FN) exige:",
+    "options": [
+      "Claves compuestas",
+      "Valores atómicos",
+      "No dependencias transitivas",
+      "PK simples"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-021",
+    "question": "La 2ª Forma Normal (2FN) elimina:",
+    "options": [
+      "Listas",
+      "Dependencias transitivas",
+      "Dependencias parciales",
+      "Claves foráneas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-022",
+    "question": "La 3ª Forma Normal (3FN) elimina:",
+    "options": [
+      "Dependencias parciales",
+      "Dependencias transitivas",
+      "Valores atómicos",
+      "PK compuestas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-023",
+    "question": "Una dependencia transitiva ocurre cuando:",
+    "options": [
+      "Un atributo depende de la PK",
+      "Un atributo depende de otro no clave",
+      "Hay FK",
+      "Hay una N:M"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-024",
+    "question": "Una tabla en 3FN:",
+    "options": [
+      "Siempre cumple BCNF",
+      "Nunca cumple BCNF",
+      "Puede no cumplir BCNF",
+      "No tiene dependencias"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-025",
+    "question": "BCNF es:",
+    "options": [
+      "Inferior a 3FN",
+      "Igual que 2FN",
+      "Más estricta que 3FN",
+      "Solo teórica"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-026",
+    "question": "Una tabla cumple BCNF si:",
+    "options": [
+      "No tiene FK",
+      "Cada determinante es clave candidata",
+      "No tiene PK compuesta",
+      "Está normalizada"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-027",
+    "question": "Una desnormalización controlada se usa para:",
+    "options": [
+      "Romper integridad",
+      "Reducir coherencia",
+      "Mejorar rendimiento",
+      "Eliminar tablas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-028",
+    "question": "Un error común es pensar que:",
+    "options": [
+      "Las FK son necesarias",
+      "La normalización es útil",
+      "Excel sustituye a un SGBD",
+      "SQL es estándar"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-029",
+    "question": "Una base de datos bien diseñada es:",
+    "options": [
+      "Rígida",
+      "Difícil de mantener",
+      "Coherente y escalable",
+      "Dependiente del hardware"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-030",
+    "question": "Regla fundamental en bases de datos:",
+    "options": [
+      "Programar primero",
+      "Priorizar integridad y coherencia",
+      "Evitar claves",
+      "Minimizar tablas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-031",
+    "question": "¿Por qué los sistemas basados en archivos tradicionales generaban problemas en la gestión de la información?",
+    "options": [
+      "Porque eran demasiado rápidos",
+      "Porque impedían el acceso a los datos",
+      "Porque producían redundancia y falta de coherencia entre los datos",
+      "Porque no permitían almacenar información"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-032",
+    "question": "¿Cuál es la principal función de un Sistema Gestor de Bases de Datos (SGBD)?",
+    "options": [
+      "Ejecutar programas",
+      "Actuar como intermediario entre usuarios y datos, gestionando su almacenamiento y acceso",
+      "Crear sistemas operativos",
+      "Eliminar información automáticamente"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-033",
+    "question": "En el diseño de bases de datos, ¿por qué es importante separar los datos de las aplicaciones que los utilizan?",
+    "options": [
+      "Para reducir el tamaño del software",
+      "Para mejorar la independencia y facilitar cambios sin afectar a las aplicaciones",
+      "Para eliminar el uso de SQL",
+      "Para evitar errores de compilación"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-034",
+    "question": "En un modelo Entidad-Relación, ¿qué representa una entidad y por qué es fundamental en el diseño?",
+    "options": [
+      "Un tipo de dato",
+      "Un objeto del mundo real sobre el que queremos almacenar información",
+      "Una relación entre tablas",
+      "Un atributo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-035",
+    "question": "¿Qué diferencia existe entre una entidad y un atributo dentro de un modelo E-R?",
+    "options": [
+      "No hay diferencia",
+      "La entidad es un objeto y el atributo es una característica de ese objeto",
+      "El atributo es más importante",
+      "La entidad es una tabla"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-036",
+    "question": "En un diagrama E-R, ¿por qué es importante definir correctamente la cardinalidad de las relaciones?",
+    "options": [
+      "Para reducir el número de tablas",
+      "Porque determina cómo se relacionan los datos en la base de datos final",
+      "Porque elimina atributos",
+      "Porque evita usar claves"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-037",
+    "question": "¿Por qué la clave primaria es un elemento fundamental en una tabla?",
+    "options": [
+      "Porque reduce el tamaño",
+      "Porque identifica de forma única cada registro",
+      "Porque elimina errores automáticamente",
+      "Porque mejora el diseño visual"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-038",
+    "question": "¿Qué papel desempeñan las claves foráneas en una base de datos relacional?",
+    "options": [
+      "Crear tablas",
+      "Relacionar tablas entre sí",
+      "Eliminar datos",
+      "Validar código"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-039",
+    "question": "¿Cómo se implementa una relación N:M en un modelo relacional?",
+    "options": [
+      "Eliminándola",
+      "Creando una tabla intermedia con claves foráneas",
+      "Duplicando tablas",
+      "Ignorándola"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-040",
+    "question": "¿Cuál es el objetivo principal de la normalización en bases de datos?",
+    "options": [
+      "Aumentar el número de tablas",
+      "Reducir redundancia y mejorar integridad",
+      "Reducir código",
+      "Eliminar relaciones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-041",
+    "question": "¿Qué caracteriza a la Primera Forma Normal (1FN)?",
+    "options": [
+      "Tablas grandes",
+      "Valores atómicos",
+      "Claves compuestas",
+      "Relaciones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-042",
+    "question": "¿Qué problema elimina la Segunda Forma Normal (2FN)?",
+    "options": [
+      "Redundancia total",
+      "Dependencias parciales",
+      "Relaciones",
+      "Claves"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-043",
+    "question": "¿Qué son las dependencias transitivas que elimina la 3FN?",
+    "options": [
+      "Dependencias directas",
+      "Dependencias indirectas entre atributos no clave",
+      "Claves",
+      "Relaciones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-044",
+    "question": "¿Qué tipo de lenguaje es SQL y qué implica esto?",
+    "options": [
+      "Imperativo",
+      "Declarativo",
+      "Binario",
+      "Compilado"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-045",
+    "question": "¿Qué diferencia hay entre DDL y DML en SQL?",
+    "options": [
+      "Ninguna",
+      "DDL define estructura y DML manipula datos",
+      "DML crea tablas",
+      "DDL elimina datos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-046",
+    "question": "¿Por qué es importante definir correctamente los tipos de datos en SQL?",
+    "options": [
+      "Para decorar",
+      "Para evitar errores y optimizar almacenamiento",
+      "Para compilar",
+      "Para ejecutar"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-047",
+    "question": "¿Qué garantiza la restricción NOT NULL?",
+    "options": [
+      "Valores únicos",
+      "Campo obligatorio",
+      "Relación",
+      "Eliminación"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-048",
+    "question": "¿Por qué UNIQUE evita errores en una base de datos?",
+    "options": [
+      "Porque elimina datos",
+      "Porque evita duplicados",
+      "Porque crea tablas",
+      "Porque valida código"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-049",
+    "question": "¿Qué función tiene la restricción CHECK en SQL?",
+    "options": [
+      "Validar reglas o condiciones sobre los datos",
+      "Crear tablas",
+      "Eliminar datos",
+      "Insertar datos"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-050",
+    "question": "¿Qué representa una fila dentro de una tabla relacional?",
+    "options": [
+      "Columna",
+      "Registro",
+      "Tabla",
+      "Clave"
+    ],
+    "correctAnswer": 1
+  }
+]

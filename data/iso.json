@@ -1,0 +1,729 @@
+[
+  {
+    "id": "ISO-001",
+    "question": "¿Qué es el núcleo (kernel) de un sistema operativo?",
+    "options": [
+      "Un programa de ofimática",
+      "El componente que gestiona hardware, procesos y recursos",
+      "Un antivirus integrado"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-002",
+    "question": "¿Qué comando permite ver la versión del núcleo en Linux?",
+    "options": [
+      "ping",
+      "uname -r",
+      "sysinfo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-003",
+    "question": "¿Qué utilidad muestra mensajes del arranque relacionados con el kernel?",
+    "options": [
+      "dmesg",
+      "sudo start-kernel",
+      "bootmsg"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-004",
+    "question": "¿Qué es un hipervisor?",
+    "options": [
+      "Un servidor DNS",
+      "Un software que permite ejecutar máquinas virtuales",
+      "Una herramienta para editar particiones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-005",
+    "question": "¿Qué programa se usa para virtualización en tu práctica?",
+    "options": [
+      "Photoshop",
+      "VirtualBox",
+      "Premiere"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-006",
+    "question": "¿Qué debes instalar para tener un servidor Linux funcional?",
+    "options": [
+      "Ubuntu Server",
+      "Windows XP",
+      "Android OS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-007",
+    "question": "UEFI es…",
+    "options": [
+      "La versión moderna del BIOS",
+      "Un sistema de archivos de Linux",
+      "Un servicio de impresión"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-008",
+    "question": "MBR y GPT se usan para…",
+    "options": [
+      "Crear usuarios",
+      "Organizar particiones en un disco",
+      "Configurar redes inalámbricas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-009",
+    "question": "¿Qué gestor de arranque es común en Linux moderno?",
+    "options": [
+      "GRUB",
+      "SYSBOOT",
+      "UBOOT"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-010",
+    "question": "En modo Bridge, la máquina virtual…",
+    "options": [
+      "No tiene IP",
+      "Se conecta a la red como un dispositivo más con su propia IP",
+      "Solo se comunica consigo misma"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-011",
+    "question": "Ping sirve para…",
+    "options": [
+      "Instalar actualizaciones",
+      "Probar conectividad entre dos dispositivos",
+      "Crear cuentas de usuario"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-012",
+    "question": "¿Qué herramienta crea un USB de instalación de Windows 10?",
+    "options": [
+      "Media Creation Tool",
+      "winusb.exe",
+      "usbmaker"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-013",
+    "question": "¿Para qué sirve mbr2gpt /validate durante una instalación?",
+    "options": [
+      "Para crear un usuario nuevo",
+      "Para comprobar si un disco MBR puede convertirse a GPT",
+      "Para borrar el disco duro"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-014",
+    "question": "¿Qué es WSL en Windows?",
+    "options": [
+      "Un servidor web",
+      "Un subsistema que permite ejecutar Linux dentro de Windows",
+      "Un gestor de particiones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-015",
+    "question": "Si creas un usuario local en Windows y lo añades al grupo “Usuarios de Escritorio remoto”, podrás…",
+    "options": [
+      "Instalar actualizaciones",
+      "Conectarte por RDP con ese usuario",
+      "Usarlo solo en modo seguro"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-016",
+    "question": "¿Qué se instala en Windows Server para gestionar dominios?",
+    "options": [
+      "DHCP",
+      "Active Directory Domain Services",
+      "Hyper-V"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-017",
+    "question": "En un entorno con Active Directory, una carpeta “Perfiles” suele usarse para…",
+    "options": [
+      "Guardar fondos de pantalla",
+      "Almacenar perfiles móviles o directorios personales de usuarios del dominio",
+      "Compartir vídeos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-018",
+    "question": "¿Qué muestra el comando ls -l /?",
+    "options": [
+      "El contenido de la carpeta personal del usuario",
+      "Los directorios principales del sistema Linux",
+      "Los procesos en ejecución"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-019",
+    "question": "¿Qué directorio suele almacenar archivos de configuración del sistema?",
+    "options": [
+      "/etc",
+      "/home",
+      "/tmp"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-020",
+    "question": "¿Qué comando te permite consultar la jerarquía estándar del sistema de archivos (FHS)?",
+    "options": [
+      "man list",
+      "man hier",
+      "man root"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-021",
+    "question": "¿Qué herramienta se usa para crear particiones en un disco?",
+    "options": [
+      "fdisk o gparted",
+      "ssh",
+      "mkhome"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-022",
+    "question": "¿Qué hace el comando pvcreate?",
+    "options": [
+      "Crea un archivo de texto vacío",
+      "Convierte una partición en un volumen físico para LVM",
+      "Crea un RAID 5 automáticamente"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-023",
+    "question": "¿Para qué sirve vgcreate?",
+    "options": [
+      "Crear un nuevo usuario",
+      "Crear un grupo de volúmenes a partir de varios PV",
+      "Crear un directorio compartido"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-024",
+    "question": "¿Qué permite lvcreate?",
+    "options": [
+      "Crear un volumen lógico dentro del grupo de volúmenes",
+      "Instalar paquetes",
+      "Cambiar permisos de usuario"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-025",
+    "question": "¿Qué debes hacer antes de montar un LV o RAID en un directorio?",
+    "options": [
+      "Cambiar el hostname",
+      "Formatearlo con un sistema de archivos (por ejemplo, mkfs.ext4)",
+      "Reiniciar el ordenador"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-026",
+    "question": "Si añades tres discos de 1GB a una VM Linux y quieres RAID 5, usas el comando:",
+    "options": [
+      "mdadm --create /dev/md0 --level=5 --raid-devices=3 <discos>",
+      "raid --new",
+      "create-raid5 /dev/md0"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-027",
+    "question": "¿Qué característica tiene RAID 5?",
+    "options": [
+      "Copias idénticas (mirroring) de todos los discos",
+      "Divide datos + paridad distribuida, permitiendo que falle 1 disco",
+      "No ofrece tolerancia a fallos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-028",
+    "question": "¿Qué comando formatea un RAID recién creado para poder usarlo?",
+    "options": [
+      "mkraid.ext4",
+      "mkfs.ext4 /dev/md0",
+      "format-raid /dev/md0"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-029",
+    "question": "¿Qué debes hacer para usar el RAID 5 tras formatearlo?",
+    "options": [
+      "Compilar el kernel",
+      "Montarlo en un directorio (por ejemplo, /mnt/raid5)",
+      "Desinstalar mdadm"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-030",
+    "question": "¿Dónde se encuentran los directorios personales de los usuarios?",
+    "options": [
+      "/home",
+      "/root",
+      "/user"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-031",
+    "question": "¿Para qué se utiliza el paquete mdadm en Linux?",
+    "options": [
+      "Para gestionar impresoras de red",
+      "Para administrar RAID por software",
+      "Para configurar cortafuegos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-032",
+    "question": "¿Qué comando instala mdadm en una distro basada en Debian/Ubuntu?",
+    "options": [
+      "sudo apt-get update && sudo apt-get install -y mdadm",
+      "sudo yum install mdadm",
+      "sudo install mdadm"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-033",
+    "question": "Si quieres crear un RAID 5 en /dev/md0 con los discos /dev/sdb /dev/sdc /dev/sdd, ¿qué comando es correcto?",
+    "options": [
+      "mdadm --create /dev/md0 --level=1 --raid-devices=3 /dev/sdb /dev/sdc /dev/sdd",
+      "mdadm --create /dev/md0 --level=5 --raid-devices=3 /dev/sdb /dev/sdc /dev/sdd",
+      "mdadm --new-raid5 /dev/md0 /dev/sdb /dev/sdc /dev/sdd"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-034",
+    "question": "Después de crear un RAID en /dev/md0, ¿qué debes hacer para poder almacenar datos en él?",
+    "options": [
+      "Ejecutar mkfs.ext4 /dev/md0 para formatearlo",
+      "Ejecutar fsaeraid /dev/md0",
+      "Reiniciar el sistema para que se formatee solo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-035",
+    "question": "¿Qué comando te muestra información detallada de un array RAID concreto, como nivel, discos y estado?",
+    "options": [
+      "mdadm --detail /dev/md0",
+      "raidstatus /dev/md0",
+      "cat /etc/raid.conf"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-036",
+    "question": "En PowerShell, ¿qué hace este comando?\nCopy-Item -Path \"C:\\Users\\Usuario\\Documentos\" -Destination \"D:\\Backup\\Documentos\" -Recurse -Force",
+    "options": [
+      "Copia solo los archivos modificados hoy",
+      "Copia toda la carpeta Documentos, con subcarpetas, sobrescribiendo si es necesario",
+      "Mueve la carpeta Documentos a D:\\Backup"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-037",
+    "question": "¿Qué comando en PowerShell crea un archivo ZIP con el contenido de una carpeta?",
+    "options": [
+      "New-ZipFile",
+      "Compress-Archive",
+      "Zip-Item"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-038",
+    "question": "En el ejemplo, ¿qué hace este comando?\nCompress-Archive -Path \"C:\\Users\\Usuario\\Documentos\" -DestinationPath \"D:\\Backup\\Backup_Documentos.zip\"",
+    "options": [
+      "Crea un ZIP con la carpeta Documentos en la ruta indicada",
+      "Descomprime un ZIP en la carpeta Documentos",
+      "Sincroniza Documentos con D:\\Backup"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-039",
+    "question": "En Linux, ¿qué hace el comando siguiente?\ncp -r /home/usuario/Documentos /media/usuario/backup_docs",
+    "options": [
+      "Copia solo los archivos de texto",
+      "Copia recursivamente la carpeta Documentos al destino",
+      "Mueve la carpeta Documentos y borra el original"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-040",
+    "question": "En Linux, ¿qué comando permite cambiar los permisos de un archivo usando la notación numérica (por ejemplo, 755)?",
+    "options": [
+      "chmod",
+      "chown",
+      "chgrp"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-041",
+    "question": "Si ejecutas chmod 750 fichero, ¿qué permisos tiene el grupo sobre ese archivo?",
+    "options": [
+      "Solo lectura",
+      "Lectura y ejecución",
+      "Lectura, escritura y ejecución"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-042",
+    "question": "En la salida de ls -l, ¿qué indica la primera columna, por ejemplo -rwxr-xr--?",
+    "options": [
+      "El tamaño del archivo",
+      "El tipo de archivo y los permisos de propietario, grupo y otros",
+      "El nombre del propietario y del grupo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-043",
+    "question": "¿Cuál de las siguientes letras representa el permiso de ejecución en Linux?",
+    "options": [
+      "r",
+      "w",
+      "x"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-044",
+    "question": "¿Qué ocurre al ejecutar sudo ufw enable en Ubuntu?",
+    "options": [
+      "Activa el firewall y aplica las reglas configuradas",
+      "Elimina todas las reglas",
+      "Reinicia la red",
+      "Permite todo el tráfico"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-045",
+    "question": "¿Qué efecto tiene sudo ufw allow ssh?",
+    "options": [
+      "Bloquea SSH",
+      "Reinicia el servicio SSH",
+      "Permite conexiones entrantes al puerto SSH",
+      "Elimina reglas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-046",
+    "question": "¿Qué comando permite ver reglas activas numeradas en UFW?",
+    "options": [
+      "ufw show",
+      "ufw list",
+      "ufw status",
+      "ufw status numbered"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-047",
+    "question": "¿Qué ocurre si ejecutas sudo ufw disable?",
+    "options": [
+      "Se desactiva el firewall completamente",
+      "Se eliminan reglas",
+      "Se bloquea todo el tráfico",
+      "Solo desactiva SSH"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-048",
+    "question": "El comando journalctl -u sshd permite:",
+    "options": [
+      "Ver CPU",
+      "Ver usuarios",
+      "Ver red",
+      "Ver logs del servicio SSH"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-049",
+    "question": "En Windows, el Visor de Eventos permite:",
+    "options": [
+      "Crear usuarios",
+      "Monitorizar CPU",
+      "Ejecutar scripts",
+      "Analizar registros del sistema"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-050",
+    "question": "¿Qué comando en Linux muestra procesos en tiempo real?",
+    "options": [
+      "top",
+      "df",
+      "du",
+      "uptime"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-051",
+    "question": "¿Qué ventaja tiene htop frente a top?",
+    "options": [
+      "Consume más CPU",
+      "Interfaz interactiva y más visual",
+      "No muestra procesos",
+      "No permite ordenar"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-052",
+    "question": "¿Qué comando permite ver memoria RAM rápidamente?",
+    "options": [
+      "top",
+      "ps",
+      "free",
+      "uptime"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-053",
+    "question": "¿Qué herramienta es más completa como dashboard de monitorización en Linux?",
+    "options": [
+      "top",
+      "free",
+      "glances",
+      "ps"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-054",
+    "question": "El comando ps aux muestra:",
+    "options": [
+      "Disco",
+      "Lista completa de procesos",
+      "Red",
+      "Usuarios"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-055",
+    "question": "¿Qué muestra df -h?",
+    "options": [
+      "RAM",
+      "CPU",
+      "Espacio en disco",
+      "Procesos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-056",
+    "question": "¿Qué indica uptime?",
+    "options": [
+      "Disco",
+      "Tiempo encendido y carga media",
+      "Usuarios",
+      "Red"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-057",
+    "question": "¿Qué comando muestra puertos abiertos en Linux?",
+    "options": [
+      "dir",
+      "ping",
+      "df",
+      "ss -tulnp"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-058",
+    "question": "¿Qué hace sar -u 1 5?",
+    "options": [
+      "Muestra estadísticas de CPU en intervalos",
+      "Muestra disco",
+      "Muestra usuarios",
+      "Muestra red"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-059",
+    "question": "¿Qué hace Get-Process en PowerShell?",
+    "options": [
+      "Ver red",
+      "Listar procesos activos",
+      "Ver disco",
+      "Ver usuarios"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-060",
+    "question": "Sort-Object CPU -Descending sirve para:",
+    "options": [
+      "Borrar procesos",
+      "Ordenar procesos por uso de CPU descendente",
+      "Reiniciar procesos",
+      "Filtrar memoria"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-061",
+    "question": "¿Qué hace Select-Object -First 10?",
+    "options": [
+      "Selecciona últimos",
+      "Filtra errores",
+      "Selecciona los primeros elementos",
+      "Ordena"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-062",
+    "question": "¿Qué muestra Get-Service?",
+    "options": [
+      "Estado de servicios del sistema",
+      "Usuarios",
+      "Red",
+      "Disco"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-063",
+    "question": "¿Qué mide Get-Counter '\\Processor(_Total)% Processor Time'?",
+    "options": [
+      "RAM",
+      "Uso de CPU",
+      "Disco",
+      "Red"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-064",
+    "question": "¿Qué mide Get-Counter '\\Memory\\Available MBytes'?",
+    "options": [
+      "CPU",
+      "Disco",
+      "Memoria disponible",
+      "Red"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-065",
+    "question": "¿Qué hace Test-Connection google.es?",
+    "options": [
+      "Ver CPU",
+      "Ver RAM",
+      "Probar conectividad de red",
+      "Ver disco"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-066",
+    "question": "¿Qué muestra Get-NetTCPConnection?",
+    "options": [
+      "Conexiones TCP activas",
+      "Usuarios",
+      "CPU",
+      "RAM"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-067",
+    "question": "¿Qué muestra Get-NetAdapter?",
+    "options": [
+      "CPU",
+      "RAM",
+      "Interfaces de red",
+      "Disco"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-068",
+    "question": "¿Qué hace Get-WinEvent -LogName System?",
+    "options": [
+      "Reinicia sistema",
+      "Ver procesos",
+      "Mostrar eventos del sistema",
+      "Crear logs"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-069",
+    "question": "¿Qué hace who en Linux?",
+    "options": [
+      "CPU",
+      "Usuarios conectados",
+      "Disco",
+      "Red"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-070",
+    "question": "¿Qué hace df -h / | tail -n 1?",
+    "options": [
+      "RAM",
+      "CPU",
+      "Muestra uso de disco de la raíz",
+      "Red"
+    ],
+    "correctAnswer": 2
+  }
+]

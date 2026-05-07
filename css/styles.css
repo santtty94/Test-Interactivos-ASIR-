@@ -1,0 +1,1087 @@
+/* =========================================================
+   Tests interactivos ASIR — styles.css
+   Tema HACKER OSCURO · Terminal estilo matrix / cyberpunk
+   ========================================================= */
+
+/* -------- Variables -------- */
+:root {
+    --color-bg: #000000;
+    --color-bg-soft: #050805;
+    --color-surface: #0a0f0a;
+    --color-surface-hover: #0f1a0f;
+    --color-border: #1f3a1f;
+    --color-border-bright: #2dff2d;
+
+    --color-primary: #00ff41;       /* Verde matrix */
+    --color-primary-dim: #00b32d;
+    --color-accent: #00ffff;        /* Cyan terminal */
+    --color-accent-dim: #00b3b3;
+    --color-warning: #ffcc00;
+    --color-danger: #ff003c;
+
+    --color-text: #00ff41;
+    --color-text-bright: #c8ffc8;
+    --color-text-muted: #4a8a4a;
+    --color-text-dim: #2a5a2a;
+
+    --radius-sm: 2px;
+    --radius-md: 4px;
+    --radius-lg: 6px;
+
+    --shadow-glow: 0 0 8px rgba(0, 255, 65, 0.35);
+    --shadow-glow-strong: 0 0 16px rgba(0, 255, 65, 0.55),
+                          0 0 32px rgba(0, 255, 65, 0.25);
+    --shadow-glow-cyan: 0 0 12px rgba(0, 255, 255, 0.45);
+
+    --transition: 0.2s ease;
+
+    --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code',
+                 'Source Code Pro', 'Consolas', 'Courier New', monospace;
+}
+
+/* -------- Reset / base -------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-mono);
+    background-color: var(--color-bg);
+    /* Cuadrícula sutil estilo terminal */
+    background-image:
+        linear-gradient(rgba(0, 255, 65, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 65, 0.04) 1px, transparent 1px),
+        radial-gradient(circle at 20% 10%, rgba(0, 255, 65, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 80% 90%, rgba(0, 255, 255, 0.05) 0%, transparent 50%);
+    background-size: 32px 32px, 32px 32px, 100% 100%, 100% 100%;
+    color: var(--color-text);
+    line-height: 1.55;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Líneas de escaneo (efecto CRT) */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 255, 65, 0.03) 0px,
+        rgba(0, 255, 65, 0.03) 1px,
+        transparent 1px,
+        transparent 3px
+    );
+    pointer-events: none;
+    z-index: 1;
+    animation: scanlines 8s linear infinite;
+}
+
+/* Brillo de pantalla CRT (viñeta) */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(
+        ellipse at center,
+        transparent 60%,
+        rgba(0, 0, 0, 0.4) 100%
+    );
+    pointer-events: none;
+    z-index: 2;
+}
+
+@keyframes scanlines {
+    0%   { background-position: 0 0; }
+    100% { background-position: 0 100px; }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Selección de texto estilo terminal */
+::selection {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+/* Scrollbar estilo hacker */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-bg);
+    border-left: 1px solid var(--color-border);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-border-bright);
+    border-radius: 0;
+    box-shadow: 0 0 6px rgba(0, 255, 65, 0.6);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
+
+/* -------- Layout -------- */
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    position: relative;
+    z-index: 3;
+}
+
+main.container {
+    flex: 1 0 auto;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+/* -------- Header -------- */
+.main-header {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 255, 65, 0.05) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    border-bottom: 1px solid var(--color-border);
+    padding: 2.5rem 0 2rem;
+    position: relative;
+    z-index: 3;
+}
+
+.main-header::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        var(--color-primary) 50%,
+        transparent 100%
+    );
+    box-shadow: 0 0 8px var(--color-primary);
+}
+
+.main-header .container {
+    text-align: center;
+}
+
+.logo {
+    font-family: var(--font-mono);
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.75rem;
+    color: var(--color-text-bright);
+    text-shadow: 0 0 8px var(--color-primary),
+                 0 0 16px rgba(0, 255, 65, 0.5);
+}
+
+.logo::before {
+    content: "> ";
+    color: var(--color-primary);
+}
+
+.logo::after {
+    content: "_";
+    color: var(--color-primary);
+    animation: blink 1s step-end infinite;
+    margin-left: 4px;
+}
+
+.logo span {
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    color: var(--color-accent);
+    text-shadow: 0 0 8px var(--color-accent),
+                 0 0 16px rgba(0, 255, 255, 0.4);
+}
+
+@keyframes blink {
+    0%, 49%   { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+.subtitle {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    max-width: 720px;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+}
+
+.subtitle::before {
+    content: "[ ";
+    color: var(--color-primary-dim);
+}
+
+.subtitle::after {
+    content: " ]";
+    color: var(--color-primary-dim);
+}
+
+.back-link {
+    position: absolute;
+    top: 1.25rem;
+    left: 1.5rem;
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    transition: all var(--transition);
+    border: 1px solid var(--color-border);
+    padding: 0.4rem 0.8rem;
+    background: rgba(0, 255, 65, 0.05);
+    text-shadow: 0 0 4px rgba(0, 255, 65, 0.5);
+}
+
+.back-link:hover {
+    color: var(--color-bg);
+    background: var(--color-primary);
+    box-shadow: var(--shadow-glow);
+    text-shadow: none;
+}
+
+/* -------- Sección de módulos -------- */
+.modules-section {
+    margin-top: 1rem;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1.75rem;
+    color: var(--color-text-bright);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.section-title::before {
+    content: "// ";
+    color: var(--color-primary-dim);
+}
+
+.module-highlight {
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px var(--color-accent),
+                 0 0 16px rgba(0, 255, 255, 0.4);
+}
+
+/* -------- Grid de tarjetas -------- */
+.cards-grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.cards-grid--two {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+/* -------- Tarjeta de módulo -------- */
+.module-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    cursor: pointer;
+    transition: transform var(--transition),
+                box-shadow var(--transition),
+                border-color var(--transition),
+                background var(--transition);
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+/* Esquinas estilo "frame" hacker */
+.module-card::before,
+.module-card::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-color: var(--color-primary);
+    border-style: solid;
+    transition: all var(--transition);
+    opacity: 0.6;
+}
+
+.module-card::before {
+    top: 6px;
+    left: 6px;
+    border-width: 1px 0 0 1px;
+}
+
+.module-card::after {
+    bottom: 6px;
+    right: 6px;
+    border-width: 0 1px 1px 0;
+}
+
+.module-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-primary);
+    background: var(--color-surface-hover);
+    box-shadow: var(--shadow-glow-strong),
+                inset 0 0 30px rgba(0, 255, 65, 0.05);
+}
+
+.module-card:hover::before,
+.module-card:hover::after {
+    opacity: 1;
+    width: 22px;
+    height: 22px;
+    box-shadow: 0 0 6px var(--color-primary);
+}
+
+.module-card:focus-visible {
+    outline: 1px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+/* Icono / "tag" del módulo */
+.card-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: var(--radius-sm);
+    background: rgba(0, 255, 65, 0.08);
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 10px rgba(0, 255, 65, 0.15),
+                0 0 8px rgba(0, 255, 65, 0.2);
+    text-shadow: 0 0 6px var(--color-primary);
+    position: relative;
+    margin-left: 12px;
+}
+
+.card-icon::before {
+    content: "[";
+    position: absolute;
+    left: -12px;
+    color: var(--color-primary-dim);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.card-icon::after {
+    content: "]";
+    position: absolute;
+    right: -12px;
+    color: var(--color-primary-dim);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-text-bright);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 6px rgba(0, 255, 65, 0.5);
+    margin-top: 0.5rem;
+}
+
+.module-card:hover .card-title {
+    color: var(--color-primary);
+    text-shadow: 0 0 10px var(--color-primary);
+}
+
+.card-description {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+}
+
+.card-description::before {
+    content: "$ ";
+    color: var(--color-primary-dim);
+}
+
+.card-features {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    width: 100%;
+}
+
+.card-features li {
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+    padding-left: 1.25rem;
+    position: relative;
+    letter-spacing: 0.3px;
+}
+
+.card-features li::before {
+    content: "▸";
+    color: var(--color-primary);
+    position: absolute;
+    left: 0;
+    text-shadow: 0 0 4px var(--color-primary);
+}
+
+/* -------- Tarjetas de tipo de test -------- */
+.test-card {
+    min-height: 260px;
+}
+
+.icon-global {
+    background: rgba(0, 255, 65, 0.08);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    text-shadow: 0 0 6px var(--color-primary);
+}
+
+.icon-random {
+    background: rgba(0, 255, 255, 0.08);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    box-shadow: inset 0 0 10px rgba(0, 255, 255, 0.15),
+                0 0 8px rgba(0, 255, 255, 0.2);
+    text-shadow: 0 0 6px var(--color-accent);
+}
+
+.icon-random::before,
+.icon-random::after {
+    color: var(--color-accent-dim);
+}
+
+#randomTestCard:hover {
+    border-color: var(--color-accent);
+    box-shadow: var(--shadow-glow-cyan),
+                inset 0 0 30px rgba(0, 255, 255, 0.05);
+}
+
+#randomTestCard:hover::before,
+#randomTestCard:hover::after {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 6px var(--color-accent);
+}
+
+#randomTestCard:hover .card-title {
+    color: var(--color-accent);
+    text-shadow: 0 0 10px var(--color-accent);
+}
+
+/* -------- Footer -------- */
+.main-footer {
+    border-top: 1px solid var(--color-border);
+    padding: 1.5rem 0;
+    text-align: center;
+    color: var(--color-text-dim);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+    position: relative;
+    z-index: 3;
+}
+
+.main-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        var(--color-primary-dim) 50%,
+        transparent 100%
+    );
+}
+
+.main-footer p::before {
+    content: "[ROOT@ASIR ~]# ";
+    color: var(--color-primary-dim);
+}
+
+/* -------- Bloques de código / placeholder -------- */
+code {
+    font-family: var(--font-mono);
+    background: rgba(0, 255, 65, 0.08);
+    border: 1px solid var(--color-border);
+    padding: 0.15rem 0.4rem;
+    border-radius: var(--radius-sm);
+    color: var(--color-accent);
+    font-size: 0.85rem;
+}
+
+/* -------- Responsive -------- */
+@media (max-width: 720px) {
+    .main-header {
+        padding: 2rem 0 1.5rem;
+    }
+
+    .back-link {
+        position: static;
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cards-grid--two {
+        grid-template-columns: 1fr;
+    }
+
+    .module-card {
+        min-height: auto;
+    }
+
+    /* Reducir efecto scanlines en móvil */
+    body::before {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+}
+
+/* =========================================================
+   FASE 2 — Motor de test
+   ========================================================= */
+
+/* -------- Loading / error -------- */
+.loading-state {
+    padding: 4rem 0;
+    color: var(--color-primary);
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+}
+
+.loading-cursor {
+    animation: blink 0.8s step-end infinite;
+}
+
+.error-msg {
+    color: var(--color-danger);
+    padding: 2rem 0;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+}
+
+/* -------- Barra superior del test (sticky) -------- */
+.test-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.65rem 1rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    margin-bottom: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(6px);
+}
+
+.test-count {
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+}
+
+.test-count strong {
+    color: var(--color-accent);
+    text-shadow: 0 0 6px var(--color-accent);
+}
+
+.progress-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex: 1;
+    max-width: 380px;
+}
+
+.progress-track {
+    flex: 1;
+    height: 3px;
+    background: var(--color-border);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background: var(--color-primary);
+    border-radius: 2px;
+    transition: width 0.3s ease;
+    box-shadow: 0 0 6px var(--color-primary);
+}
+
+.progress-label {
+    font-size: 0.78rem;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+    min-width: 44px;
+    text-align: right;
+}
+
+/* -------- Tarjeta de pregunta -------- */
+.question-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 1.5rem;
+    margin-bottom: 0.85rem;
+    transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.question-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+    margin-bottom: 1.1rem;
+}
+
+.question-number {
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    background: rgba(0, 255, 65, 0.08);
+    border: 1px solid var(--color-primary);
+    padding: 0.18rem 0.5rem;
+    border-radius: var(--radius-sm);
+    letter-spacing: 1px;
+    text-shadow: 0 0 4px var(--color-primary);
+    margin-top: 0.15rem;
+    transition: background var(--transition), color var(--transition);
+}
+
+.question-text {
+    color: var(--color-text-bright);
+    font-size: 0.92rem;
+    line-height: 1.65;
+}
+
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.option-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.6rem 0.85rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+
+.option-label:hover {
+    background: rgba(0, 255, 65, 0.04);
+    border-color: var(--color-primary-dim);
+}
+
+/* El input nativo queda oculto; el estado :checked lo detecta CSS */
+.option-radio {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+.option-key {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 255, 65, 0.05);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    transition: all var(--transition);
+}
+
+.option-text {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    transition: color var(--transition);
+}
+
+/* Opción seleccionada durante el test */
+.option-label:has(.option-radio:checked) {
+    background: rgba(0, 255, 65, 0.08);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 8px rgba(0, 255, 65, 0.15);
+}
+
+.option-label:has(.option-radio:checked) .option-key {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-bg);
+    box-shadow: 0 0 6px var(--color-primary);
+}
+
+.option-label:has(.option-radio:checked) .option-text {
+    color: var(--color-text-bright);
+}
+
+/* -------- Feedback post-corrección: tarjetas -------- */
+.q-correct {
+    border-color: var(--color-primary) !important;
+    box-shadow: 0 0 12px rgba(0, 255, 65, 0.2);
+}
+
+.q-correct .question-number {
+    background: var(--color-primary);
+    color: var(--color-bg);
+    text-shadow: none;
+}
+
+.q-wrong {
+    border-color: var(--color-danger) !important;
+    box-shadow: 0 0 12px rgba(255, 0, 60, 0.18);
+}
+
+.q-wrong .question-number {
+    background: var(--color-danger);
+    border-color: var(--color-danger);
+    color: #fff;
+    text-shadow: none;
+}
+
+.q-blank {
+    border-color: var(--color-warning) !important;
+    box-shadow: 0 0 8px rgba(255, 204, 0, 0.12);
+    opacity: 0.7;
+}
+
+.q-blank .question-number {
+    background: rgba(255, 204, 0, 0.1);
+    border-color: var(--color-warning);
+    color: var(--color-warning);
+    text-shadow: none;
+}
+
+/* -------- Feedback post-corrección: opciones -------- */
+.opt-correct {
+    background: rgba(0, 255, 65, 0.12) !important;
+    border-color: var(--color-primary) !important;
+    box-shadow: 0 0 8px rgba(0, 255, 65, 0.2) !important;
+    cursor: default;
+}
+
+.opt-correct .option-key {
+    background: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+    color: var(--color-bg) !important;
+    box-shadow: 0 0 6px var(--color-primary) !important;
+}
+
+.opt-correct .option-text {
+    color: var(--color-text-bright) !important;
+}
+
+.opt-wrong {
+    background: rgba(255, 0, 60, 0.1) !important;
+    border-color: var(--color-danger) !important;
+    box-shadow: 0 0 8px rgba(255, 0, 60, 0.18) !important;
+    cursor: default;
+}
+
+.opt-wrong .option-key {
+    background: var(--color-danger) !important;
+    border-color: var(--color-danger) !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.opt-wrong .option-text {
+    color: rgba(255, 60, 80, 0.95) !important;
+}
+
+/* Quitar hover en opciones ya corregidas */
+.question-card:has(.option-radio:disabled) .option-label:not(.opt-correct):not(.opt-wrong):hover {
+    background: transparent;
+    border-color: var(--color-border);
+    box-shadow: none;
+    cursor: default;
+}
+
+/* -------- Botón finalizar -------- */
+.finish-wrapper {
+    text-align: center;
+    padding: 2rem 0 2.5rem;
+}
+
+.btn-finish {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--color-bg);
+    background: var(--color-primary);
+    border: none;
+    border-radius: var(--radius-sm);
+    padding: 0.85rem 2.5rem;
+    cursor: pointer;
+    transition: all var(--transition);
+    box-shadow: var(--shadow-glow);
+}
+
+.btn-finish:hover:not(:disabled) {
+    background: var(--color-text-bright);
+    box-shadow: var(--shadow-glow-strong);
+    transform: translateY(-2px);
+}
+
+.btn-finish:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* -------- Sección de resultados -------- */
+.results-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.result-item {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.result-label {
+    font-size: 0.72rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.result-label::before {
+    content: "# ";
+    color: var(--color-primary-dim);
+}
+
+.result-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-text-bright);
+}
+
+.result-aciertos .result-value {
+    color: var(--color-primary);
+    text-shadow: 0 0 6px rgba(0, 255, 65, 0.45);
+}
+
+.result-fallos .result-value {
+    color: var(--color-danger);
+    text-shadow: 0 0 6px rgba(255, 0, 60, 0.35);
+}
+
+.result-blancos .result-value {
+    color: var(--color-warning);
+}
+
+.result-nota {
+    grid-column: 1 / -1;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 14px rgba(0, 255, 65, 0.18);
+}
+
+.result-nota-value {
+    font-size: 2.2rem !important;
+    color: var(--color-primary) !important;
+    text-shadow: 0 0 14px rgba(0, 255, 65, 0.55) !important;
+}
+
+/* -------- Preguntas falladas -------- */
+.wrong-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.wrong-item {
+    background: rgba(255, 0, 60, 0.04);
+    border: 1px solid rgba(255, 0, 60, 0.18);
+    border-radius: var(--radius-sm);
+    padding: 0.9rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.wrong-question {
+    color: var(--color-text-bright);
+    font-size: 0.875rem;
+    line-height: 1.55;
+}
+
+.wrong-num {
+    color: var(--color-danger);
+    font-weight: 700;
+    margin-right: 0.2rem;
+}
+
+.wrong-user,
+.wrong-correct {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
+.opt-wrong-text {
+    color: var(--color-danger);
+}
+
+.opt-correct-text {
+    color: var(--color-primary);
+    text-shadow: 0 0 4px rgba(0, 255, 65, 0.4);
+}
+
+/* -------- Botón PDF -------- */
+.pdf-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-pdf {
+    font-family: var(--font-mono);
+    font-size: 0.88rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--color-accent);
+    background: rgba(0, 255, 255, 0.05);
+    border: 1px solid var(--color-accent);
+    border-radius: var(--radius-sm);
+    padding: 0.65rem 1.4rem;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.btn-pdf:hover:not(:disabled) {
+    background: var(--color-accent);
+    color: var(--color-bg);
+    box-shadow: var(--shadow-glow-cyan);
+}
+
+.btn-pdf:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.pdf-note {
+    font-size: 0.73rem;
+    color: var(--color-text-dim);
+}
+
+/* -------- Responsive fase 2 -------- */
+@media (max-width: 720px) {
+    .test-toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+        position: static;
+    }
+
+    .progress-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .results-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 420px) {
+    .question-card {
+        padding: 1rem;
+    }
+
+    .results-grid {
+        grid-template-columns: 1fr;
+    }
+}
