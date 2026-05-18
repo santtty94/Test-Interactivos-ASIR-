@@ -155,7 +155,7 @@
   },
   {
     "id": "ISO-015",
-    "question": "Si creas un usuario local en Windows y lo añades al grupo "Usuarios de Escritorio remoto", podrás…",
+    "question": "Si creas un usuario local en Windows y lo añades al grupo 'Usuarios de Escritorio remoto', podrás…",
     "options": [
       "Instalar actualizaciones",
       "Conectarte por RDP con ese usuario",
@@ -177,7 +177,7 @@
   },
   {
     "id": "ISO-017",
-    "question": "En un entorno con Active Directory, una carpeta "Perfiles" suele usarse para…",
+    "question": "En un entorno con Active Directory, una carpeta 'Perfiles' suele usarse para…",
     "options": [
       "Guardar fondos de pantalla",
       "Almacenar perfiles móviles o directorios personales de usuarios del dominio",
