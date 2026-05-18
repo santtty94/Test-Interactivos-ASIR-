@@ -585,7 +585,7 @@
       "Actualizar GPU",
       "Desactivar RAID"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": "FUHAR-050",

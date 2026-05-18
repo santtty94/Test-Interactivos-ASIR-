@@ -645,7 +645,7 @@
       "Bootloader",
       "Kernel"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": "ISO-055",
@@ -693,7 +693,7 @@
       "Kernel panic",
       "Hypervisor escape"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": "ISO-059",
