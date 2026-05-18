@@ -1,0 +1,702 @@
+[
+{
+"id": "PAR-SIM-001",
+"questionNumber": 1,
+"question": "¿Qué capa del modelo OSI se encarga de transmitir bits por el medio físico?",
+"options": ["Aplicación", "Física", "Red", "Enlace"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-002",
+"questionNumber": 2,
+"question": "¿Qué protocolo pertenece a la capa de red del modelo OSI?",
+"options": ["IP", "TCP", "HTTP", "DNS"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-003",
+"questionNumber": 3,
+"question": "¿Cuál es la unidad de datos de la capa de transporte?",
+"options": ["Trama", "Paquete", "Segmento", "Bit"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-004",
+"questionNumber": 4,
+"question": "¿Qué modelo utiliza realmente Internet?",
+"options": ["OSI", "IEEE", "TCP/IP", "ISO"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-005",
+"questionNumber": 5,
+"question": "¿Cuántos bits tiene una dirección IPv6?",
+"options": ["32", "64", "128", "256"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-006",
+"questionNumber": 6,
+"question": "¿Qué dirección IPv4 se utiliza para loopback?",
+"options": ["255.255.255.255", "127.0.0.1", "0.0.0.0", "192.168.1.1"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-007",
+"questionNumber": 7,
+"question": "¿Qué clase IPv4 utiliza por defecto la máscara 255.0.0.0?",
+"options": ["Clase A", "Clase B", "Clase C", "Clase D"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-008",
+"questionNumber": 8,
+"question": "¿Cuál es la función principal de una máscara de red?",
+"options": ["Asignar DNS", "Separar red y host", "Cifrar tráfico", "Filtrar paquetes"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-009",
+"questionNumber": 9,
+"question": "¿Qué operación lógica se usa para calcular la dirección de red?",
+"options": ["OR", "NOT", "XOR", "AND"],
+"correctAnswer": 3
+},
+{
+"id": "PAR-SIM-010",
+"questionNumber": 10,
+"question": "¿Cuántos hosts útiles tiene una red /30?",
+"options": ["2", "4", "6", "14"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-011",
+"questionNumber": 11,
+"question": "¿Qué parte se toma prestada al crear subredes?",
+"options": ["Bits de red", "Bits de host", "Octetos completos", "Dirección broadcast"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-012",
+"questionNumber": 12,
+"question": "¿Qué dirección IPv6 corresponde a una dirección link-local?",
+"options": ["FF00::", "2001::", "FE80::", "FC00::"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-013",
+"questionNumber": 13,
+"question": "¿Qué tipo de dirección IPv6 reemplaza funcionalmente al broadcast?",
+"options": ["Anycast", "Multicast", "Loopback", "Global"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-014",
+"questionNumber": 14,
+"question": "¿Qué estándar IEEE corresponde a Ethernet?",
+"options": ["802.11", "802.1Q", "802.3", "802.16"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-015",
+"questionNumber": 15,
+"question": "¿Qué método de acceso al medio utiliza Ethernet tradicionalmente?",
+"options": ["CSMA/CD", "Token Passing", "FDMA", "TDMA"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-016",
+"questionNumber": 16,
+"question": "¿Qué tipo de cable utiliza el mismo estándar en ambos extremos?",
+"options": ["Fibra", "Cruzado", "Coaxial", "Directo"],
+"correctAnswer": 3
+},
+{
+"id": "PAR-SIM-017",
+"questionNumber": 17,
+"question": "¿Qué cable suele utilizarse para conectar un PC a un switch?",
+"options": ["Cruzado", "Directo", "STP", "Multimodo"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-018",
+"questionNumber": 18,
+"question": "¿Qué tipo de cable posee blindaje contra interferencias?",
+"options": ["UTP", "RJ45", "FTP/STP", "Coaxial fino"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-019",
+"questionNumber": 19,
+"question": "¿Qué categoría UTP soporta hasta 10 Gbps a distancias cortas?",
+"options": ["Cat 3", "Cat 5", "Cat 5e", "Cat 6"],
+"correctAnswer": 3
+},
+{
+"id": "PAR-SIM-020",
+"questionNumber": 20,
+"question": "¿Qué medio físico utiliza pulsos de luz?",
+"options": ["UTP", "Fibra óptica", "STP", "Coaxial"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-021",
+"questionNumber": 21,
+"question": "¿Qué fibra óptica se utiliza para largas distancias?",
+"options": ["Multimodo", "UTP", "Monomodo", "FTP"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-022",
+"questionNumber": 22,
+"question": "¿Qué topología utiliza un switch central?",
+"options": ["Bus", "Anillo", "Malla", "Estrella"],
+"correctAnswer": 3
+},
+{
+"id": "PAR-SIM-023",
+"questionNumber": 23,
+"question": "¿Qué topología presenta mayor redundancia?",
+"options": ["Malla", "Bus", "Anillo", "Árbol"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-024",
+"questionNumber": 24,
+"question": "¿Qué ocurre en una topología bus si falla el cable principal?",
+"options": ["Solo cae un equipo", "Aumenta la velocidad", "Toda la red deja de funcionar", "Se crea un bucle"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-025",
+"questionNumber": 25,
+"question": "¿Qué dispositivo trabaja principalmente en capa 2 del modelo OSI?",
+"options": ["Router", "Firewall", "Switch", "Servidor"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-026",
+"questionNumber": 26,
+"question": "¿Qué dispositivo divide dominios broadcast?",
+"options": ["Hub", "Router", "Switch básico", "Repetidor"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-027",
+"questionNumber": 27,
+"question": "¿Qué es un dominio de colisión?",
+"options": ["Área donde pueden ocurrir colisiones", "Sistema de autenticación", "Tipo de VLAN", "Método de cifrado"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-028",
+"questionNumber": 28,
+"question": "¿Qué tecnología inalámbrica utiliza el estándar IEEE 802.11?",
+"options": ["WiMAX", "Bluetooth", "WiFi", "LTE"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-029",
+"questionNumber": 29,
+"question": "¿Qué banda WiFi ofrece normalmente más velocidad y menos saturación?",
+"options": ["900 MHz", "2.4 GHz", "5 GHz", "1 GHz"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-030",
+"questionNumber": 30,
+"question": "¿Qué protocolo WiFi se considera inseguro actualmente?",
+"options": ["WPA3", "WPA2", "WEP", "AES"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-031",
+"questionNumber": 31,
+"question": "¿Qué protocolo es el recomendado actualmente para redes WiFi domésticas?",
+"options": ["WEP", "WPA", "WPA2", "WPA3"],
+"correctAnswer": 3
+},
+{
+"id": "PAR-SIM-032",
+"questionNumber": 32,
+"question": "¿Qué parámetro identifica el nombre de una red WiFi?",
+"options": ["SSID", "QoS", "MAC", "WPA"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-033",
+"questionNumber": 33,
+"question": "¿Qué tecnología permite priorizar tráfico de voz o videollamadas?",
+"options": ["NAT", "QoS", "ARP", "VTP"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-034",
+"questionNumber": 34,
+"question": "¿Qué es una VLAN?",
+"options": ["Una red lógica dentro de una LAN física", "Un protocolo de routing", "Un cable blindado", "Una IP pública"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-035",
+"questionNumber": 35,
+"question": "¿Qué característica tiene un puerto access?",
+"options": ["Transporta múltiples VLAN", "Usa NAT", "Pertenece a una sola VLAN", "Funciona solo en capa 3"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-036",
+"questionNumber": 36,
+"question": "¿Qué protocolo se utiliza para etiquetar VLANs en enlaces trunk?",
+"options": ["802.11", "802.1Q", "802.3", "RSTP"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-037",
+"questionNumber": 37,
+"question": "¿Qué tráfico circula por la VLAN nativa en un trunk?",
+"options": ["Solo voz", "Tráfico sin etiquetar", "Broadcast IPv6", "Tráfico cifrado"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-038",
+"questionNumber": 38,
+"question": "¿Qué solución permite comunicación entre VLANs sin router externo?",
+"options": ["Hub", "Switch capa 3 con SVI", "Bridge", "Repeater"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-039",
+"questionNumber": 39,
+"question": "¿Qué requiere router-on-a-stick?",
+"options": ["Subinterfaces y encapsulation dot1Q", "Una interfaz física por VLAN", "DHCP relay", "NAT dinámico"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-040",
+"questionNumber": 40,
+"question": "¿Qué protocolo evita bucles en redes conmutadas?",
+"options": ["VTP", "LACP", "STP", "ARP"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-041",
+"questionNumber": 41,
+"question": "¿Cómo se llama el switch principal de referencia en STP?",
+"options": ["Designated Switch", "Root Bridge", "Master VLAN", "Core Router"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-042",
+"questionNumber": 42,
+"question": "¿Qué versión mejora la convergencia de STP clásico?",
+"options": ["RSTP", "802.3", "VTP", "DHCP"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-043",
+"questionNumber": 43,
+"question": "¿Qué función tiene VTP?",
+"options": ["Evitar colisiones", "Gestionar VLANs centralizadamente", "Traducir direcciones", "Autenticar usuarios"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-044",
+"questionNumber": 44,
+"question": "¿Qué modo VTP puede crear y propagar VLANs?",
+"options": ["Client", "Transparent", "Server", "Native"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-045",
+"questionNumber": 45,
+"question": "¿Qué característica de VTP reduce tráfico broadcast innecesario?",
+"options": ["Pruning", "Hashing", "Encapsulation", "Flooding"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-046",
+"questionNumber": 46,
+"question": "¿Qué protocolo asigna direcciones IP automáticamente?",
+"options": ["DNS", "ICMP", "DHCP", "ARP"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-047",
+"questionNumber": 47,
+"question": "¿Qué significa la letra O en el proceso DORA?",
+"options": ["Offer", "Open", "Override", "Operate"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-048",
+"questionNumber": 48,
+"question": "¿Qué protocolo de transporte utiliza DHCP?",
+"options": ["TCP", "UDP", "ICMP", "SCTP"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-049",
+"questionNumber": 49,
+"question": "¿Qué protocolo se utiliza para diagnóstico y mensajes de error?",
+"options": ["HTTP", "FTP", "ICMP", "ARP"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-050",
+"questionNumber": 50,
+"question": "¿Qué comando utiliza ICMP para comprobar conectividad?",
+"options": ["show vlan", "ping", "netstat", "route"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-051",
+"questionNumber": 51,
+"question": "¿Qué relación establece ARP?",
+"options": ["IP y puerto", "IP y MAC", "MAC y VLAN", "DNS y gateway"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-052",
+"questionNumber": 52,
+"question": "¿Qué ataque falsifica respuestas ARP?",
+"options": ["ARP Spoofing", "MAC Flooding", "DHCP Starvation", "Ping Sweep"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-053",
+"questionNumber": 53,
+"question": "¿Qué mecanismo ayuda a proteger contra ARP Spoofing?",
+"options": ["DHCP Snooping", "FTP", "QoS", "PAT"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-054",
+"questionNumber": 54,
+"question": "¿Qué función realiza NAT?",
+"options": ["Traducción de direcciones", "Control de colisiones", "Gestión de VLANs", "Resolución DNS"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-055",
+"questionNumber": 55,
+"question": "¿Qué permite PAT?",
+"options": ["Usar múltiples IP públicas", "Asignar VLANs", "Multiplexar varios hosts con una IP pública", "Evitar routing"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-056",
+"questionNumber": 56,
+"question": "¿Qué término Cisco IOS equivale a PAT?",
+"options": ["overload", "native", "pruning", "spanning"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-057",
+"questionNumber": 57,
+"question": "¿Qué tipo de NAT modifica la dirección de destino?",
+"options": ["SNAT", "PAT", "DNAT", "NAT overload"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-058",
+"questionNumber": 58,
+"question": "¿Cuál es el rango de puertos well-known?",
+"options": ["0-1023", "1024-4096", "49152-65535", "2000-9000"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-059",
+"questionNumber": 59,
+"question": "¿Qué puerto utiliza HTTPS por defecto?",
+"options": ["21", "22", "80", "443"],
+"correctAnswer": 3
+},
+{
+"id": "PAR-SIM-060",
+"questionNumber": 60,
+"question": "¿Qué puerto utiliza SSH?",
+"options": ["22", "23", "25", "110"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-061",
+"questionNumber": 61,
+"question": "¿Qué comando muestra conexiones y puertos abiertos en Windows?",
+"options": ["arp -a", "ipconfig", "netstat -na", "show interfaces"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-062",
+"questionNumber": 62,
+"question": "¿Qué comando muestra la tabla ARP en Windows?",
+"options": ["arp -a", "route print", "ping", "tracert"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-063",
+"questionNumber": 63,
+"question": "¿Qué comando Cisco permite verificar trunks?",
+"options": ["show vlan", "show interfaces trunk", "show ip route", "show mac"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-064",
+"questionNumber": 64,
+"question": "¿Qué comando muestra las VLAN configuradas en un switch Cisco?",
+"options": ["show spanning-tree", "show interfaces", "show vlan", "show arp"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-065",
+"questionNumber": 65,
+"question": "¿Qué estándar WiFi introdujo MU-MIMO y canales de 160 MHz?",
+"options": ["802.11g", "802.11n", "802.11ac", "802.11b"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-066",
+"questionNumber": 66,
+"question": "¿Qué tecnología WiFi trabaja también sobre la banda de 6 GHz?",
+"options": ["WiFi 4", "WiFi 5", "WiFi 6E", "WiFi 1"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-067",
+"questionNumber": 67,
+"question": "¿Qué ventaja principal ofrece WPA3 frente a WPA2?",
+"options": ["Mayor velocidad", "Mejor protección contra fuerza bruta", "Más alcance", "Menor latencia"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-068",
+"questionNumber": 68,
+"question": "¿Qué protocolo de seguridad utiliza AES-CCMP?",
+"options": ["WPA", "WEP", "WPA2", "TKIP"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-069",
+"questionNumber": 69,
+"question": "¿Qué topología es más utilizada en redes LAN modernas?",
+"options": ["Bus", "Anillo", "Estrella", "Token Ring"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-070",
+"questionNumber": 70,
+"question": "¿Qué topología suele utilizarse en centros de datos por su redundancia?",
+"options": ["Bus", "Malla", "Anillo", "Estrella simple"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-071",
+"questionNumber": 71,
+"question": "¿Qué característica tiene un switch respecto a colisiones?",
+"options": ["Aumenta colisiones", "Cada puerto es un dominio independiente", "No usa MAC", "Divide broadcast"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-072",
+"questionNumber": 72,
+"question": "¿Qué dirección representa el broadcast limitado?",
+"options": ["127.0.0.1", "255.255.255.255", "0.0.0.0", "10.0.0.1"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-073",
+"questionNumber": 73,
+"question": "¿Qué dirección IPv4 privada pertenece al rango de clase B?",
+"options": ["10.0.0.1", "172.20.1.1", "8.8.8.8", "1.1.1.1"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-074",
+"questionNumber": 74,
+"question": "¿Qué clase IPv4 está reservada para multicast?",
+"options": ["A", "B", "C", "D"],
+"correctAnswer": 3
+},
+{
+"id": "PAR-SIM-075",
+"questionNumber": 75,
+"question": "¿Cuántos grupos tiene una dirección IPv6 completa?",
+"options": ["4", "6", "8", "16"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-076",
+"questionNumber": 76,
+"question": "¿Cuántas veces puede utilizarse :: en una dirección IPv6 abreviada?",
+"options": ["1", "2", "3", "Ilimitadas"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-077",
+"questionNumber": 77,
+"question": "¿Qué protocolo trabaja normalmente con datagramas y no garantiza entrega?",
+"options": ["TCP", "IP", "HTTPS", "SSH"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-078",
+"questionNumber": 78,
+"question": "¿Qué característica NO pertenece al protocolo IP?",
+"options": ["Garantiza entrega", "Usa datagramas", "No orientado a conexión", "Direccionamiento lógico"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-079",
+"questionNumber": 79,
+"question": "¿Qué estándar define comunicaciones LAN inalámbricas?",
+"options": ["802.3", "802.11", "802.1Q", "802.16"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-080",
+"questionNumber": 80,
+"question": "¿Qué protocolo utiliza autenticación mediante RADIUS en redes WiFi empresariales?",
+"options": ["802.1X", "RSTP", "ARP", "PAT"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-081",
+"questionNumber": 81,
+"question": "¿Qué componente verifica identidades en un entorno 802.1X?",
+"options": ["Servidor", "Cliente DHCP", "Switch transparente", "Hub"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-082",
+"questionNumber": 82,
+"question": "¿Qué tecnología inalámbrica ofrece cobertura metropolitana o rural?",
+"options": ["WiFi", "Bluetooth", "WiMAX", "NFC"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-083",
+"questionNumber": 83,
+"question": "¿Qué ventaja principal tiene WiMAX frente a WiFi?",
+"options": ["Más seguridad", "Mayor alcance", "Más puertos", "Menor consumo"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-084",
+"questionNumber": 84,
+"question": "¿Qué tecnología móvil introdujo SMS y voz digital?",
+"options": ["1G", "2G", "3G", "4G"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-085",
+"questionNumber": 85,
+"question": "¿Qué generación móvil introdujo Internet móvil real?",
+"options": ["1G", "2G", "3G", "5G"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-086",
+"questionNumber": 86,
+"question": "¿Qué tecnología utiliza OFDMA en enlace descendente?",
+"options": ["2G", "3G", "4G LTE", "ARP"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-087",
+"questionNumber": 87,
+"question": "¿Qué característica destaca en 5G?",
+"options": ["Solo voz", "Alta latencia", "Ultra baja latencia", "Sin MIMO"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-088",
+"questionNumber": 88,
+"question": "¿Qué protocolo se utiliza para resolver direcciones MAC?",
+"options": ["ICMP", "DHCP", "ARP", "NAT"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-089",
+"questionNumber": 89,
+"question": "¿Qué tipo de transmisión envía datos a todos los dispositivos de la red?",
+"options": ["Anycast", "Broadcast", "Unicast", "Full-duplex"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-090",
+"questionNumber": 90,
+"question": "¿Qué modo WiFi conecta dispositivos directamente entre sí?",
+"options": ["Infraestructura", "Ad-hoc", "Trunk", "Bridge"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-091",
+"questionNumber": 91,
+"question": "¿Qué modo WiFi utiliza normalmente un router o access point?",
+"options": ["Ad-hoc", "Half-duplex", "Infraestructura", "Mesh root"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-092",
+"questionNumber": 92,
+"question": "¿Qué protocolo se utiliza para acceso seguro remoto a equipos de red?",
+"options": ["Telnet", "FTP", "SSH", "HTTP"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-093",
+"questionNumber": 93,
+"question": "¿Qué ventaja tiene STP en redes con enlaces redundantes?",
+"options": ["Evita bucles", "Aumenta broadcast", "Deshabilita VLANs", "Cifra tráfico"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-094",
+"questionNumber": 94,
+"question": "¿Qué protocolo de seguridad WiFi utiliza TKIP?",
+"options": ["WEP", "WPA", "WPA2", "WPA3"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-095",
+"questionNumber": 95,
+"question": "¿Qué protocolo utiliza SAE y AES-GCMP?",
+"options": ["WEP", "WPA", "WPA2", "WPA3"],
+"correctAnswer": 3
+},
+{
+"id": "PAR-SIM-096",
+"questionNumber": 96,
+"question": "¿Qué tipo de tráfico suele priorizar QoS?",
+"options": ["Backups", "Videollamadas", "Actualizaciones", "Logs"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-097",
+"questionNumber": 97,
+"question": "¿Qué protocolo puede utilizar encapsulation dot1Q?",
+"options": ["Router-on-a-stick", "DHCP", "ICMP", "ARP"],
+"correctAnswer": 0
+},
+{
+"id": "PAR-SIM-098",
+"questionNumber": 98,
+"question": "¿Qué elemento de Ethernet detecta errores en la trama?",
+"options": ["Payload", "FCS", "SFD", "MAC origen"],
+"correctAnswer": 1
+},
+{
+"id": "PAR-SIM-099",
+"questionNumber": 99,
+"question": "¿Qué campo de la trama Ethernet indica el protocolo superior utilizado?",
+"options": ["Preamble", "FCS", "Tipo/Longitud", "MAC destino"],
+"correctAnswer": 2
+},
+{
+"id": "PAR-SIM-100",
+"questionNumber": 100,
+"question": "¿Qué tecnología permite que los datos viajen por varios caminos alternativos?",
+"options": ["Topología bus", "Topología estrella", "Topología malla", "Half-duplex"],
+"correctAnswer": 2
+}
+]

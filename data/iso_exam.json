@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ISO-001",
+    "question": "¿Qué componente de un sistema operativo se encarga de administrar la memoria, la CPU y los dispositivos de entrada y salida?",
+    "questionNumber": "1",
+    "options": [
+      "La BIOS",
+      "El kernel",
+      "El bootloader",
+      "La interfaz gráfica"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-002",
+    "question": "¿Cómo se denomina el mecanismo mediante el cual las aplicaciones solicitan servicios al kernel?",
+    "questionNumber": "2",
+    "options": [
+      "Interrupciones BIOS",
+      "Syscalls o llamadas al sistema",
+      "Drivers de usuario",
+      "Procesos daemon"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-003",
+    "question": "¿Cuál de los siguientes ejemplos corresponde a software libre y open source?",
+    "questionNumber": "3",
+    "options": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Microsoft Office"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-004",
+    "question": "¿Qué tipo de hipervisor se instala directamente sobre el hardware físico?",
+    "questionNumber": "4",
+    "options": [
+      "Hosted",
+      "Contenedor",
+      "Tipo 2",
+      "Bare-metal"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-005",
+    "question": "¿Cuál es una característica principal de los contenedores frente a las máquinas virtuales tradicionales?",
+    "questionNumber": "5",
+    "options": [
+      "Comparten el kernel del anfitrión",
+      "Necesitan un sistema operativo completo por instancia",
+      "Consumen más recursos",
+      "No permiten aislamiento"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-006",
+    "question": "¿Qué herramienta es un ejemplo de hipervisor tipo 2?",
+    "questionNumber": "6",
+    "options": [
+      "KVM",
+      "VirtualBox",
+      "Hyper-V Server",
+      "VMware ESXi"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-007",
+    "question": "¿Cuál es la principal limitación del esquema BIOS tradicional?",
+    "questionNumber": "7",
+    "options": [
+      "No permite discos SSD",
+      "No soporta NTFS",
+      "Depende del MBR y limita discos mayores de 2,2 TB",
+      "Impide instalar Linux"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-008",
+    "question": "¿Dónde busca UEFI los ejecutables EFI durante el arranque?",
+    "questionNumber": "8",
+    "options": [
+      "En el sector MBR",
+      "En la partición swap",
+      "En /boot/grub",
+      "En la ESP"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-009",
+    "question": "¿Qué gestor de arranque es el estándar más utilizado actualmente en Linux?",
+    "questionNumber": "9",
+    "options": [
+      "GRUB2",
+      "LILO",
+      "BOOTMGR",
+      "NTLDR"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-010",
+    "question": "¿Qué función cumple Secure Boot en UEFI?",
+    "questionNumber": "10",
+    "options": [
+      "Reducir el tiempo de arranque",
+      "Validar firmas digitales de los binarios de arranque",
+      "Crear automáticamente la ESP",
+      "Desactivar el multiboot"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-011",
+    "question": "¿Qué herramienta permite gestionar entradas UEFI desde Linux?",
+    "questionNumber": "11",
+    "options": [
+      "bootrec",
+      "diskpart",
+      "efibootmgr",
+      "fdisk"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-012",
+    "question": "¿Qué comando se utiliza en Windows para gestionar el almacén BCD?",
+    "questionNumber": "12",
+    "options": [
+      "grub-install",
+      "update-grub",
+      "mokutil",
+      "bcdedit"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-013",
+    "question": "¿Qué esquema de instalación es el recomendado actualmente para Windows en hardware moderno?",
+    "questionNumber": "13",
+    "options": [
+      "UEFI con GPT",
+      "BIOS con MBR",
+      "Legacy con FAT16",
+      "CSM con NTFS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-014",
+    "question": "¿Qué tipo de licencia de Windows queda ligada normalmente a la placa base del equipo?",
+    "questionNumber": "14",
+    "options": [
+      "Retail",
+      "OEM",
+      "GPL",
+      "Volume MAK"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-015",
+    "question": "¿Qué herramienta oficial de Microsoft permite crear medios de instalación actualizados?",
+    "questionNumber": "15",
+    "options": [
+      "Ventoy",
+      "Rufus",
+      "Media Creation Tool",
+      "DiskPart"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-016",
+    "question": "¿Qué partición se utiliza en sistemas UEFI para almacenar los archivos de arranque?",
+    "questionNumber": "16",
+    "options": [
+      "MSR",
+      "Swap",
+      "Recovery",
+      "ESP"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-017",
+    "question": "¿Qué partición es el mínimo imprescindible para instalar Linux?",
+    "questionNumber": "17",
+    "options": [
+      "La raíz /",
+      "La swap",
+      "La ESP",
+      "/home"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-018",
+    "question": "¿Qué función cumple la partición swap en Linux?",
+    "questionNumber": "18",
+    "options": [
+      "Guardar kernels EFI",
+      "Actuar como memoria virtual",
+      "Almacenar perfiles móviles",
+      "Contener el GRUB"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-019",
+    "question": "¿Qué directorio suele almacenar los datos de usuario en Linux?",
+    "questionNumber": "19",
+    "options": [
+      "/etc",
+      "/var",
+      "/home",
+      "/bin"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-020",
+    "question": "¿Qué sistema de archivos combina gestor de volúmenes y filesystem?",
+    "questionNumber": "20",
+    "options": [
+      "EXT4",
+      "NTFS",
+      "FAT32",
+      "ZFS"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-021",
+    "question": "¿Qué característica ofrece ZFS para detectar corrupción silenciosa de datos?",
+    "questionNumber": "21",
+    "options": [
+      "Checksums end-to-end",
+      "Swap dinámica",
+      "Compresión FAT",
+      "MBR redundante"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-022",
+    "question": "¿Qué sistema de archivos es considerado el estándar estable en Linux?",
+    "questionNumber": "22",
+    "options": [
+      "NTFS",
+      "EXT4",
+      "ZFS",
+      "FAT32"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-023",
+    "question": "¿Qué herramienta permite ver discos y puntos de montaje en Linux?",
+    "questionNumber": "23",
+    "options": [
+      "Get-Volume",
+      "TreeSize",
+      "lsblk -f",
+      "DiskPart"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-024",
+    "question": "¿Qué comando se utiliza para escanear errores lógicos en NTFS?",
+    "questionNumber": "24",
+    "options": [
+      "e2fsck",
+      "fsutil",
+      "df -h",
+      "chkdsk"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-025",
+    "question": "¿Qué significa LVM en Linux?",
+    "questionNumber": "25",
+    "options": [
+      "Logical Volume Manager",
+      "Linux Virtual Machine",
+      "Logical Virtual Memory",
+      "Layered Volume Module"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-026",
+    "question": "¿Qué elemento agrupa varios Physical Volumes dentro de LVM?",
+    "questionNumber": "26",
+    "options": [
+      "Logical Volumes",
+      "Volume Groups",
+      "Snapshots",
+      "Filesystem Pools"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-027",
+    "question": "¿Qué comando crea un volumen físico para LVM?",
+    "questionNumber": "27",
+    "options": [
+      "vgcreate",
+      "lvcreate",
+      "pvcreate",
+      "lvextend"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-028",
+    "question": "¿Qué ventaja principal ofrece LVM?",
+    "questionNumber": "28",
+    "options": [
+      "Sustituye a EXT4",
+      "Elimina la necesidad de backups",
+      "Impide usar varios discos",
+      "Permite ampliar volúmenes sin interrupción"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-029",
+    "question": "¿Qué tecnología de Windows es equivalente conceptualmente a LVM?",
+    "questionNumber": "29",
+    "options": [
+      "Storage Spaces",
+      "BitLocker",
+      "NTFS",
+      "Hyper-V"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-030",
+    "question": "¿Qué nivel RAID ofrece máximo rendimiento pero ninguna tolerancia a fallos?",
+    "questionNumber": "30",
+    "options": [
+      "RAID 1",
+      "RAID 0",
+      "RAID 5",
+      "RAID 6"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-031",
+    "question": "¿Qué nivel RAID utiliza paridad distribuida?",
+    "questionNumber": "31",
+    "options": [
+      "RAID 1",
+      "RAID 0",
+      "RAID 5",
+      "RAID 10"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-032",
+    "question": "¿Qué nivel RAID permite soportar la caída simultánea de dos discos?",
+    "questionNumber": "32",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 6"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-033",
+    "question": "¿Qué herramienta estándar de Linux se utiliza para gestionar RAID software?",
+    "questionNumber": "33",
+    "options": [
+      "mdadm",
+      "pvcreate",
+      "efibootmgr",
+      "lsblk"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-034",
+    "question": "¿Qué desventaja principal tiene RAID 1?",
+    "questionNumber": "34",
+    "options": [
+      "No tiene redundancia",
+      "Reduce el espacio útil disponible",
+      "No puede reconstruirse",
+      "No soporta discos SSD"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-035",
+    "question": "¿Qué base de datos almacena las cuentas locales en Windows?",
+    "questionNumber": "35",
+    "options": [
+      "Active Directory",
+      "LDAP",
+      "SAM",
+      "GPT"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-036",
+    "question": "¿Qué servicio centraliza autenticación y objetos en un dominio Windows?",
+    "questionNumber": "36",
+    "options": [
+      "WSUS",
+      "SMB",
+      "NTFS",
+      "Active Directory"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-037",
+    "question": "¿Qué ventaja ofrecen las cuentas de dominio frente a las locales?",
+    "questionNumber": "37",
+    "options": [
+      "Gestión centralizada",
+      "Mayor dependencia de usuarios locales",
+      "Necesidad de crear cuentas en cada PC",
+      "Eliminación de contraseñas"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-038",
+    "question": "¿Qué herramienta abre la consola de usuarios y grupos locales en Windows?",
+    "questionNumber": "38",
+    "options": [
+      "gpmc.msc",
+      "lusrmgr.msc",
+      "diskmgmt.msc",
+      "regedit"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-039",
+    "question": "¿Qué directivas permiten definir complejidad y bloqueo de contraseñas en un dominio?",
+    "questionNumber": "39",
+    "options": [
+      "ACLs",
+      "Snapshots",
+      "GPOs",
+      "ESP"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-040",
+    "question": "¿Qué comando sirve para crear usuarios rápidamente desde línea de comandos en Windows?",
+    "questionNumber": "40",
+    "options": [
+      "useradd",
+      "groupadd",
+      "passwd",
+      "net user"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-041",
+    "question": "¿Dónde se almacenan normalmente los perfiles móviles en un dominio?",
+    "questionNumber": "41",
+    "options": [
+      "En un servidor central",
+      "Solo en el equipo local",
+      "En la BIOS",
+      "En la swap"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-042",
+    "question": "¿Qué tipo de perfil descarta todos los cambios al cerrar sesión?",
+    "questionNumber": "42",
+    "options": [
+      "Perfil local",
+      "Perfil obligatorio",
+      "Perfil híbrido",
+      "Perfil temporal"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-043",
+    "question": "¿Qué archivo debe renombrarse para convertir un perfil móvil en obligatorio?",
+    "questionNumber": "43",
+    "options": [
+      "BOOTMGR",
+      "GRUB.CFG",
+      "NTUSER.DAT",
+      "SAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-044",
+    "question": "¿Dónde suelen almacenarse los scripts de inicio de sesión en un dominio Windows?",
+    "questionNumber": "44",
+    "options": [
+      "C:\\Windows\\Temp",
+      "/boot",
+      "/etc",
+      "NETLOGON"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-045",
+    "question": "¿Qué comando se utiliza frecuentemente en scripts para mapear unidades de red?",
+    "questionNumber": "45",
+    "options": [
+      "net use",
+      "mountfs",
+      "diskmap",
+      "mapdrv"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-046",
+    "question": "¿Qué significa la letra C en la tríada CIA?",
+    "questionNumber": "46",
+    "options": [
+      "Conectividad",
+      "Confidencialidad",
+      "Centralización",
+      "Compatibilidad"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-047",
+    "question": "¿Qué norma internacional define un SGSI basado en gestión de riesgos?",
+    "questionNumber": "47",
+    "options": [
+      "RGPD",
+      "NIST",
+      "ISO 27001",
+      "PCI-DSS"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-048",
+    "question": "¿Qué obligación del RGPD establece la notificación de brechas en menos de 72 horas?",
+    "questionNumber": "48",
+    "options": [
+      "Minimización",
+      "Integridad",
+      "Pseudonimización",
+      "Gestión de brechas"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-049",
+    "question": "¿Qué práctica de backup recomienda mantener tres copias en dos soportes y una fuera del sitio?",
+    "questionNumber": "49",
+    "options": [
+      "Regla 3-2-1",
+      "RAID 5",
+      "Snapshot incremental",
+      "Mirroring"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-050",
+    "question": "¿Qué herramienta permite verificar hashes SHA-256 en Linux?",
+    "questionNumber": "50",
+    "options": [
+      "Get-Partition",
+      "sha256sum",
+      "mokutil",
+      "lsblk"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-051",
+    "question": "¿Qué ataque explotó SMBv1 y provocó un cifrado masivo de archivos?",
+    "questionNumber": "51",
+    "options": [
+      "LockBit",
+      "Zeus",
+      "WannaCry",
+      "Mirai"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-052",
+    "question": "¿Qué control está asociado principalmente a la confidencialidad?",
+    "questionNumber": "52",
+    "options": [
+      "Snapshots",
+      "RPO/RTO",
+      "Alta disponibilidad",
+      "MFA"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-053",
+    "question": "¿Qué tipo de amenaza busca engañar al usuario suplantando entidades legítimas?",
+    "questionNumber": "53",
+    "options": [
+      "Phishing",
+      "Rootkit",
+      "RAID",
+      "Fragmentación"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-054",
+    "question": "¿Qué componente del modelo de defensa en profundidad protege el perímetro de red?",
+    "questionNumber": "54",
+    "options": [
+      "Firewall",
+      "Swap",
+      "Bootloader",
+      "Kernel"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-055",
+    "question": "¿Qué herramienta centraliza logs y correlaciona eventos de seguridad?",
+    "questionNumber": "55",
+    "options": [
+      "BitLocker",
+      "MFA",
+      "SIEM",
+      "RAID"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-056",
+    "question": "¿Qué tecnología monitoriza endpoints y detiene comportamientos sospechosos en tiempo real?",
+    "questionNumber": "56",
+    "options": [
+      "VPN",
+      "IDS",
+      "SMTP",
+      "EDR"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "ISO-057",
+    "question": "¿Qué marco resume el ciclo Identify-Protect-Detect-Respond-Recover?",
+    "questionNumber": "57",
+    "options": [
+      "NIST",
+      "RGPD",
+      "LVM",
+      "UEFI"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "ISO-058",
+    "question": "¿Qué tipo de ataque manipula principalmente a las personas más que a los sistemas?",
+    "questionNumber": "58",
+    "options": [
+      "Ingeniería social",
+      "RAID spoofing",
+      "Kernel panic",
+      "Hypervisor escape"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "ISO-059",
+    "question": "¿Qué herramienta IDS/IPS aparece mencionada en la teoría?",
+    "questionNumber": "59",
+    "options": [
+      "Rufus",
+      "Ventoy",
+      "Snort",
+      "Docker"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "ISO-060",
+    "question": "¿Cuál es la idea central de la defensa en profundidad?",
+    "questionNumber": "60",
+    "options": [
+      "Confiar solo en el antivirus",
+      "Eliminar los backups",
+      "Depender únicamente del firewall",
+      "Combinar múltiples capas de protección"
+    ],
+    "correctAnswer": 3
+  }
+]

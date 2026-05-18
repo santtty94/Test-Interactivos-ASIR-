@@ -1,0 +1,722 @@
+[
+  {
+    "id": "FUHAR-001",
+    "questionNumber": "1",
+    "question": "¿Cuál es la función principal de la placa base dentro de un ordenador?",
+    "options": [
+      "Mostrar gráficos en pantalla",
+      "Interconectar y distribuir datos y energía entre componentes",
+      "Almacenar permanentemente los archivos",
+      "Procesar operaciones matemáticas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-002",
+    "questionNumber": "2",
+    "question": "¿Qué factor de forma de placa base es el más compacto?",
+    "options": [
+      "Mini-ITX",
+      "ATX",
+      "Micro-ATX",
+      "Extended-ATX"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-003",
+    "questionNumber": "3",
+    "question": "¿Qué componente determina principalmente la compatibilidad entre CPU y placa base?",
+    "options": [
+      "La fuente de alimentación",
+      "La GPU",
+      "El zócalo de la CPU",
+      "La memoria RAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-004",
+    "questionNumber": "4",
+    "question": "¿Qué ranura PCIe suele utilizar una tarjeta gráfica dedicada?",
+    "options": [
+      "PCIe x1",
+      "PCIe x2",
+      "PCIe x4",
+      "PCIe x16"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-005",
+    "questionNumber": "5",
+    "question": "¿Qué función tiene el chipset en la placa base?",
+    "options": [
+      "Gestionar el flujo de datos entre componentes",
+      "Almacenar el sistema operativo",
+      "Refrigerar la CPU",
+      "Controlar únicamente la RAM"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-006",
+    "questionNumber": "6",
+    "question": "¿Qué tipo de bus transmite las direcciones de memoria?",
+    "options": [
+      "Bus de control",
+      "Bus de direcciones",
+      "Bus PCIe",
+      "Bus SATA"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-007",
+    "questionNumber": "7",
+    "question": "¿Cuál es la principal ventaja del conector M.2 frente a SATA tradicional?",
+    "options": [
+      "Menor consumo eléctrico",
+      "Mayor tamaño físico",
+      "Mayor velocidad y conexión directa a placa",
+      "Compatibilidad exclusiva con HDD"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-008",
+    "questionNumber": "8",
+    "question": "¿Qué característica destacaba ASUS en su línea ROG?",
+    "options": [
+      "Uso exclusivo de discos SATA",
+      "Eliminación de VRMs",
+      "Menor capacidad de overclocking",
+      "VRMs más robustos y mejor refrigeración"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-009",
+    "questionNumber": "9",
+    "question": "¿Para qué sirve una pulsera antiestática durante el montaje?",
+    "options": [
+      "Evitar descargas electrostáticas sobre componentes",
+      "Mejorar el rendimiento de la CPU",
+      "Reducir el ruido de ventiladores",
+      "Aumentar la velocidad de la RAM"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-010",
+    "questionNumber": "10",
+    "question": "¿Qué herramienta online ayuda a comprobar compatibilidades de hardware?",
+    "options": [
+      "HWMonitor",
+      "PCPartPicker",
+      "CrystalDiskInfo",
+      "GPU-Z"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-011",
+    "questionNumber": "11",
+    "question": "¿Qué realiza el POST durante el arranque?",
+    "options": [
+      "Instalar drivers",
+      "Actualizar Windows",
+      "Comprobar el hardware crítico",
+      "Desfragmentar discos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-012",
+    "questionNumber": "12",
+    "question": "¿Qué ventaja importante aporta UEFI respecto a BIOS tradicional?",
+    "options": [
+      "Reduce la cantidad de RAM",
+      "Desactiva el Secure Boot",
+      "Solo funciona con HDD",
+      "Permite arranque seguro y discos grandes"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-013",
+    "questionNumber": "13",
+    "question": "¿Qué función tiene Secure Boot?",
+    "options": [
+      "Evitar arranque de software malicioso",
+      "Aumentar FPS en juegos",
+      "Reducir el tamaño del disco",
+      "Controlar ventiladores"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-014",
+    "questionNumber": "14",
+    "question": "¿Qué significa 'flashear la BIOS'?",
+    "options": [
+      "Cambiar la fuente de alimentación",
+      "Actualizar el firmware de la placa base",
+      "Desinstalar el sistema operativo",
+      "Formatear la RAM"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-015",
+    "questionNumber": "15",
+    "question": "¿Qué componente suele conectarse a CPU_FAN?",
+    "options": [
+      "SSD NVMe",
+      "Fuente de alimentación",
+      "Ventilador del disipador de CPU",
+      "Tarjeta de sonido"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-016",
+    "questionNumber": "16",
+    "question": "¿Qué ocurre normalmente si CPU_FAN no está conectado?",
+    "options": [
+      "La GPU deja de funcionar",
+      "La RAM funciona en single-channel",
+      "El SSD se desactiva",
+      "Muchas placas no arrancan"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-017",
+    "questionNumber": "17",
+    "question": "¿Qué riesgo supone la electricidad estática para los componentes?",
+    "options": [
+      "Dañar circuitos electrónicos",
+      "Reducir el tamaño del disco",
+      "Mejorar el rendimiento",
+      "Actualizar automáticamente drivers"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-018",
+    "questionNumber": "18",
+    "question": "¿Qué herramienta es recomendable para organizar tornillos durante un montaje?",
+    "options": [
+      "Bandeja magnética",
+      "Pasta térmica",
+      "Cable SATA",
+      "Memoria USB"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-019",
+    "questionNumber": "19",
+    "question": "¿Qué secuencia correcta aparece en el montaje básico?",
+    "options": [
+      "GPU → CPU → RAM",
+      "CPU → pasta térmica → disipador → RAM",
+      "SSD → GPU → fuente",
+      "BIOS → GPU → CPU"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-020",
+    "questionNumber": "20",
+    "question": "¿Qué tipo de RAM suelen activar las ranuras A2/B2?",
+    "options": [
+      "ECC",
+      "Single-channel",
+      "Dual-channel",
+      "Quad-channel"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-021",
+    "questionNumber": "21",
+    "question": "¿Qué representa el triángulo de la CPU y el socket?",
+    "options": [
+      "El punto de alimentación",
+      "La orientación correcta de instalación",
+      "La posición del ventilador",
+      "La velocidad máxima"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-022",
+    "questionNumber": "22",
+    "question": "¿Cuál es la función de la pasta térmica?",
+    "options": [
+      "Refrigerar directamente la CPU",
+      "Conectar la GPU",
+      "Rellenar microimperfecciones entre CPU y disipador",
+      "Reducir el voltaje"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-023",
+    "questionNumber": "23",
+    "question": "¿Qué ocurre si se aplica demasiada pasta térmica?",
+    "options": [
+      "Mejora siempre la refrigeración",
+      "Reduce el consumo eléctrico",
+      "Aumenta la velocidad de RAM",
+      "Puede empeorar la disipación térmica"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-024",
+    "questionNumber": "24",
+    "question": "¿Qué estándar sustituyó a buses antiguos como AGP?",
+    "options": [
+      "PCI Express",
+      "IDE",
+      "PATA",
+      "ISA"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-025",
+    "questionNumber": "25",
+    "question": "¿Qué tarjeta de expansión se utiliza principalmente para gráficos 3D?",
+    "options": [
+      "Tarjeta de red",
+      "GPU",
+      "Tarjeta de sonido",
+      "Capturadora"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-026",
+    "questionNumber": "26",
+    "question": "¿Qué ventaja aporta una tarjeta de sonido dedicada?",
+    "options": [
+      "Reduce capacidad del SSD",
+      "Elimina necesidad de drivers",
+      "Menos interferencias y mejor calidad de audio",
+      "Sustituye a la RAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-027",
+    "questionNumber": "27",
+    "question": "¿Qué tipo de ranura PCIe suele usar una tarjeta de sonido?",
+    "options": [
+      "PCIe x32",
+      "PCIe x16 exclusivamente",
+      "PCIe x8",
+      "PCIe x1"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-028",
+    "questionNumber": "28",
+    "question": "¿Qué significa VRAM en una GPU?",
+    "options": [
+      "Memoria de vídeo dedicada",
+      "Voltaje de RAM",
+      "Controlador de ventiladores",
+      "Bus de almacenamiento"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-029",
+    "questionNumber": "29",
+    "question": "¿Qué herramienta elimina completamente drivers antiguos de GPU?",
+    "options": [
+      "CrystalDiskMark",
+      "DDU",
+      "OBS",
+      "Macrium Reflect"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-030",
+    "questionNumber": "30",
+    "question": "¿Qué debe comprobarse antes de instalar una GPU potente?",
+    "options": [
+      "La resolución del monitor",
+      "El modelo de teclado",
+      "La potencia y conectores de la PSU",
+      "La versión de Office"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-031",
+    "questionNumber": "31",
+    "question": "¿Dónde deben descargarse preferiblemente los drivers?",
+    "options": [
+      "Desde CDs antiguos",
+      "Desde cualquier foro",
+      "Desde redes sociales",
+      "Desde la web oficial del fabricante"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-032",
+    "questionNumber": "32",
+    "question": "¿Qué es un periférico de entrada?",
+    "options": [
+      "Dispositivo que envía información al ordenador",
+      "Dispositivo que solo recibe información",
+      "Unidad de almacenamiento",
+      "Sistema operativo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-033",
+    "questionNumber": "33",
+    "question": "¿Cuál es un ejemplo de periférico de salida?",
+    "options": [
+      "Ratón",
+      "Monitor",
+      "Micrófono",
+      "Escáner"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-034",
+    "questionNumber": "34",
+    "question": "¿Qué periférico puede ser considerado de entrada/salida?",
+    "options": [
+      "Teclado",
+      "Altavoz",
+      "Impresora multifunción",
+      "Monitor"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-035",
+    "questionNumber": "35",
+    "question": "¿Qué caracteriza a un teclado mecánico?",
+    "options": [
+      "Uso exclusivo inalámbrico",
+      "Menor precisión",
+      "Sin interruptores individuales",
+      "Mayor precisión y durabilidad"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-036",
+    "questionNumber": "36",
+    "question": "¿Qué característica define a un HDD?",
+    "options": [
+      "Uso de platos mecánicos",
+      "Comunicación exclusiva PCIe",
+      "Ausencia de partes móviles",
+      "Uso obligatorio de NVMe"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-037",
+    "questionNumber": "37",
+    "question": "¿Qué ventaja principal tienen los SSD frente a los HDD?",
+    "options": [
+      "Mayor ruido",
+      "Mayor velocidad y menor tiempo de acceso",
+      "Uso obligatorio de ventiladores",
+      "Mayor fragilidad"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-038",
+    "questionNumber": "38",
+    "question": "¿Qué protocolo utiliza directamente el bus PCIe?",
+    "options": [
+      "SATA",
+      "IDE",
+      "NVMe",
+      "PATA"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-039",
+    "questionNumber": "39",
+    "question": "¿Qué formato de almacenamiento se instala directamente en placa base sin cables?",
+    "options": [
+      "3.5 pulgadas",
+      "2.5 pulgadas",
+      "IDE",
+      "M.2"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-040",
+    "questionNumber": "40",
+    "question": "¿Qué configuración se recomienda habitualmente en PCs modernos?",
+    "options": [
+      "SSD para sistema y HDD para datos",
+      "Solo disquetes",
+      "Únicamente HDD lentos",
+      "Solo almacenamiento óptico"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-041",
+    "questionNumber": "41",
+    "question": "¿Qué herramienta mide velocidades de lectura y escritura de discos?",
+    "options": [
+      "GPU-Z",
+      "CrystalDiskMark",
+      "OBS",
+      "PCPartPicker"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-042",
+    "questionNumber": "42",
+    "question": "¿Qué herramienta permite revisar valores SMART de un disco?",
+    "options": [
+      "HWMonitor",
+      "Macrium Reflect",
+      "CrystalDiskInfo",
+      "DDU"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-043",
+    "questionNumber": "43",
+    "question": "¿Qué interfaz utilizaba cables anchos de 40 u 80 hilos?",
+    "options": [
+      "SATA",
+      "SAS",
+      "NVMe",
+      "PATA"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-044",
+    "questionNumber": "44",
+    "question": "¿Cuál es la velocidad máxima teórica aproximada de SATA III?",
+    "options": [
+      "600 MB/s",
+      "100 MB/s",
+      "10 GB/s",
+      "50 MB/s"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-045",
+    "questionNumber": "45",
+    "question": "¿Dónde se utiliza habitualmente SAS?",
+    "options": [
+      "Consolas retro",
+      "Servidores y entornos profesionales",
+      "Solo teléfonos móviles",
+      "Impresoras domésticas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-046",
+    "questionNumber": "46",
+    "question": "¿Qué ventaja principal ofrece NVMe frente a SATA?",
+    "options": [
+      "Mayor tamaño físico",
+      "Menor velocidad",
+      "Mucho mayor rendimiento mediante PCIe",
+      "Compatibilidad exclusiva con HDD"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-047",
+    "questionNumber": "47",
+    "question": "¿Qué NO debe hacerse con un SSD?",
+    "options": [
+      "Usarlo para sistema operativo",
+      "Instalar programas",
+      "Actualizar drivers",
+      "Desfragmentarlo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-048",
+    "questionNumber": "48",
+    "question": "¿Qué es una imagen de respaldo?",
+    "options": [
+      "Una copia completa del sistema",
+      "Solo una foto de pantalla",
+      "Un antivirus",
+      "Una actualización de BIOS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-049",
+    "questionNumber": "49",
+    "question": "¿Qué permite un bare-metal restore?",
+    "options": [
+      "Restaurar un sistema completo desde cero",
+      "Aumentar FPS",
+      "Actualizar GPU",
+      "Desactivar RAID"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-050",
+    "questionNumber": "50",
+    "question": "¿Qué significa P2V?",
+    "options": [
+      "Pasar de virtual a físico",
+      "Crear un RAID",
+      "Convertir una máquina física en virtual",
+      "Actualizar BIOS"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-051",
+    "questionNumber": "51",
+    "question": "¿Qué software de backup se menciona como popular para clonar discos?",
+    "options": [
+      "OBS",
+      "GPU-Z",
+      "Discord",
+      "Macrium Reflect"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-052",
+    "questionNumber": "52",
+    "question": "¿Qué establece la regla 3-2-1 de backup?",
+    "options": [
+      "3 copias, 2 soportes distintos y 1 copia off-site",
+      "3 discos SSD únicamente",
+      "2 sistemas operativos y 1 GPU",
+      "1 copia local exclusivamente"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-053",
+    "questionNumber": "53",
+    "question": "¿Qué tipo de mantenimiento actúa después de un fallo?",
+    "options": [
+      "Preventivo",
+      "Correctivo",
+      "Predictivo",
+      "Proactivo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-054",
+    "questionNumber": "54",
+    "question": "¿Qué objetivo tiene el mantenimiento preventivo?",
+    "options": [
+      "Esperar a que el equipo falle",
+      "Eliminar sistemas operativos",
+      "Evitar problemas antes de que ocurran",
+      "Reducir la RAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-055",
+    "questionNumber": "55",
+    "question": "¿Qué suele provocar depender únicamente del mantenimiento correctivo?",
+    "options": [
+      "Menor riesgo",
+      "Más estabilidad",
+      "Mayor velocidad",
+      "Tiempos de inactividad y costes inesperados"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-056",
+    "questionNumber": "56",
+    "question": "¿Qué significa cloud computing?",
+    "options": [
+      "Uso de recursos informáticos a través de Internet",
+      "Montar hardware local exclusivamente",
+      "Desfragmentar discos online",
+      "Instalar únicamente software libre"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "FUHAR-057",
+    "questionNumber": "57",
+    "question": "¿Qué modelo cloud ofrece máquinas virtuales y redes básicas?",
+    "options": [
+      "SaaS",
+      "IaaS",
+      "PaaS",
+      "On-Premise"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "FUHAR-058",
+    "questionNumber": "58",
+    "question": "¿Qué modelo cloud permite centrarse principalmente en el código de la aplicación?",
+    "options": [
+      "SaaS",
+      "On-Premise",
+      "PaaS",
+      "RAID"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "FUHAR-059",
+    "questionNumber": "59",
+    "question": "¿Qué ejemplo corresponde a SaaS?",
+    "options": [
+      "Amazon EC2",
+      "Google Compute Engine",
+      "Azure VM",
+      "Google Drive"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "FUHAR-060",
+    "questionNumber": "60",
+    "question": "¿Qué proveedor cloud es conocido por su integración con ecosistema Windows y Active Directory?",
+    "options": [
+      "Microsoft Azure",
+      "AWS exclusivamente",
+      "Oracle Cloud",
+      "VMware Workstation"
+    ],
+    "correctAnswer": 0
+  }
+]

@@ -334,55 +334,55 @@
     "question": "¿Por qué los sistemas basados en archivos tradicionales generaban problemas en la gestión de la información?",
     "options": [
       "Porque eran demasiado rápidos",
-      "Porque impedían el acceso a los datos",
       "Porque producían redundancia y falta de coherencia entre los datos",
+      "Porque impedían el acceso a los datos",
       "Porque no permitían almacenar información"
     ],
-    "correctAnswer": 2
+    "correctAnswer": 1
   },
   {
     "id": "BBDD-032",
     "question": "¿Cuál es la principal función de un Sistema Gestor de Bases de Datos (SGBD)?",
     "options": [
       "Ejecutar programas",
-      "Actuar como intermediario entre usuarios y datos, gestionando su almacenamiento y acceso",
       "Crear sistemas operativos",
+      "Actuar como intermediario entre usuarios y datos, gestionando su almacenamiento y acceso",
       "Eliminar información automáticamente"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": "BBDD-033",
     "question": "En el diseño de bases de datos, ¿por qué es importante separar los datos de las aplicaciones que los utilizan?",
     "options": [
-      "Para reducir el tamaño del software",
       "Para mejorar la independencia y facilitar cambios sin afectar a las aplicaciones",
+      "Para reducir el tamaño del software",
       "Para eliminar el uso de SQL",
       "Para evitar errores de compilación"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": "BBDD-034",
     "question": "En un modelo Entidad-Relación, ¿qué representa una entidad y por qué es fundamental en el diseño?",
     "options": [
       "Un tipo de dato",
-      "Un objeto del mundo real sobre el que queremos almacenar información",
       "Una relación entre tablas",
+      "Un objeto del mundo real sobre el que queremos almacenar información",
       "Un atributo"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": "BBDD-035",
     "question": "¿Qué diferencia existe entre una entidad y un atributo dentro de un modelo E-R?",
     "options": [
       "No hay diferencia",
-      "La entidad es un objeto y el atributo es una característica de ese objeto",
+      "La entidad es una tabla",
       "El atributo es más importante",
-      "La entidad es una tabla"
+      "La entidad es un objeto y el atributo es una característica de ese objeto"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 3
   },
   {
     "id": "BBDD-036",
@@ -399,45 +399,45 @@
     "id": "BBDD-037",
     "question": "¿Por qué la clave primaria es un elemento fundamental en una tabla?",
     "options": [
-      "Porque reduce el tamaño",
       "Porque identifica de forma única cada registro",
+      "Porque reduce el tamaño",
       "Porque elimina errores automáticamente",
       "Porque mejora el diseño visual"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": "BBDD-038",
     "question": "¿Qué papel desempeñan las claves foráneas en una base de datos relacional?",
     "options": [
       "Crear tablas",
-      "Relacionar tablas entre sí",
       "Eliminar datos",
+      "Relacionar tablas entre sí",
       "Validar código"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": "BBDD-039",
     "question": "¿Cómo se implementa una relación N:M en un modelo relacional?",
     "options": [
-      "Eliminándola",
       "Creando una tabla intermedia con claves foráneas",
+      "Eliminándola",
       "Duplicando tablas",
       "Ignorándola"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": "BBDD-040",
     "question": "¿Cuál es el objetivo principal de la normalización en bases de datos?",
     "options": [
       "Aumentar el número de tablas",
-      "Reducir redundancia y mejorar integridad",
+      "Eliminar relaciones",
       "Reducir código",
-      "Eliminar relaciones"
+      "Reducir redundancia y mejorar integridad"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 3
   },
   {
     "id": "BBDD-041",
@@ -455,44 +455,44 @@
     "question": "¿Qué problema elimina la Segunda Forma Normal (2FN)?",
     "options": [
       "Redundancia total",
-      "Dependencias parciales",
       "Relaciones",
+      "Dependencias parciales",
       "Claves"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 2
   },
   {
     "id": "BBDD-043",
     "question": "¿Qué son las dependencias transitivas que elimina la 3FN?",
     "options": [
-      "Dependencias directas",
       "Dependencias indirectas entre atributos no clave",
+      "Dependencias directas",
       "Claves",
       "Relaciones"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": "BBDD-044",
     "question": "¿Qué tipo de lenguaje es SQL y qué implica esto?",
     "options": [
       "Imperativo",
-      "Declarativo",
+      "Compilado",
       "Binario",
-      "Compilado"
+      "Declarativo"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 3
   },
   {
     "id": "BBDD-045",
     "question": "¿Qué diferencia hay entre DDL y DML en SQL?",
     "options": [
       "Ninguna",
-      "DDL define estructura y DML manipula datos",
+      "DDL elimina datos",
       "DML crea tablas",
-      "DDL elimina datos"
+      "DDL define estructura y DML manipula datos"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 3
   },
   {
     "id": "BBDD-046",
@@ -510,43 +510,43 @@
     "question": "¿Qué garantiza la restricción NOT NULL?",
     "options": [
       "Valores únicos",
-      "Campo obligatorio",
+      "Eliminación",
       "Relación",
-      "Eliminación"
+      "Campo obligatorio"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 3
   },
   {
     "id": "BBDD-048",
     "question": "¿Por qué UNIQUE evita errores en una base de datos?",
     "options": [
-      "Porque elimina datos",
       "Porque evita duplicados",
+      "Porque elimina datos",
       "Porque crea tablas",
       "Porque valida código"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "id": "BBDD-049",
     "question": "¿Qué función tiene la restricción CHECK en SQL?",
     "options": [
-      "Validar reglas o condiciones sobre los datos",
       "Crear tablas",
+      "Validar reglas o condiciones sobre los datos",
       "Eliminar datos",
       "Insertar datos"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": "BBDD-050",
     "question": "¿Qué representa una fila dentro de una tabla relacional?",
     "options": [
       "Columna",
-      "Registro",
       "Tabla",
+      "Registro",
       "Clave"
     ],
-    "correctAnswer": 1
+    "correctAnswer": 2
   }
 ]

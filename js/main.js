@@ -52,12 +52,16 @@
         // Asignar URL a las tarjetas de tipo de test
         const globalCard = document.getElementById('globalTestCard');
         const randomCard = document.getElementById('randomTestCard');
+        const examCard   = document.getElementById('examTestCard');
 
         if (globalCard) {
             globalCard.href = `test.html?module=${moduleId}&type=global`;
         }
         if (randomCard) {
             randomCard.href = `test.html?module=${moduleId}&type=random`;
+        }
+        if (examCard) {
+            examCard.href = `test.html?module=${moduleId}&type=exam`;
         }
     }
 

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "LMSGI-001",
+    "questionNumber": 1,
+    "question": "¿Qué ventaja principal aporta separar HTML y CSS?",
+    "options": [
+      "Reducir el tamaño de las imágenes",
+      "Separar contenido y presentación",
+      "Eliminar la necesidad de JavaScript",
+      "Evitar usar etiquetas semánticas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-002",
+    "questionNumber": 2,
+    "question": "¿Qué selector CSS aplica estilos a todos los elementos HTML?",
+    "options": [
+      "#all",
+      ".all",
+      "*",
+      "body"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-003",
+    "questionNumber": 3,
+    "question": "¿Qué propiedad CSS define el color de fondo de un elemento?",
+    "options": [
+      "background-color",
+      "font-color",
+      "color",
+      "background-style"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-004",
+    "questionNumber": 4,
+    "question": "¿Qué selector tiene mayor prioridad en CSS?",
+    "options": [
+      "Selector universal",
+      "Selector de etiqueta",
+      "Selector de clase",
+      "Selector id"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "LMSGI-005",
+    "questionNumber": 5,
+    "question": "¿Qué propiedad controla el espacio entre el borde y el contenido?",
+    "options": [
+      "padding",
+      "margin",
+      "spacing",
+      "outline"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-006",
+    "questionNumber": 6,
+    "question": "¿Qué propiedad controla el espacio exterior de una caja?",
+    "options": [
+      "padding",
+      "margin",
+      "border-spacing",
+      "content"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-007",
+    "questionNumber": 7,
+    "question": "¿Qué valor de border-style genera un borde continuo?",
+    "options": [
+      "dashed",
+      "double",
+      "solid",
+      "groove"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-008",
+    "questionNumber": 8,
+    "question": "¿Qué propiedad CSS permite añadir una imagen de fondo?",
+    "options": [
+      "background-src",
+      "background-image",
+      "img-background",
+      "background-file"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-009",
+    "questionNumber": 9,
+    "question": "¿Qué valor evita repetir una imagen de fondo?",
+    "options": [
+      "repeat-none",
+      "background-repeat: no-repeat",
+      "background-repeat: off",
+      "repeat: false"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-010",
+    "questionNumber": 10,
+    "question": "¿Qué unidad representa un porcentaje del ancho de la ventana gráfica?",
+    "options": [
+      "vh",
+      "em",
+      "vw",
+      "rem"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-011",
+    "questionNumber": 11,
+    "question": "¿Qué propiedad CSS define el tamaño de una fuente?",
+    "options": [
+      "font-size",
+      "font-style",
+      "text-size",
+      "size"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-012",
+    "questionNumber": 12,
+    "question": "¿Qué valor de font-style muestra texto en cursiva?",
+    "options": [
+      "bold",
+      "italic",
+      "uppercase",
+      "oblique-text"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-013",
+    "questionNumber": 13,
+    "question": "¿Qué propiedad transforma texto en mayúsculas?",
+    "options": [
+      "text-style",
+      "font-transform",
+      "text-transform",
+      "uppercase-style"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-014",
+    "questionNumber": 14,
+    "question": "¿Qué valor de text-transform convierte la primera letra de cada palabra en mayúscula?",
+    "options": [
+      "uppercase",
+      "capitalize",
+      "lowercase",
+      "small-caps"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-015",
+    "questionNumber": 15,
+    "question": "¿Qué propiedad añade sombra a un texto?",
+    "options": [
+      "box-shadow",
+      "font-shadow",
+      "text-shadow",
+      "shadow-text"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-016",
+    "questionNumber": 16,
+    "question": "¿Qué propiedad controla el espacio entre letras?",
+    "options": [
+      "word-spacing",
+      "letter-spacing",
+      "text-spacing",
+      "font-spacing"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-017",
+    "questionNumber": 17,
+    "question": "¿Qué propiedad controla el espacio entre palabras?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "spacing",
+      "justify-content"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-018",
+    "questionNumber": 18,
+    "question": "¿Qué valor de overflow oculta el contenido excedente?",
+    "options": [
+      "visible",
+      "hidden",
+      "scroll",
+      "auto"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-019",
+    "questionNumber": 19,
+    "question": "¿Qué valor de overflow añade barras de desplazamiento solo si son necesarias?",
+    "options": [
+      "visible",
+      "scroll",
+      "hidden",
+      "auto"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "LMSGI-020",
+    "questionNumber": 20,
+    "question": "¿Qué pseudoclase se aplica cuando el ratón pasa sobre un enlace?",
+    "options": [
+      ":hover",
+      ":visited",
+      ":focus",
+      ":active-link"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-021",
+    "questionNumber": 21,
+    "question": "¿Qué selector selecciona elementos con class=\"menu\"?",
+    "options": [
+      "#menu",
+      ".menu",
+      "menu",
+      "*menu"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-022",
+    "questionNumber": 22,
+    "question": "¿Qué selector selecciona un elemento con id=\"principal\"?",
+    "options": [
+      ".principal",
+      "principal",
+      "#principal",
+      "*principal"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-023",
+    "questionNumber": 23,
+    "question": "¿Qué ocurre cuando dos reglas CSS contradictorias afectan al mismo elemento?",
+    "options": [
+      "Se ignoran ambas",
+      "Se aplica la primera",
+      "Se mezclan automáticamente",
+      "Prevalece la última definida"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "LMSGI-024",
+    "questionNumber": 24,
+    "question": "¿Qué tipo de estilo tiene prioridad máxima?",
+    "options": [
+      "Estilo inline",
+      "Estilo externo",
+      "Selector universal",
+      "Selector de etiqueta"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-025",
+    "questionNumber": 25,
+    "question": "¿Qué ocurre si un elemento no tiene estilo definido?",
+    "options": [
+      "Se elimina",
+      "Hereda el estilo del elemento superior",
+      "Genera error",
+      "Usa JavaScript"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-026",
+    "questionNumber": 26,
+    "question": "¿Qué propiedad CSS permite redondear bordes?",
+    "options": [
+      "border-round",
+      "border-style",
+      "border-radius",
+      "outline-radius"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-027",
+    "questionNumber": 27,
+    "question": "¿Qué propiedad permite centrar horizontalmente texto?",
+    "options": [
+      "align-items",
+      "text-align",
+      "justify-content",
+      "vertical-align"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-028",
+    "questionNumber": 28,
+    "question": "¿Qué valor de text-align justifica el texto?",
+    "options": [
+      "center",
+      "justify",
+      "middle",
+      "auto"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-029",
+    "questionNumber": 29,
+    "question": "¿Qué propiedad CSS controla la alineación vertical?",
+    "options": [
+      "vertical-align",
+      "align-text",
+      "justify-content",
+      "line-align"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-030",
+    "questionNumber": 30,
+    "question": "¿Qué valor de vertical-align sitúa el contenido en el medio?",
+    "options": [
+      "center",
+      "middle",
+      "justify",
+      "baseline"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-031",
+    "questionNumber": 31,
+    "question": "¿Qué finalidad principal tiene CSS en una página web?",
+    "options": [
+      "Gestionar bases de datos",
+      "Definir la estructura del contenido",
+      "Controlar el diseño y presentación visual",
+      "Crear formularios dinámicos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-032",
+    "questionNumber": 32,
+    "question": "¿Qué significa CSS?",
+    "options": [
+      "Creative Style Sheets",
+      "Computer Style System",
+      "Color Style Sheets",
+      "Cascading Style Sheets"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "LMSGI-033",
+    "questionNumber": 33,
+    "question": "¿Qué ventaja aporta separar contenido y estilo?",
+    "options": [
+      "Permite cambiar diseño sin modificar contenido",
+      "Evita usar HTML",
+      "Reduce el uso de selectores",
+      "Impide la herencia CSS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-034",
+    "questionNumber": 34,
+    "question": "¿Cuál es la forma recomendada de aplicar estilos CSS?",
+    "options": [
+      "Mediante style inline",
+      "Usando una hoja de estilo externa",
+      "Dentro de cada etiqueta",
+      "Solo con JavaScript"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-035",
+    "questionNumber": 35,
+    "question": "¿Qué selector selecciona todos los elementos <p>?",
+    "options": [
+      ".p",
+      "#p",
+      "p",
+      "*p"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-036",
+    "questionNumber": 36,
+    "question": "¿Qué selector selecciona un elemento con id=\"principal\"?",
+    "options": [
+      "#principal",
+      ".principal",
+      "principal",
+      "*principal"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-037",
+    "questionNumber": 37,
+    "question": "¿Qué selector selecciona elementos con class=\"menu\"?",
+    "options": [
+      "#menu",
+      ".menu",
+      "menu",
+      "*menu"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-038",
+    "questionNumber": 38,
+    "question": "¿Qué selector universal aplica estilos a todos los elementos?",
+    "options": [
+      "#",
+      ".",
+      "*",
+      "@"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-039",
+    "questionNumber": 39,
+    "question": "¿Qué ocurre si dos reglas CSS contradictorias afectan al mismo elemento?",
+    "options": [
+      "Se ignoran ambas",
+      "Se aplica la primera",
+      "Se aplica la última definida",
+      "Se combinan automáticamente"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-040",
+    "questionNumber": 40,
+    "question": "¿Qué tipo de estilo tiene prioridad máxima?",
+    "options": [
+      "Selector de etiqueta",
+      "Estilo inline",
+      "Selector universal",
+      "Clase CSS"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-041",
+    "questionNumber": 41,
+    "question": "¿Qué ocurre si un elemento no tiene estilo definido?",
+    "options": [
+      "Hereda el estilo del elemento padre",
+      "Se elimina",
+      "Produce error",
+      "Usa valores aleatorios"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-042",
+    "questionNumber": 42,
+    "question": "¿Qué selector tiene más prioridad?",
+    "options": [
+      "Selector de clase",
+      "Selector de etiqueta",
+      "Selector universal",
+      "Selector id"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "LMSGI-043",
+    "questionNumber": 43,
+    "question": "¿Qué propiedad CSS cambia el color del texto?",
+    "options": [
+      "font-color",
+      "text-color",
+      "color",
+      "foreground"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-044",
+    "questionNumber": 44,
+    "question": "¿Qué propiedad cambia el color de fondo?",
+    "options": [
+      "background-color",
+      "color-background",
+      "bg-color",
+      "fill-color"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-045",
+    "questionNumber": 45,
+    "question": "¿Qué propiedad define una imagen de fondo?",
+    "options": [
+      "background-image",
+      "background-src",
+      "img-background",
+      "image-fill"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-046",
+    "questionNumber": 46,
+    "question": "¿Qué valor evita repetir una imagen de fondo?",
+    "options": [
+      "repeat-none",
+      "background-repeat: no-repeat",
+      "repeat: off",
+      "image-repeat: false"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-047",
+    "questionNumber": 47,
+    "question": "¿Qué propiedad controla la posición del fondo?",
+    "options": [
+      "background-align",
+      "background-position",
+      "background-origin",
+      "background-fit"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-048",
+    "questionNumber": 48,
+    "question": "¿Qué valor centra horizontal y verticalmente un fondo?",
+    "options": [
+      "middle",
+      "center center",
+      "50%",
+      "auto"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-049",
+    "questionNumber": 49,
+    "question": "¿Qué propiedad controla el tamaño de la imagen de fondo?",
+    "options": [
+      "background-scale",
+      "background-fit",
+      "background-size",
+      "image-size"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-050",
+    "questionNumber": 50,
+    "question": "¿Qué valor de background-size cubre todo el contenedor?",
+    "options": [
+      "contain",
+      "fill",
+      "cover",
+      "auto"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-051",
+    "questionNumber": 51,
+    "question": "¿Qué valor muestra la imagen completa sin recortarla?",
+    "options": [
+      "contain",
+      "cover",
+      "stretch",
+      "fixed"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-052",
+    "questionNumber": 52,
+    "question": "¿Qué propiedad fija el fondo al hacer scroll?",
+    "options": [
+      "background-scroll",
+      "background-fixed",
+      "background-attachment",
+      "background-lock"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-053",
+    "questionNumber": 53,
+    "question": "¿Qué valor de background-attachment mantiene fijo el fondo?",
+    "options": [
+      "absolute",
+      "fixed",
+      "sticky",
+      "static"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-054",
+    "questionNumber": 54,
+    "question": "¿Qué propiedad define hasta dónde se extiende el fondo?",
+    "options": [
+      "background-clip",
+      "background-origin",
+      "background-fit",
+      "background-area"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-055",
+    "questionNumber": 55,
+    "question": "¿Qué valor limita el fondo al contenido?",
+    "options": [
+      "padding-box",
+      "content-box",
+      "border-box",
+      "text-box"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-056",
+    "questionNumber": 56,
+    "question": "¿Qué propiedad define desde dónde se dibuja el fondo?",
+    "options": [
+      "background-position",
+      "background-origin",
+      "background-clip",
+      "background-size"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-057",
+    "questionNumber": 57,
+    "question": "¿Qué formato de color permite transparencia?",
+    "options": [
+      "rgb()",
+      "rgba()",
+      "hex",
+      "hsl"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "LMSGI-058",
+    "questionNumber": 58,
+    "question": "¿Qué propiedad añade sombra a un texto?",
+    "options": [
+      "box-shadow",
+      "font-shadow",
+      "text-shadow",
+      "shadow-font"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "LMSGI-059",
+    "questionNumber": 59,
+    "question": "¿Qué propiedad añade sombra a una caja?",
+    "options": [
+      "box-shadow",
+      "text-shadow",
+      "element-shadow",
+      "shadow-box"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "LMSGI-060",
+    "questionNumber": 60,
+    "question": "¿Qué función crea un degradado lineal?",
+    "options": [
+      "gradient-linear()",
+      "linear-gradient()",
+      "background-gradient()",
+      "gradient()"
+    ],
+    "correctAnswer": 1
+  }
+]

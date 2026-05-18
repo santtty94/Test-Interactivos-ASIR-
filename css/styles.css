@@ -305,6 +305,12 @@ main.container {
     margin: 0 auto;
 }
 
+.cards-grid--three {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 /* -------- Tarjeta de módulo -------- */
 .module-card {
     background: var(--color-surface);
@@ -505,6 +511,41 @@ main.container {
     text-shadow: 0 0 10px var(--color-accent);
 }
 
+.icon-exam {
+    background: rgba(255, 204, 0, 0.08);
+    border-color: var(--color-warning);
+    color: var(--color-warning);
+    box-shadow: inset 0 0 10px rgba(255, 204, 0, 0.15),
+                0 0 8px rgba(255, 204, 0, 0.2);
+    text-shadow: 0 0 6px var(--color-warning);
+}
+
+.icon-exam::before,
+.icon-exam::after {
+    color: rgba(255, 204, 0, 0.5);
+}
+
+#examTestCard:hover {
+    border-color: var(--color-warning);
+    box-shadow: 0 0 16px rgba(255, 204, 0, 0.35),
+                0 0 32px rgba(255, 204, 0, 0.15),
+                inset 0 0 30px rgba(255, 204, 0, 0.04);
+}
+
+#examTestCard:hover::before,
+#examTestCard:hover::after {
+    border-color: var(--color-warning);
+    box-shadow: 0 0 6px var(--color-warning);
+    opacity: 1;
+    width: 22px;
+    height: 22px;
+}
+
+#examTestCard:hover .card-title {
+    color: var(--color-warning);
+    text-shadow: 0 0 10px var(--color-warning);
+}
+
 /* -------- Footer -------- */
 .main-footer {
     border-top: 1px solid var(--color-border);
@@ -567,6 +608,10 @@ code {
     }
 
     .cards-grid--two {
+        grid-template-columns: 1fr;
+    }
+
+    .cards-grid--three {
         grid-template-columns: 1fr;
     }
 
@@ -1083,5 +1128,364 @@ code {
 
     .results-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* =========================================================
+   FASE 5 — Simulacro día de exámenes
+   ========================================================= */
+
+/* Tarjeta DE en el grid: mismo tamaño que las demás, features desplegables */
+#examDayEntryCard {
+    overflow: visible;
+    transition: transform var(--transition),
+                box-shadow var(--transition),
+                border-color var(--transition),
+                background var(--transition),
+                border-bottom-left-radius var(--transition),
+                border-bottom-right-radius var(--transition);
+}
+
+/* En hover: esquinas inferiores cuadradas para fusionarse con el panel */
+#examDayEntryCard:hover {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#examDayEntryCard .card-features {
+    position: absolute;
+    top: calc(100% - 1px);   /* sube 1px para tapar el borde inferior de la tarjeta */
+    left: -1px;
+    right: -1px;
+    background: var(--color-surface-hover);
+    border: 1px solid var(--color-danger);
+    border-top: none;
+    border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+    padding: 0 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.25s ease, padding 0.25s ease;
+    z-index: 20;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+                0 0 14px rgba(255, 0, 60, 0.18);
+}
+
+#examDayEntryCard:hover .card-features {
+    max-height: 160px;
+    padding: 0.75rem 1.5rem;
+    opacity: 1;
+}
+
+/* Eleva el stacking context del main para que el desplegable quede sobre el footer */
+main.container:has(#examDayEntryCard:hover) {
+    z-index: 10;
+}
+
+.icon-examday {
+    background: rgba(255, 0, 60, 0.08);
+    border-color: var(--color-danger);
+    color: var(--color-danger);
+    box-shadow: inset 0 0 10px rgba(255, 0, 60, 0.15),
+                0 0 8px rgba(255, 0, 60, 0.2);
+    text-shadow: 0 0 6px var(--color-danger);
+}
+
+.icon-examday::before,
+.icon-examday::after {
+    color: rgba(255, 0, 60, 0.5);
+}
+
+#examDayEntryCard:hover {
+    border-color: var(--color-danger);
+    box-shadow: 0 0 16px rgba(255, 0, 60, 0.35),
+                0 0 32px rgba(255, 0, 60, 0.15),
+                inset 0 0 30px rgba(255, 0, 60, 0.04);
+}
+
+#examDayEntryCard:hover::before,
+#examDayEntryCard:hover::after {
+    border-color: var(--color-danger);
+    box-shadow: 0 0 6px var(--color-danger);
+    opacity: 1;
+    width: 22px;
+    height: 22px;
+}
+
+#examDayEntryCard:hover .card-title {
+    color: var(--color-danger);
+    text-shadow: 0 0 10px var(--color-danger);
+}
+
+/* Barra de progreso general */
+.edp-bar-wrapper {
+    margin-bottom: 2rem;
+}
+
+.edp-track {
+    height: 4px;
+    background: var(--color-border);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+.edp-fill {
+    height: 100%;
+    width: 0%;
+    background: var(--color-warning);
+    box-shadow: 0 0 8px rgba(255, 204, 0, 0.5);
+    transition: width 0.4s ease;
+}
+
+/* Grid de módulos del día de exámenes */
+.exam-day-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Tarjeta base de módulo */
+.exam-day-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.9rem 1.25rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface);
+    text-decoration: none;
+    color: inherit;
+    transition: transform var(--transition),
+                border-color var(--transition),
+                box-shadow var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.exam-day-card--active {
+    border-color: var(--color-primary-dim);
+    cursor: pointer;
+}
+
+.exam-day-card--active:hover {
+    transform: translateX(5px);
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-glow);
+    background: var(--color-surface-hover);
+}
+
+.exam-day-card--locked {
+    opacity: 0.38;
+    cursor: default;
+}
+
+.exam-day-card--done {
+    border-color: rgba(0, 255, 65, 0.28);
+    background: rgba(0, 255, 65, 0.025);
+    cursor: pointer;
+}
+
+.exam-day-card--done:hover {
+    transform: translateX(5px);
+    border-color: rgba(0, 255, 65, 0.55);
+    background: rgba(0, 255, 65, 0.05);
+    box-shadow: 0 0 8px rgba(0, 255, 65, 0.2);
+}
+
+/* Número de orden */
+.edc-order {
+    flex-shrink: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--color-text-dim);
+    width: 20px;
+    text-align: center;
+}
+
+/* Icono abreviado del módulo */
+.edc-icon {
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    background: rgba(0, 255, 65, 0.06);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.82rem;
+    color: var(--color-primary);
+    letter-spacing: 1px;
+}
+
+.exam-day-card--done .edc-icon {
+    border-color: var(--color-primary-dim);
+    box-shadow: 0 0 6px rgba(0, 255, 65, 0.18);
+}
+
+/* Área central de información */
+.edc-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 0;
+}
+
+.edc-name {
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: var(--color-text-bright);
+    letter-spacing: 1px;
+}
+
+.edc-desc {
+    font-size: 0.76rem;
+    color: var(--color-text-muted);
+}
+
+/* Resultado al completar */
+.edc-result {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+.edc-nota {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-shadow: 0 0 6px rgba(0, 255, 65, 0.4);
+}
+
+.edc-stats {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+}
+
+/* Badge de estado */
+.edc-status-wrap {
+    flex-shrink: 0;
+}
+
+.edc-status {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0.28rem 0.6rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid;
+    white-space: nowrap;
+}
+
+.edc-status--active {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background: rgba(0, 255, 65, 0.08);
+    text-shadow: 0 0 4px rgba(0, 255, 65, 0.4);
+}
+
+.edc-status--locked {
+    color: var(--color-text-dim);
+    border-color: var(--color-border);
+}
+
+.edc-status--done {
+    color: var(--color-primary);
+    border-color: rgba(0, 255, 65, 0.3);
+    background: rgba(0, 255, 65, 0.05);
+}
+
+/* Footer */
+.exam-day-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/* Nota final global */
+.exam-day-final {
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--color-warning);
+    background: rgba(255, 204, 0, 0.04);
+    border-radius: var(--radius-sm);
+    box-shadow: 0 0 14px rgba(255, 204, 0, 0.15);
+    width: 100%;
+}
+
+.exam-day-final-text {
+    font-size: 0.95rem;
+    color: var(--color-text-bright);
+    letter-spacing: 1px;
+}
+
+.exam-day-final-nota {
+    color: var(--color-warning);
+    text-shadow: 0 0 8px rgba(255, 204, 0, 0.5);
+    font-size: 1.35rem;
+    margin-left: 0.4rem;
+}
+
+/* Botón reiniciar */
+.btn-reset {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--color-danger);
+    background: rgba(255, 0, 60, 0.05);
+    border: 1px solid var(--color-danger);
+    border-radius: var(--radius-sm);
+    padding: 0.48rem 1rem;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.btn-reset:hover {
+    background: var(--color-danger);
+    color: #fff;
+    box-shadow: 0 0 12px rgba(255, 0, 60, 0.35);
+}
+
+/* Botón volver en la pantalla de resultados */
+.btn-examday-back {
+    font-family: var(--font-mono);
+    font-size: 0.88rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--color-warning);
+    background: rgba(255, 204, 0, 0.05);
+    border: 1px solid var(--color-warning);
+    border-radius: var(--radius-sm);
+    padding: 0.65rem 1.4rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all var(--transition);
+}
+
+.btn-examday-back:hover {
+    background: var(--color-warning);
+    color: var(--color-bg);
+    box-shadow: 0 0 12px rgba(255, 204, 0, 0.4);
+}
+
+/* Responsive día de exámenes */
+@media (max-width: 600px) {
+    .exam-day-card {
+        flex-wrap: wrap;
+        gap: 0.65rem;
+    }
+
+    .edc-status-wrap {
+        margin-left: auto;
+    }
+
+    .edc-desc {
+        display: none;
     }
 }

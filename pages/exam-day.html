@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día de exámenes · Tests interactivos ASIR</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="../index.html" class="back-link">← Volver al inicio</a>
+            <h1 class="logo">Tests interactivos <span>ASIR</span></h1>
+            <p class="subtitle">Simulacro día de exámenes · Completa los módulos en orden</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="modules-section">
+
+            <h2 class="section-title">
+                Progreso: <span id="edpCompleted">0</span> / 7 módulos
+            </h2>
+
+            <div class="edp-bar-wrapper">
+                <div class="edp-track">
+                    <div class="edp-fill" id="edpFill"></div>
+                </div>
+            </div>
+
+            <div class="exam-day-grid" id="examDayModules"></div>
+
+            <div class="exam-day-footer">
+                <div id="examDayFinal" class="exam-day-final" hidden></div>
+                <button class="btn-reset" id="btnReset">[ Reiniciar simulacro ]</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Tests interactivos ASIR · Plataforma de práctica · Santty Londoño</p>
+        </div>
+    </footer>
+
+    <script src="../js/exam-day.js"></script>
+</body>
+</html>

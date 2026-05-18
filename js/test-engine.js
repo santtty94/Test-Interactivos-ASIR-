@@ -16,15 +16,18 @@
         iso:   'ISO'
     };
 
-    const SIMULACRO_COUNT = 30;
-    const OPTION_LABELS   = ['A', 'B', 'C', 'D'];
+    const SIMULACRO_COUNT  = 30;
+    const OPTION_LABELS    = ['A', 'B', 'C', 'D'];
+    const EXAMDAY_ORDER    = ['par', 'mpo', 'bbdd', 'iso', 'lmsgi', 'fuhar', 'ipe'];
+    const EXAMDAY_STORAGE  = 'examDayProgress';
 
     // Estado global del test
     let questions   = [];
     let userAnswers = [];   // null = en blanco, número = índice elegido
     let testDone    = false;
+    let reviewMode  = false;
     let moduleId    = '';
-    let testType    = '';   // 'global' | 'random'
+    let testType    = '';   // 'global' | 'random' | 'exam'
 
     // ---- Utilidades ----
 
@@ -47,6 +50,31 @@
         return a;
     }
 
+    // Toma `target` preguntas mezclando ambos bancos en proporción a su tamaño
+    function proportionalSample(known, unknown, target) {
+        const total = known.length + unknown.length;
+        if (total === 0) return [];
+
+        let nK = Math.round(target * known.length / total);
+        let nU = target - nK;
+
+        nK = Math.min(nK, known.length);
+        nU = Math.min(nU, unknown.length);
+
+        // Si algún banco es demasiado pequeño, completa desde el otro
+        const shortfall = target - nK - nU;
+        if (shortfall > 0) {
+            const extraK = Math.min(shortfall, known.length - nK);
+            nK += extraK;
+            nU += Math.min(shortfall - extraK, unknown.length - nU);
+        }
+
+        return shuffle([
+            ...shuffle(known).slice(0, nK),
+            ...shuffle(unknown).slice(0, nU),
+        ]);
+    }
+
     // ---- Carga de preguntas ----
 
     async function loadQuestions() {
@@ -58,13 +86,23 @@
             return;
         }
 
+        if (testType === 'examday') {
+            if (getParam('review') === 'true') {
+                loadReviewMode();
+                return;
+            }
+            await loadExamDayQuestions();
+            return;
+        }
+
         try {
-            const resp = await fetch(`../data/${moduleId}.json`);
-            if (!resp.ok) throw new Error(`No se pudo cargar ${moduleId}.json (${resp.status})`);
+            const dataFile = testType === 'exam' ? `${moduleId}_exam.json` : `${moduleId}.json`;
+            const resp = await fetch(`../data/${dataFile}`);
+            if (!resp.ok) throw new Error(`No se pudo cargar ${dataFile} (${resp.status})`);
 
             const all = await resp.json();
 
-            if (testType === 'random') {
+            if (testType === 'random' || testType === 'exam') {
                 const shuffled = shuffle(all);
                 questions = shuffled.slice(0, Math.min(SIMULACRO_COUNT, all.length));
             } else {
@@ -80,11 +118,109 @@
         }
     }
 
+    async function loadExamDayQuestions() {
+        const idx = EXAMDAY_ORDER.indexOf(moduleId);
+        if (idx === -1) {
+            showError('Módulo no válido para este simulacro.');
+            return;
+        }
+
+        let prog = { completed: [], results: {} };
+        try { prog = JSON.parse(localStorage.getItem(EXAMDAY_STORAGE) || '{}'); } catch {}
+        const completed = prog.completed || [];
+
+        const loadingEl = document.getElementById('loadingState');
+
+        if (completed.includes(moduleId)) {
+            loadingEl.innerHTML = `
+                <p class="error-msg">El módulo ${MODULE_NAMES[moduleId]} ya fue completado en este simulacro.</p>
+                <a href="exam-day.html" class="btn-finish" style="margin-top:1.5rem;display:inline-block">
+                    [ ← Volver al día de exámenes ]
+                </a>
+            `;
+            return;
+        }
+
+        if (idx > 0 && !completed.includes(EXAMDAY_ORDER[idx - 1])) {
+            loadingEl.innerHTML = `
+                <p class="error-msg">
+                    Módulo bloqueado. Debes completar primero ${MODULE_NAMES[EXAMDAY_ORDER[idx - 1]]}.
+                </p>
+                <a href="exam-day.html" class="btn-finish" style="margin-top:1.5rem;display:inline-block">
+                    [ ← Volver al día de exámenes ]
+                </a>
+            `;
+            return;
+        }
+
+        try {
+            let known = [], unknown = [];
+            try {
+                const r1 = await fetch(`../data/${moduleId}.json`);
+                if (r1.ok) known = await r1.json();
+            } catch {}
+            try {
+                const r2 = await fetch(`../data/${moduleId}_exam.json`);
+                if (r2.ok) unknown = await r2.json();
+            } catch {}
+
+            if (known.length + unknown.length === 0) {
+                showError('No se encontraron preguntas para este módulo.');
+                return;
+            }
+
+            questions   = proportionalSample(known, unknown, SIMULACRO_COUNT);
+            userAnswers = new Array(questions.length).fill(null);
+            initUI();
+            renderQuestions();
+
+        } catch (err) {
+            showError(err.message);
+        }
+    }
+
+    // ---- Modo revisión (módulo ya completado en día de exámenes) ----
+
+    function loadReviewMode() {
+        let prog = { completed: [], results: {} };
+        try { prog = JSON.parse(localStorage.getItem(EXAMDAY_STORAGE) || '{}'); } catch {}
+
+        const result = prog.results && prog.results[moduleId];
+        if (!result || !result.questions || !result.userAnswers) {
+            showError('No hay datos guardados para este módulo. Completa el módulo primero.');
+            return;
+        }
+
+        questions   = result.questions;
+        userAnswers = result.userAnswers;
+        reviewMode  = true;
+
+        initUI();
+        renderQuestions();
+
+        // Pre-marca los radios con las respuestas ya dadas
+        userAnswers.forEach((ans, idx) => {
+            if (ans !== null) {
+                const radio = document.getElementById(`q${idx}_opt${ans}`);
+                if (radio) radio.checked = true;
+            }
+        });
+
+        // Oculta el botón de finalizar (solo lectura)
+        const btnFinish = document.getElementById('btnFinish');
+        if (btnFinish) btnFinish.style.display = 'none';
+
+        finishTest();
+    }
+
     // ---- Inicialización de la UI ----
 
     function initUI() {
         const moduleName = MODULE_NAMES[moduleId];
-        const typeName   = testType === 'random' ? 'Simulacro aleatorio' : 'Test global';
+        const typeName   = testType === 'random'  ? 'Simulacro aleatorio'
+                         : testType === 'exam'    ? 'Simulacro real día de examen'
+                         : testType === 'examday' ? 'Simulacro día de exámenes'
+                         : 'Test global';
 
         document.title = `${moduleName} · ${typeName} · Tests interactivos ASIR`;
 
@@ -201,13 +337,27 @@
 
         // Fórmula según tipo de test
         let nota;
-        if (testType === 'random') {
+        if (testType === 'exam' || testType === 'examday') {
+            nota = aciertos * 0.33 - fallos * 0.11;
+            if (nota < 0) nota = 0;
+        } else if (testType === 'random') {
             nota = ((aciertos - fallos * 0.33) / questions.length) * 10;
             if (nota < 0) nota = 0;
         } else {
             nota = (aciertos / questions.length) * 10;
         }
         nota = Math.round(nota * 100) / 100;
+
+        // Guardar progreso del día de exámenes (solo la primera vez, no en revisión)
+        if (testType === 'examday' && !reviewMode) {
+            let prog = { completed: [], results: {} };
+            try { prog = JSON.parse(localStorage.getItem(EXAMDAY_STORAGE) || '{}'); } catch {}
+            if (!prog.completed) prog.completed = [];
+            if (!prog.results)   prog.results   = {};
+            if (!prog.completed.includes(moduleId)) prog.completed.push(moduleId);
+            prog.results[moduleId] = { nota, aciertos, fallos, blancos, questions, userAnswers };
+            localStorage.setItem(EXAMDAY_STORAGE, JSON.stringify(prog));
+        }
 
         showResults({ aciertos, fallos, blancos, nota });
     }
@@ -216,7 +366,10 @@
 
     function showResults({ aciertos, fallos, blancos, nota }) {
         const moduleName = MODULE_NAMES[moduleId];
-        const typeName   = testType === 'random' ? 'Simulacro aleatorio' : 'Test global';
+        const typeName   = testType === 'random'  ? 'Simulacro aleatorio'
+                         : testType === 'exam'    ? 'Simulacro real día de examen'
+                         : testType === 'examday' ? 'Simulacro día de exámenes'
+                         : 'Test global';
 
         document.getElementById('res-module').textContent   = moduleName;
         document.getElementById('res-type').textContent     = typeName;
@@ -274,6 +427,18 @@
             };
         }
 
+        // Botón de navegación para el día de exámenes
+        if (testType === 'examday') {
+            const pdfWrapper = document.querySelector('.pdf-wrapper');
+            if (pdfWrapper) {
+                const btn = document.createElement('a');
+                btn.href      = 'exam-day.html';
+                btn.className = 'btn-examday-back';
+                btn.textContent = '[ ← Volver al día de exámenes ]';
+                pdfWrapper.insertBefore(btn, pdfWrapper.firstChild);
+            }
+        }
+
         const resultsSection = document.getElementById('resultsSection');
         resultsSection.hidden = false;
         resultsSection.scrollIntoView({ behavior: 'smooth' });
@@ -289,6 +454,14 @@
     // ---- Bootstrap ----
 
     document.addEventListener('DOMContentLoaded', () => {
+        if ((getParam('type') || '').toLowerCase() === 'examday') {
+            const backLink = document.querySelector('.back-link');
+            if (backLink) {
+                backLink.href        = 'exam-day.html';
+                backLink.textContent = '← Día de exámenes';
+            }
+        }
+
         loadQuestions();
 
         const btnFinish = document.getElementById('btnFinish');

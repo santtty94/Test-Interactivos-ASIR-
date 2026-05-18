@@ -21,16 +21,16 @@
                 Módulo: <span id="moduleName" class="module-highlight">—</span>
             </h2>
 
-            <div class="cards-grid cards-grid--two">
+            <div class="cards-grid cards-grid--three">
                 <a href="test.html" class="module-card test-card" id="globalTestCard" data-test-type="global">
                     <div class="card-icon icon-global">TG</div>
                     <h3 class="card-title">Test global</h3>
                     <p class="card-description">
-                        Todas las preguntas del módulo. Autocorrección al finalizar.
+                        Banco de preguntas conocidas completo. Autocorrección al finalizar.
                         Los fallos no penalizan.
                     </p>
                     <ul class="card-features">
-                        <li>Banco de preguntas completo</li>
+                        <li>Banco total de preguntas conocidas</li>
                         <li>Sin penalización por fallos</li>
                         <li>Nota sobre 10</li>
                     </ul>
@@ -40,13 +40,27 @@
                     <div class="card-icon icon-random">SR</div>
                     <h3 class="card-title">Simulacro aleatorio</h3>
                     <p class="card-description">
-                        30 preguntas aleatorias del banco. Cada intento es distinto.
+                        30 preguntas aleatorias del banco conocido. Cada intento es distinto.
                         Cada fallo resta 0,33 puntos.
                     </p>
                     <ul class="card-features">
-                        <li>30 preguntas aleatorias</li>
+                        <li>Banco de preguntas conocidas</li>
                         <li>Penalización por fallo (-0,33)</li>
                         <li>Modo examen real</li>
+                    </ul>
+                </a>
+
+                <a href="test.html" class="module-card test-card" id="examTestCard" data-test-type="exam">
+                    <div class="card-icon icon-exam">EX</div>
+                    <h3 class="card-title">Simulacro real</h3>
+                    <p class="card-description">
+                        30 preguntas del banco de preguntas desconocidas. Puntuación real:
+                        acierto +0,33 · fallo -0,11 · blanco 0.
+                    </p>
+                    <ul class="card-features">
+                        <li>Banco de preguntas desconocidas</li>
+                        <li>Acierto +0,33 / Fallo -0,11</li>
+                        <li>Máxima dificultad</li>
                     </ul>
                 </a>
             </div>

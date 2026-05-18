@@ -1,0 +1,482 @@
+[
+  {
+    "id": "BBDD-001",
+    "questionNumber": "1",
+    "question": "¿Cuál es el objetivo principal del modelo Entidad-Relación (E-R)?",
+    "options": [
+      "Gestionar permisos de usuarios",
+      "Visualizar conceptualmente cómo se organiza la información",
+      "Optimizar índices automáticamente",
+      "Crear transacciones ACID"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-002",
+    "questionNumber": "2",
+    "question": "¿Qué elemento identifica de forma única cada registro dentro de una entidad?",
+    "options": [
+      "Clave primaria",
+      "Clave foránea",
+      "Cardinalidad",
+      "Atributo multivaluado"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-003",
+    "questionNumber": "3",
+    "question": "¿Qué tipo de clave se utiliza para conectar entidades distintas?",
+    "options": [
+      "Clave alterna",
+      "Clave primaria",
+      "Clave foránea",
+      "Clave compuesta"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-004",
+    "questionNumber": "4",
+    "question": "¿Qué cardinalidad representa que un cliente puede realizar varios pedidos?",
+    "options": [
+      "1:1",
+      "N:M",
+      "0:1",
+      "1:N"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "BBDD-005",
+    "questionNumber": "5",
+    "question": "¿Cómo se implementa normalmente una relación N:M en el modelo relacional?",
+    "options": [
+      "Mediante una tabla intermedia",
+      "Duplicando registros",
+      "Con una vista",
+      "Eliminando claves foráneas"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-006",
+    "questionNumber": "6",
+    "question": "¿Qué representa la especialización en una jerarquía E-R?",
+    "options": [
+      "Fusionar varias entidades en una sola",
+      "Eliminar redundancias",
+      "Crear subentidades a partir de una entidad general",
+      "Convertir atributos en claves"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-007",
+    "questionNumber": "7",
+    "question": "¿Qué relación existe entre Pedido y Producto en el caso de Amazon?",
+    "options": [
+      "1:1",
+      "1:N",
+      "N:M",
+      "N:1"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-008",
+    "questionNumber": "8",
+    "question": "¿Qué ventaja aporta definir correctamente las cardinalidades?",
+    "options": [
+      "Permitir inconsistencias",
+      "Reducir el uso de SQL",
+      "Evitar integridad referencial",
+      "Garantizar coherencia del modelo"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "BBDD-009",
+    "questionNumber": "9",
+    "question": "¿Qué ocurre si una entidad no tiene clave primaria?",
+    "options": [
+      "Se generan duplicidades y errores de relación",
+      "La tabla se convierte automáticamente en vista",
+      "No puede tener atributos",
+      "Las relaciones pasan a ser N:M"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-010",
+    "questionNumber": "10",
+    "question": "¿Qué herramienta permite exportar modelos E-R a código SQL?",
+    "options": [
+      "Excel",
+      "MySQL Workbench",
+      "PowerPoint",
+      "Wireshark"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-011",
+    "questionNumber": "11",
+    "question": "¿En qué se convierte una entidad fuerte al transformar un modelo E-R al relacional?",
+    "options": [
+      "En una clave foránea",
+      "En una vista",
+      "En una tabla",
+      "En un trigger"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-012",
+    "questionNumber": "12",
+    "question": "¿Dónde se incorpora normalmente la clave foránea en una relación 1:N?",
+    "options": [
+      "En el lado muchos",
+      "En ambas tablas",
+      "En la tabla intermedia",
+      "En el lado uno"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-013",
+    "questionNumber": "13",
+    "question": "¿Qué integridad garantiza que una clave primaria no sea nula ni repetida?",
+    "options": [
+      "Integridad de dominio",
+      "Integridad referencial",
+      "Integridad de entidad",
+      "Atomicidad"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-014",
+    "questionNumber": "14",
+    "question": "¿Qué sucede con los atributos multivaluados en el modelo relacional?",
+    "options": [
+      "Se eliminan",
+      "Se almacenan en una nueva tabla",
+      "Se convierten en índices",
+      "Se transforman en vistas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-015",
+    "questionNumber": "15",
+    "question": "¿Qué tipo de restricción asegura que una FK apunte a un valor existente?",
+    "options": [
+      "Integridad referencial",
+      "Integridad lógica",
+      "Integridad física",
+      "Integridad atómica"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-016",
+    "questionNumber": "16",
+    "question": "¿Qué problema intenta resolver la normalización?",
+    "options": [
+      "La falta de usuarios",
+      "La redundancia e inconsistencias",
+      "La ausencia de índices",
+      "La creación de vistas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-017",
+    "questionNumber": "17",
+    "question": "¿Qué exige la Primera Forma Normal (1FN)?",
+    "options": [
+      "Eliminar dependencias transitivas",
+      "Que cada columna contenga valores atómicos",
+      "Usar claves compuestas",
+      "Eliminar claves foráneas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-018",
+    "questionNumber": "18",
+    "question": "¿Qué elimina la Segunda Forma Normal (2FN)?",
+    "options": [
+      "Dependencias parciales",
+      "Relaciones 1:N",
+      "Tablas intermedias",
+      "Valores nulos"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-019",
+    "questionNumber": "19",
+    "question": "¿Qué elimina la Tercera Forma Normal (3FN)?",
+    "options": [
+      "Dependencias funcionales",
+      "Dependencias transitivas",
+      "Claves primarias",
+      "Cardinalidades"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-020",
+    "questionNumber": "20",
+    "question": "¿Qué ocurre con el campo nombre_departamento en 3FN?",
+    "options": [
+      "Se convierte en PK",
+      "Se elimina",
+      "Se mueve a una tabla Departamento",
+      "Se duplica"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-021",
+    "questionNumber": "21",
+    "question": "¿Cuál es el objetivo principal de la 2FN?",
+    "options": [
+      "Eliminar dependencias parciales",
+      "Crear índices",
+      "Optimizar JOINs",
+      "Aplicar ACID"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-022",
+    "questionNumber": "22",
+    "question": "¿Qué ventaja aporta la normalización en una tienda online?",
+    "options": [
+      "Duplicar productos",
+      "Eliminar coherencia",
+      "Reducir redundancia de datos",
+      "Evitar claves foráneas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-023",
+    "questionNumber": "23",
+    "question": "¿Qué tipo de JOIN devuelve solo las coincidencias entre tablas?",
+    "options": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "FULL JOIN",
+      "INNER JOIN"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "BBDD-024",
+    "questionNumber": "24",
+    "question": "¿Qué JOIN devuelve todas las filas de la tabla izquierda aunque no haya coincidencias?",
+    "options": [
+      "LEFT JOIN",
+      "INNER JOIN",
+      "CROSS JOIN",
+      "SELF JOIN"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-025",
+    "questionNumber": "25",
+    "question": "¿Qué devuelve un RIGHT JOIN?",
+    "options": [
+      "Solo coincidencias",
+      "Todas las filas de la tabla derecha",
+      "Solo registros nulos",
+      "Todas las filas de la tabla izquierda"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-026",
+    "questionNumber": "26",
+    "question": "¿Qué técnica se recomienda para detectar ausencia de datos?",
+    "options": [
+      "INNER JOIN + ORDER BY",
+      "LEFT JOIN + IS NULL",
+      "GROUP BY + HAVING",
+      "DELETE + WHERE"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-027",
+    "questionNumber": "27",
+    "question": "¿Qué combinación devuelve todas las filas de ambas tablas?",
+    "options": [
+      "FULL JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-028",
+    "questionNumber": "28",
+    "question": "¿Qué motor SQL no soporta FULL JOIN de forma nativa?",
+    "options": [
+      "Oracle",
+      "PostgreSQL",
+      "MySQL",
+      "SQL Server"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-029",
+    "questionNumber": "29",
+    "question": "¿Qué hace UNION por defecto?",
+    "options": [
+      "Duplica filas",
+      "Elimina duplicados",
+      "Convierte tipos",
+      "Borra registros"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-030",
+    "questionNumber": "30",
+    "question": "¿Qué permite una subconsulta?",
+    "options": [
+      "Ejecutar múltiples servidores",
+      "Crear usuarios",
+      "Filtrar resultados usando otra consulta",
+      "Modificar índices automáticamente"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-031",
+    "questionNumber": "31",
+    "question": "¿Qué cláusula se utiliza frecuentemente en subconsultas?",
+    "options": [
+      "IN",
+      "ALTER",
+      "DROP",
+      "GRANT"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-032",
+    "questionNumber": "32",
+    "question": "¿Qué es una vista (VIEW)?",
+    "options": [
+      "Una tabla física",
+      "Una tabla virtual basada en una consulta",
+      "Una clave primaria",
+      "Una transacción"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-033",
+    "questionNumber": "33",
+    "question": "¿Qué comando confirma una transacción?",
+    "options": [
+      "ROLLBACK",
+      "SAVEPOINT",
+      "COMMIT",
+      "BEGIN"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-034",
+    "questionNumber": "34",
+    "question": "¿Qué propiedad ACID indica que una operación es indivisible?",
+    "options": [
+      "Atomicidad",
+      "Consistencia",
+      "Durabilidad",
+      "Aislamiento"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-035",
+    "questionNumber": "35",
+    "question": "¿Qué propiedad ACID garantiza que las transacciones paralelas no se afecten?",
+    "options": [
+      "Consistencia",
+      "Aislamiento",
+      "Durabilidad",
+      "Integridad"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-036",
+    "questionNumber": "36",
+    "question": "¿Qué comando revierte cambios en una transacción?",
+    "options": [
+      "COMMIT",
+      "GRANT",
+      "ROLLBACK",
+      "FETCH"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "BBDD-037",
+    "questionNumber": "37",
+    "question": "¿Qué ocurre si falla una parte de una transacción ACID?",
+    "options": [
+      "Nada se aplica",
+      "Se guarda parcialmente",
+      "Se eliminan tablas",
+      "Se ejecuta automáticamente COMMIT"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-038",
+    "questionNumber": "38",
+    "question": "¿Qué permite una vista en términos de seguridad?",
+    "options": [
+      "Eliminar usuarios",
+      "Ocultar información sensible",
+      "Crear índices automáticos",
+      "Convertir tablas en transacciones"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "BBDD-039",
+    "questionNumber": "39",
+    "question": "¿Qué propiedad ACID asegura que los datos pasan de un estado válido a otro válido?",
+    "options": [
+      "Consistencia",
+      "Durabilidad",
+      "Atomicidad",
+      "Aislamiento"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "BBDD-040",
+    "questionNumber": "40",
+    "question": "¿Qué propiedad ACID garantiza que los datos confirmados sobrevivan a fallos?",
+    "options": [
+      "Atomicidad",
+      "Consistencia",
+      "Durabilidad",
+      "Normalización"
+    ],
+    "correctAnswer": 2
+  }
+]

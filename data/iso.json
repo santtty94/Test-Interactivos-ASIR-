@@ -5,7 +5,8 @@
     "options": [
       "Un programa de ofimática",
       "El componente que gestiona hardware, procesos y recursos",
-      "Un antivirus integrado"
+      "Un antivirus integrado",
+      "Un protocolo de red"
     ],
     "correctAnswer": 1
   },
@@ -15,7 +16,8 @@
     "options": [
       "ping",
       "uname -r",
-      "sysinfo"
+      "sysinfo",
+      "whoami"
     ],
     "correctAnswer": 1
   },
@@ -25,7 +27,8 @@
     "options": [
       "dmesg",
       "sudo start-kernel",
-      "bootmsg"
+      "bootmsg",
+      "kernellog"
     ],
     "correctAnswer": 0
   },
@@ -35,7 +38,8 @@
     "options": [
       "Un servidor DNS",
       "Un software que permite ejecutar máquinas virtuales",
-      "Una herramienta para editar particiones"
+      "Una herramienta para editar particiones",
+      "Un tipo de sistema de archivos"
     ],
     "correctAnswer": 1
   },
@@ -45,7 +49,8 @@
     "options": [
       "Photoshop",
       "VirtualBox",
-      "Premiere"
+      "Premiere",
+      "Audacity"
     ],
     "correctAnswer": 1
   },
@@ -55,7 +60,8 @@
     "options": [
       "Ubuntu Server",
       "Windows XP",
-      "Android OS"
+      "Android OS",
+      "macOS Monterey"
     ],
     "correctAnswer": 0
   },
@@ -65,7 +71,8 @@
     "options": [
       "La versión moderna del BIOS",
       "Un sistema de archivos de Linux",
-      "Un servicio de impresión"
+      "Un servicio de impresión",
+      "Un protocolo de virtualización"
     ],
     "correctAnswer": 0
   },
@@ -75,7 +82,8 @@
     "options": [
       "Crear usuarios",
       "Organizar particiones en un disco",
-      "Configurar redes inalámbricas"
+      "Configurar redes inalámbricas",
+      "Gestionar servicios del sistema"
     ],
     "correctAnswer": 1
   },
@@ -85,7 +93,8 @@
     "options": [
       "GRUB",
       "SYSBOOT",
-      "UBOOT"
+      "UBOOT",
+      "STARTBOOT"
     ],
     "correctAnswer": 0
   },
@@ -95,7 +104,8 @@
     "options": [
       "No tiene IP",
       "Se conecta a la red como un dispositivo más con su propia IP",
-      "Solo se comunica consigo misma"
+      "Solo se comunica consigo misma",
+      "Utiliza la IP del host compartida"
     ],
     "correctAnswer": 1
   },
@@ -105,7 +115,8 @@
     "options": [
       "Instalar actualizaciones",
       "Probar conectividad entre dos dispositivos",
-      "Crear cuentas de usuario"
+      "Crear cuentas de usuario",
+      "Mostrar particiones del disco"
     ],
     "correctAnswer": 1
   },
@@ -115,7 +126,8 @@
     "options": [
       "Media Creation Tool",
       "winusb.exe",
-      "usbmaker"
+      "usbmaker",
+      "Disk Defragmenter"
     ],
     "correctAnswer": 0
   },
@@ -125,7 +137,8 @@
     "options": [
       "Para crear un usuario nuevo",
       "Para comprobar si un disco MBR puede convertirse a GPT",
-      "Para borrar el disco duro"
+      "Para borrar el disco duro",
+      "Para reiniciar el servicio de red"
     ],
     "correctAnswer": 1
   },
@@ -135,17 +148,19 @@
     "options": [
       "Un servidor web",
       "Un subsistema que permite ejecutar Linux dentro de Windows",
-      "Un gestor de particiones"
+      "Un gestor de particiones",
+      "Una herramienta de cifrado de disco"
     ],
     "correctAnswer": 1
   },
   {
     "id": "ISO-015",
-    "question": "Si creas un usuario local en Windows y lo añades al grupo “Usuarios de Escritorio remoto”, podrás…",
+    "question": "Si creas un usuario local en Windows y lo añades al grupo "Usuarios de Escritorio remoto", podrás…",
     "options": [
       "Instalar actualizaciones",
       "Conectarte por RDP con ese usuario",
-      "Usarlo solo en modo seguro"
+      "Usarlo solo en modo seguro",
+      "Acceder a recursos de red compartidos automáticamente"
     ],
     "correctAnswer": 1
   },
@@ -155,17 +170,19 @@
     "options": [
       "DHCP",
       "Active Directory Domain Services",
-      "Hyper-V"
+      "Hyper-V",
+      "IIS (Internet Information Services)"
     ],
     "correctAnswer": 1
   },
   {
     "id": "ISO-017",
-    "question": "En un entorno con Active Directory, una carpeta “Perfiles” suele usarse para…",
+    "question": "En un entorno con Active Directory, una carpeta "Perfiles" suele usarse para…",
     "options": [
       "Guardar fondos de pantalla",
       "Almacenar perfiles móviles o directorios personales de usuarios del dominio",
-      "Compartir vídeos"
+      "Compartir vídeos",
+      "Instalar aplicaciones de red"
     ],
     "correctAnswer": 1
   },
@@ -175,7 +192,8 @@
     "options": [
       "El contenido de la carpeta personal del usuario",
       "Los directorios principales del sistema Linux",
-      "Los procesos en ejecución"
+      "Los procesos en ejecución",
+      "Las conexiones de red activas"
     ],
     "correctAnswer": 1
   },
@@ -185,7 +203,8 @@
     "options": [
       "/etc",
       "/home",
-      "/tmp"
+      "/tmp",
+      "/bin"
     ],
     "correctAnswer": 0
   },
@@ -195,7 +214,8 @@
     "options": [
       "man list",
       "man hier",
-      "man root"
+      "man root",
+      "man fs"
     ],
     "correctAnswer": 1
   },
@@ -205,7 +225,8 @@
     "options": [
       "fdisk o gparted",
       "ssh",
-      "mkhome"
+      "mkhome",
+      "useradd"
     ],
     "correctAnswer": 0
   },
@@ -215,7 +236,8 @@
     "options": [
       "Crea un archivo de texto vacío",
       "Convierte una partición en un volumen físico para LVM",
-      "Crea un RAID 5 automáticamente"
+      "Crea un RAID 5 automáticamente",
+      "Aumenta el tamaño de un volumen lógico"
     ],
     "correctAnswer": 1
   },
@@ -225,7 +247,8 @@
     "options": [
       "Crear un nuevo usuario",
       "Crear un grupo de volúmenes a partir de varios PV",
-      "Crear un directorio compartido"
+      "Crear un directorio compartido",
+      "Crear un sistema de archivos ext4"
     ],
     "correctAnswer": 1
   },
@@ -235,7 +258,8 @@
     "options": [
       "Crear un volumen lógico dentro del grupo de volúmenes",
       "Instalar paquetes",
-      "Cambiar permisos de usuario"
+      "Cambiar permisos de usuario",
+      "Formatear un disco duro"
     ],
     "correctAnswer": 0
   },
@@ -245,7 +269,8 @@
     "options": [
       "Cambiar el hostname",
       "Formatearlo con un sistema de archivos (por ejemplo, mkfs.ext4)",
-      "Reiniciar el ordenador"
+      "Reiniciar el ordenador",
+      "Crear un grupo de volúmenes"
     ],
     "correctAnswer": 1
   },
@@ -255,7 +280,8 @@
     "options": [
       "mdadm --create /dev/md0 --level=5 --raid-devices=3 <discos>",
       "raid --new",
-      "create-raid5 /dev/md0"
+      "create-raid5 /dev/md0",
+      "mkfs.ext4 /dev/md0 --raid=5"
     ],
     "correctAnswer": 0
   },
@@ -265,7 +291,8 @@
     "options": [
       "Copias idénticas (mirroring) de todos los discos",
       "Divide datos + paridad distribuida, permitiendo que falle 1 disco",
-      "No ofrece tolerancia a fallos"
+      "No ofrece tolerancia a fallos",
+      "Requiere exactamente 2 discos"
     ],
     "correctAnswer": 1
   },
@@ -275,7 +302,8 @@
     "options": [
       "mkraid.ext4",
       "mkfs.ext4 /dev/md0",
-      "format-raid /dev/md0"
+      "format-raid /dev/md0",
+      "fdisk /dev/md0"
     ],
     "correctAnswer": 1
   },
@@ -285,7 +313,8 @@
     "options": [
       "Compilar el kernel",
       "Montarlo en un directorio (por ejemplo, /mnt/raid5)",
-      "Desinstalar mdadm"
+      "Desinstalar mdadm",
+      "Ejecutar fsck /dev/md0"
     ],
     "correctAnswer": 1
   },
@@ -295,7 +324,8 @@
     "options": [
       "/home",
       "/root",
-      "/user"
+      "/user",
+      "/var"
     ],
     "correctAnswer": 0
   },
@@ -305,7 +335,8 @@
     "options": [
       "Para gestionar impresoras de red",
       "Para administrar RAID por software",
-      "Para configurar cortafuegos"
+      "Para configurar cortafuegos",
+      "Para gestionar volúmenes LVM"
     ],
     "correctAnswer": 1
   },
@@ -315,7 +346,8 @@
     "options": [
       "sudo apt-get update && sudo apt-get install -y mdadm",
       "sudo yum install mdadm",
-      "sudo install mdadm"
+      "sudo install mdadm",
+      "sudo pacman -S mdadm"
     ],
     "correctAnswer": 0
   },
@@ -325,7 +357,8 @@
     "options": [
       "mdadm --create /dev/md0 --level=1 --raid-devices=3 /dev/sdb /dev/sdc /dev/sdd",
       "mdadm --create /dev/md0 --level=5 --raid-devices=3 /dev/sdb /dev/sdc /dev/sdd",
-      "mdadm --new-raid5 /dev/md0 /dev/sdb /dev/sdc /dev/sdd"
+      "mdadm --new-raid5 /dev/md0 /dev/sdb /dev/sdc /dev/sdd",
+      "mdadm --build /dev/md0 --level=5 /dev/sdb /dev/sdc /dev/sdd"
     ],
     "correctAnswer": 1
   },
@@ -335,7 +368,8 @@
     "options": [
       "Ejecutar mkfs.ext4 /dev/md0 para formatearlo",
       "Ejecutar fsaeraid /dev/md0",
-      "Reiniciar el sistema para que se formatee solo"
+      "Reiniciar el sistema para que se formatee solo",
+      "Ejecutar mount /dev/md0 sin formatear previamente"
     ],
     "correctAnswer": 0
   },
@@ -345,7 +379,8 @@
     "options": [
       "mdadm --detail /dev/md0",
       "raidstatus /dev/md0",
-      "cat /etc/raid.conf"
+      "cat /etc/raid.conf",
+      "lsraid --info /dev/md0"
     ],
     "correctAnswer": 0
   },
@@ -355,7 +390,8 @@
     "options": [
       "Copia solo los archivos modificados hoy",
       "Copia toda la carpeta Documentos, con subcarpetas, sobrescribiendo si es necesario",
-      "Mueve la carpeta Documentos a D:\\Backup"
+      "Mueve la carpeta Documentos a D:\\Backup",
+      "Crea un acceso directo de la carpeta en D:\\Backup"
     ],
     "correctAnswer": 1
   },
@@ -365,7 +401,8 @@
     "options": [
       "New-ZipFile",
       "Compress-Archive",
-      "Zip-Item"
+      "Zip-Item",
+      "Archive-Folder"
     ],
     "correctAnswer": 1
   },
@@ -375,7 +412,8 @@
     "options": [
       "Crea un ZIP con la carpeta Documentos en la ruta indicada",
       "Descomprime un ZIP en la carpeta Documentos",
-      "Sincroniza Documentos con D:\\Backup"
+      "Sincroniza Documentos con D:\\Backup",
+      "Cifra la carpeta Documentos con AES-256"
     ],
     "correctAnswer": 0
   },
@@ -385,7 +423,8 @@
     "options": [
       "Copia solo los archivos de texto",
       "Copia recursivamente la carpeta Documentos al destino",
-      "Mueve la carpeta Documentos y borra el original"
+      "Mueve la carpeta Documentos y borra el original",
+      "Crea un enlace simbólico de Documentos en el destino"
     ],
     "correctAnswer": 1
   },
@@ -395,7 +434,8 @@
     "options": [
       "chmod",
       "chown",
-      "chgrp"
+      "chgrp",
+      "setfacl"
     ],
     "correctAnswer": 0
   },
@@ -405,7 +445,8 @@
     "options": [
       "Solo lectura",
       "Lectura y ejecución",
-      "Lectura, escritura y ejecución"
+      "Lectura, escritura y ejecución",
+      "Sin ningún permiso"
     ],
     "correctAnswer": 1
   },
@@ -415,7 +456,8 @@
     "options": [
       "El tamaño del archivo",
       "El tipo de archivo y los permisos de propietario, grupo y otros",
-      "El nombre del propietario y del grupo"
+      "El nombre del propietario y del grupo",
+      "La fecha de última modificación"
     ],
     "correctAnswer": 1
   },
@@ -425,7 +467,8 @@
     "options": [
       "r",
       "w",
-      "x"
+      "x",
+      "e"
     ],
     "correctAnswer": 2
   },

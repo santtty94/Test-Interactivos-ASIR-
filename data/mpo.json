@@ -294,5 +294,39 @@
       "Los Security Groups y las Network ACL se aplican exactamente al mismo nivel."
     ],
     "correctAnswer": 1
+  },
+  {
+    "id": "MPO-028",
+    "question": "¿Cuál es la principal función de un Security Group en AWS?",
+    "options": [
+      "Gestionar copias de seguridad automáticas de las instancias EC2.",
+      "Actuar como firewall virtual controlando el tráfico entrante y saliente de las instancias.",
+      "Asignar direcciones IP públicas a las instancias dentro de una VPC.",
+      "Monitorizar el uso de CPU y memoria de las instancias EC2."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-029",
+    "question": "¿Qué ocurre si una instancia EC2 está en una subred pública pero no tiene asociada una IP pública?",
+    "options": [
+      "No podrá comunicarse con Internet directamente.",
+      "Obtendrá acceso automático a Internet mediante NAT.",
+      "La instancia se moverá automáticamente a una subred privada.",
+      "AWS asignará una Elastic IP de forma automática."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-030",
+    "questionNumber": "30",
+    "question": "¿Cuál es la principal ventaja de utilizar Auto Scaling junto con un Elastic Load Balancer (ELB)?",
+    "options": [
+      "Permite almacenar backups automáticos en varias regiones.",
+      "Garantiza que todas las instancias utilicen la misma dirección IP pública.",
+      "Distribuye el tráfico entre instancias y ajusta automáticamente la capacidad según la demanda.",
+      "Evita completamente la necesidad de configurar grupos de seguridad."
+    ],
+    "correctAnswer": 2
   }
 ]

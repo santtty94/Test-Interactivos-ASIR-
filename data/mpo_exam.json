@@ -1,0 +1,722 @@
+[
+  {
+    "id": "MPO-001",
+    "questionNumber": "1",
+    "question": "¿Qué característica define principalmente a la computación en la nube frente al modelo on-premise?",
+    "options": [
+      "El uso exclusivo de servidores físicos propios",
+      "El acceso a recursos tecnológicos bajo demanda a través de internet",
+      "La necesidad de mantener centros de datos locales",
+      "La obligación de adquirir hardware dedicado"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-002",
+    "questionNumber": "2",
+    "question": "¿Qué ventaja ofrece el modelo cloud respecto a la escalabilidad?",
+    "options": [
+      "Los recursos solo pueden ampliarse manualmente",
+      "La capacidad queda fija tras el despliegue",
+      "Permite aumentar o reducir recursos rápidamente",
+      "Impide adaptar la infraestructura a la demanda"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-003",
+    "questionNumber": "3",
+    "question": "En un entorno on-premise, ¿quién asume el mantenimiento de la infraestructura?",
+    "options": [
+      "La propia empresa",
+      "AWS automáticamente",
+      "Los clientes externos",
+      "Los proveedores SaaS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-004",
+    "questionNumber": "4",
+    "question": "¿Cuál de los siguientes es un beneficio crítico de la nube mencionado en la teoría?",
+    "options": [
+      "Capacidad fija",
+      "Desconexión de internet",
+      "Dependencia exclusiva de hardware físico",
+      "Acceso universal desde cualquier lugar"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "MPO-005",
+    "questionNumber": "5",
+    "question": "¿Qué modelo de servicio cloud ofrece servidores virtuales, almacenamiento y redes gestionadas parcialmente por el cliente?",
+    "options": [
+      "IaaS",
+      "SaaS",
+      "PaaS",
+      "Streaming"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-006",
+    "questionNumber": "6",
+    "question": "¿Qué proveedor gestiona principalmente el runtime en AWS Lambda?",
+    "options": [
+      "El cliente",
+      "AWS",
+      "El usuario final",
+      "La red pública"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-007",
+    "questionNumber": "7",
+    "question": "¿Qué servicio se utiliza para almacenamiento de objetos en AWS?",
+    "options": [
+      "EBS",
+      "EFS",
+      "S3",
+      "EC2"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-008",
+    "questionNumber": "8",
+    "question": "¿Cuál es la función principal de Amazon EBS?",
+    "options": [
+      "Compartir carpetas entre múltiples instancias",
+      "Gestionar identidades IAM",
+      "Distribuir tráfico HTTP",
+      "Proporcionar almacenamiento de bloques para EC2"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "MPO-009",
+    "questionNumber": "9",
+    "question": "¿Qué servicio permite que varias instancias accedan simultáneamente al mismo sistema de archivos?",
+    "options": [
+      "EFS",
+      "S3",
+      "CloudWatch",
+      "Lambda"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-010",
+    "questionNumber": "10",
+    "question": "¿Cómo se accede normalmente a los objetos almacenados en S3?",
+    "options": [
+      "Mediante URL o API",
+      "Exclusivamente mediante SSH",
+      "Solo con discos físicos",
+      "A través de particiones NTFS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-011",
+    "questionNumber": "11",
+    "question": "¿Qué característica distingue a EBS de S3?",
+    "options": [
+      "EBS almacena objetos multimedia",
+      "EBS actúa como disco persistente para EC2",
+      "EBS funciona como CDN",
+      "EBS solo permite acceso vía navegador"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-012",
+    "questionNumber": "12",
+    "question": "¿Qué servicio de AWS permite ejecutar funciones sin administrar servidores?",
+    "options": [
+      "EC2",
+      "Lambda",
+      "EFS",
+      "RDS"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-013",
+    "questionNumber": "13",
+    "question": "¿Cuál es una ventaja clave de los contenedores Docker?",
+    "options": [
+      "Necesitan un sistema operativo completo por contenedor",
+      "Reducen la portabilidad de aplicaciones",
+      "Garantizan consistencia entre entornos",
+      "Solo funcionan en servidores físicos"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-014",
+    "questionNumber": "14",
+    "question": "¿Qué servicio AWS está orientado a Kubernetes gestionado?",
+    "options": [
+      "ECS",
+      "CloudTrail",
+      "EKS",
+      "IAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-015",
+    "questionNumber": "15",
+    "question": "¿Qué servicio utiliza funciones ejecutadas en respuesta a eventos?",
+    "options": [
+      "Lambda",
+      "EBS",
+      "S3",
+      "RDS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-016",
+    "questionNumber": "16",
+    "question": "¿Qué servicio monitoriza métricas y activa reglas de escalado?",
+    "options": [
+      "IAM",
+      "CloudWatch",
+      "Route 53",
+      "S3"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-017",
+    "questionNumber": "17",
+    "question": "¿Qué componente distribuye tráfico entre múltiples instancias EC2?",
+    "options": [
+      "Target Group",
+      "Elastic Load Balancer",
+      "Lambda",
+      "CloudTrail"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-018",
+    "questionNumber": "18",
+    "question": "¿Qué hace Auto Scaling cuando aumenta la demanda?",
+    "options": [
+      "Reduce el número de instancias",
+      "Desactiva el balanceador",
+      "Lanza nuevas instancias automáticamente",
+      "Borra métricas antiguas"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-019",
+    "questionNumber": "19",
+    "question": "¿Qué concepto busca eliminar puntos únicos de fallo?",
+    "options": [
+      "Escalado vertical",
+      "Redundancia",
+      "Single tenancy",
+      "Monolitismo"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-020",
+    "questionNumber": "20",
+    "question": "¿Qué significa HA en arquitectura cloud?",
+    "options": [
+      "Hypervisor Access",
+      "Host Allocation",
+      "High Availability",
+      "Hardware Automation"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-021",
+    "questionNumber": "21",
+    "question": "¿Qué servicio replica bases de datos en varias zonas de disponibilidad?",
+    "options": [
+      "RDS Multi-AZ",
+      "Lambda",
+      "CloudFront",
+      "IAM"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-022",
+    "questionNumber": "22",
+    "question": "¿Qué función tienen los Route 53 Health Checks?",
+    "options": [
+      "Escalar instancias automáticamente",
+      "Detectar fallos y redirigir tráfico",
+      "Crear políticas IAM",
+      "Gestionar snapshots EBS"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-023",
+    "questionNumber": "23",
+    "question": "¿Qué principio establece que cada usuario debe tener solo los permisos necesarios?",
+    "options": [
+      "Escalabilidad horizontal",
+      "Privilegio mínimo",
+      "Persistencia distribuida",
+      "Concurrencia reservada"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-024",
+    "questionNumber": "24",
+    "question": "¿Qué elemento IAM representa identidades temporales?",
+    "options": [
+      "Buckets",
+      "Snapshots",
+      "Roles",
+      "Instancias"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-025",
+    "questionNumber": "25",
+    "question": "¿Qué contienen las políticas IAM?",
+    "options": [
+      "Imágenes Docker",
+      "Documentos JSON con permisos",
+      "Bases de datos relacionales",
+      "Claves de cifrado físicas"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-026",
+    "questionNumber": "26",
+    "question": "¿Qué servicio detecta amenazas y actividad anómala en AWS?",
+    "options": [
+      "Inspector",
+      "GuardDuty",
+      "CloudFormation",
+      "ECS"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-027",
+    "questionNumber": "27",
+    "question": "¿Qué herramienta centraliza hallazgos de seguridad en AWS?",
+    "options": [
+      "Security Hub",
+      "Auto Scaling",
+      "Route 53",
+      "ALB"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-028",
+    "questionNumber": "28",
+    "question": "¿Qué servicio se usa para gestionar claves de cifrado?",
+    "options": [
+      "CloudWatch",
+      "Macie",
+      "KMS",
+      "Fargate"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-029",
+    "questionNumber": "29",
+    "question": "¿Qué mecanismo impide la exposición pública accidental en S3?",
+    "options": [
+      "CloudTrail",
+      "Block Public Access",
+      "Auto Scaling",
+      "ALB"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-030",
+    "questionNumber": "30",
+    "question": "¿Qué pilar del Well-Architected Framework se centra en proteger datos y accesos?",
+    "options": [
+      "Rendimiento",
+      "Costes",
+      "Seguridad",
+      "Sostenibilidad"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-031",
+    "questionNumber": "31",
+    "question": "¿Qué pilar busca minimizar el desperdicio de recursos?",
+    "options": [
+      "Optimización de costes",
+      "Fiabilidad",
+      "Excelencia operativa",
+      "Rendimiento"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-032",
+    "questionNumber": "32",
+    "question": "¿Qué pilar del Framework trata la capacidad de resistir fallos?",
+    "options": [
+      "Fiabilidad",
+      "Seguridad",
+      "Costes",
+      "Sostenibilidad"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-033",
+    "questionNumber": "33",
+    "question": "¿Qué herramienta permite evaluar arquitecturas según los seis pilares?",
+    "options": [
+      "CloudFront",
+      "Well-Architected Tool",
+      "Inspector",
+      "Elastic Beanstalk"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-034",
+    "questionNumber": "34",
+    "question": "¿Qué busca la excelencia operativa en el Framework?",
+    "options": [
+      "Reducir únicamente el coste",
+      "Automatización y monitorización continua",
+      "Eliminar bases de datos",
+      "Usar siempre serverless"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-035",
+    "questionNumber": "35",
+    "question": "¿Qué tecnología encapsula aplicaciones y dependencias en un paquete portable?",
+    "options": [
+      "Docker",
+      "RDS",
+      "IAM",
+      "VPC"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-036",
+    "questionNumber": "36",
+    "question": "¿Qué ventaja tienen los contenedores frente a las máquinas virtuales?",
+    "options": [
+      "Requieren más recursos",
+      "Necesitan hipervisores complejos",
+      "Se inician más lentamente",
+      "Son más ligeros y rápidos"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "MPO-037",
+    "questionNumber": "37",
+    "question": "¿Qué servicio de AWS elimina la necesidad de administrar nodos al usar contenedores?",
+    "options": [
+      "Fargate",
+      "CloudTrail",
+      "EFS",
+      "SNS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-038",
+    "questionNumber": "38",
+    "question": "¿Qué característica describe mejor a Lambda?",
+    "options": [
+      "Infraestructura física dedicada",
+      "Pago por milisegundos de ejecución",
+      "Necesidad de instalar sistemas operativos",
+      "Uso exclusivo con bases de datos"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-039",
+    "questionNumber": "39",
+    "question": "¿Qué componente permite escalar horizontalmente contenedores en Kubernetes?",
+    "options": [
+      "CloudFormation",
+      "Horizontal Pod Autoscaler",
+      "Route 53",
+      "IAM Group"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-040",
+    "questionNumber": "40",
+    "question": "¿Qué herramienta registra eventos y acciones realizadas en AWS?",
+    "options": [
+      "CloudTrail",
+      "GuardDuty",
+      "Macie",
+      "SNS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-041",
+    "questionNumber": "41",
+    "question": "¿Qué servicio analiza configuraciones y cumplimiento de buenas prácticas?",
+    "options": [
+      "Config",
+      "EBS",
+      "S3",
+      "CloudFront"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-042",
+    "questionNumber": "42",
+    "question": "¿Qué servicio descubre datos sensibles almacenados en S3?",
+    "options": [
+      "Macie",
+      "Lambda",
+      "ECS",
+      "VPC"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-043",
+    "questionNumber": "43",
+    "question": "¿Qué técnica consiste en tener varios recursos activos simultáneamente?",
+    "options": [
+      "Activa-pasiva",
+      "Single instance",
+      "Activa-activa",
+      "Cold storage"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-044",
+    "questionNumber": "44",
+    "question": "¿Qué servicio es ideal para sistemas operativos y bases de datos?",
+    "options": [
+      "S3",
+      "EFS",
+      "CloudTrail",
+      "EBS"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "MPO-045",
+    "questionNumber": "45",
+    "question": "¿Qué servicio se recomienda para archivos compartidos entre múltiples servidores?",
+    "options": [
+      "Lambda",
+      "EFS",
+      "IAM",
+      "SQS"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-046",
+    "questionNumber": "46",
+    "question": "¿Qué ejemplo de uso es típico de S3?",
+    "options": [
+      "Sistema operativo de EC2",
+      "Disco persistente de bases de datos",
+      "Contenido estático y backups",
+      "Control de acceso IAM"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-047",
+    "questionNumber": "47",
+    "question": "¿Qué significa que un volumen EBS sea persistente?",
+    "options": [
+      "Los datos permanecen tras reiniciar la instancia",
+      "El volumen se elimina automáticamente",
+      "Solo funciona en local",
+      "No admite snapshots"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-048",
+    "questionNumber": "48",
+    "question": "¿Qué característica tiene EFS?",
+    "options": [
+      "Acceso mediante URL pública",
+      "Uso exclusivo con Lambda",
+      "Sistema de ficheros compartido",
+      "No admite múltiples instancias"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-049",
+    "questionNumber": "49",
+    "question": "¿Qué componente de AWS permite distribuir tráfico a nivel de aplicación?",
+    "options": [
+      "Application Load Balancer",
+      "IAM Policy",
+      "KMS",
+      "EFS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": "MPO-050",
+    "questionNumber": "50",
+    "question": "¿Qué métrica puede utilizar Auto Scaling para tomar decisiones?",
+    "options": [
+      "Temperatura física del CPD",
+      "CPU Utilization",
+      "Número de buckets S3",
+      "Cantidad de usuarios IAM"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-051",
+    "questionNumber": "51",
+    "question": "¿Qué ventaja ofrece Multi-AZ?",
+    "options": [
+      "Reduce la redundancia",
+      "Elimina el cifrado",
+      "Aumenta la resiliencia ante fallos",
+      "Desactiva el balanceo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-052",
+    "questionNumber": "52",
+    "question": "¿Qué hace un Health Check en un balanceador?",
+    "options": [
+      "Crear snapshots EBS",
+      "Medir únicamente costes",
+      "Asignar políticas IAM",
+      "Comprobar si una instancia está saludable"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "MPO-053",
+    "questionNumber": "53",
+    "question": "¿Qué enfoque recomienda el modelo de responsabilidad compartida?",
+    "options": [
+      "AWS protege todo automáticamente",
+      "El cliente no necesita configurar accesos",
+      "Cliente y proveedor comparten responsabilidades",
+      "La seguridad solo aplica a EC2"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-054",
+    "questionNumber": "54",
+    "question": "¿Qué elemento IAM facilita administrar permisos de forma colectiva?",
+    "options": [
+      "Roles",
+      "Buckets",
+      "Snapshots",
+      "Grupos"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": "MPO-055",
+    "questionNumber": "55",
+    "question": "¿Qué característica tienen los roles IAM?",
+    "options": [
+      "Usan credenciales permanentes",
+      "Otorgan permisos temporales",
+      "Solo funcionan con EC2",
+      "No pueden asociarse a Lambda"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-056",
+    "questionNumber": "56",
+    "question": "¿Qué herramienta ayuda a imponer límites globales entre cuentas AWS?",
+    "options": [
+      "SNS",
+      "CloudFront",
+      "SCPs",
+      "AMI"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-057",
+    "questionNumber": "57",
+    "question": "¿Qué práctica se recomienda para reducir riesgos en IAM?",
+    "options": [
+      "Usar privilegios máximos",
+      "Mantener claves permanentes",
+      "Aplicar MFA y roles temporales",
+      "Compartir cuentas root"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-058",
+    "questionNumber": "58",
+    "question": "¿Qué tipo de arquitectura utiliza múltiples servicios independientes?",
+    "options": [
+      "Monolítica",
+      "Microservicios",
+      "On-premise",
+      "Single-tier"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "MPO-059",
+    "questionNumber": "59",
+    "question": "¿Qué ventaja principal ofrece el pago por uso en cloud?",
+    "options": [
+      "Mayor inversión inicial",
+      "Capacidad fija",
+      "Evitar pagar recursos infrautilizados",
+      "Eliminar la escalabilidad"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": "MPO-060",
+    "questionNumber": "60",
+    "question": "¿Qué servicio es más adecuado para ejecutar lógica reactiva basada en eventos?",
+    "options": [
+      "Lambda",
+      "EBS",
+      "IAM",
+      "CloudTrail"
+    ],
+    "correctAnswer": 0
+  }
+]
